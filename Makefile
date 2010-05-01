@@ -1,0 +1,3 @@
+%.sch : %.sym
+	tragesym $< $@
+

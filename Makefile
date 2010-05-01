@@ -1,8 +1,8 @@
-%.sch : %.sym
+%.sym : %.tsym
 	tragesym $< $@
 
-SYMS = $(wildcard *.sym)
-SYMBOLS := $(SYMS:.sym=.sch)
+SYMS = $(wildcard *.tsym)
+SYMBOLS := $(SYMS:.tsym=.sym)
 
 symbols : $(SYMBOLS)
 symbol-check : $(SYMBOLS)

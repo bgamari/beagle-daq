@@ -1,7 +1,7 @@
 %.sym : %.tsym
 	tragesym $< $@
 
-SYMS = $(wildcard *.tsym)
+SYMS = $(wildcard sym/*.tsym)
 SYMBOLS := $(SYMS:.tsym=.sym)
 
 symbols : $(SYMBOLS)

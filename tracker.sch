@@ -7,13 +7,6 @@ device=TXB0108
 T 46400 47100 5 10 1 0 90 0 1
 footprint=SSOP-20
 }
-C 51900 51500 1 0 0 dac8568.sym
-{
-T 52800 54100 5 10 0 0 0 0 1
-device=DAC8568
-T 52800 54300 5 10 0 0 0 0 1
-footprint=SSOP-16
-}
 C 46300 44000 1 0 0 gnd-1.sym
 C 46300 38300 1 0 0 gnd-1.sym
 C 52900 51100 1 0 0 gnd-1.sym
@@ -219,4 +212,5 @@ device=SN54AHC139
 T 46200 54600 5 10 0 0 0 0 1
 footprint=SSOP-20
 }
-C 50500 40100 1 0 0 adc_unit.sym
+C 52800 44100 1 0 0 adc_unit.sym
+C 51900 52100 1 0 0 dac_unit.sym

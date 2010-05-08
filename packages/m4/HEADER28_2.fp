@@ -1,6 +1,4 @@
-	
-	
-Element(0x00 "connector 2x14 pins" "" "28" 260 0 3 100 0x00)
+Element(0x00 "Header 2x14 pins" "" "50" 260 0 3 100 0x00)
 (
 	Pin(50 50 60 38 "1" 0x101)
 	Pin(150 50 60 38 "2" 0x01)
@@ -30,10 +28,10 @@ Element(0x00 "connector 2x14 pins" "" "28" 260 0 3 100 0x00)
 	Pin(150 1250 60 38 "26" 0x01)
 	 Pin(50 1350 60 38 "27" 0x01)
 	Pin(150 1350 60 38 "28" 0x01)
-	 
-	ElementLine(0 0 0 700 10)
-	ElementLine(0 700 200 700 10)
-	ElementLine(200 700 200 0 10)
+
+	ElementLine(0 0 0 2500 10)
+	ElementLine(0 1400 200 1400 10)
+	ElementLine(200 1400 200 0 10)
 	ElementLine(200 0 0 0 10)
 	ElementLine(0 100 100 100 10)
 	ElementLine(100 100 100 0 10)

@@ -32,7 +32,7 @@ C 1600 6900 1 0 0 gnd-1.sym
 C 6000 300 1 0 0 connector16-2.sym
 {
 T 6700 7200 5 10 1 1 0 6 1
-refdes=CONN1
+refdes=ADCIN
 T 6300 7150 5 10 0 0 0 0 1
 device=CONNECTOR_16
 T 6300 7350 5 10 0 0 0 0 1

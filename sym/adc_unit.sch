@@ -150,11 +150,11 @@ N 1900 4300 2400 4300 4
 C 2800 8200 1 0 0 5V-plus-1.sym
 {
 T 3000 8200 5 10 1 1 0 0 1
-netname=Vcc
+refdes=Vcc
 }
 C 3200 7200 1 0 0 5V-plus-1.sym
 {
 T 3400 7200 5 10 1 1 0 0 1
-netname=Vref
+refdes=Vref
 }
 N 2900 7300 3000 7300 4

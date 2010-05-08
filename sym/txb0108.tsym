@@ -55,7 +55,7 @@ numslots=0
 #pinnr	seq	type	style	posit.	net	label	
 #-----------------------------------------------------
 1		io	line	l		A1
-2		pwr	line	t	Vcc	VCC
+2		pwr	line	t		Vcca
 3		io	line	l		A2
 4		io	line	l		A3
 5		io	line	l		A4
@@ -63,7 +63,7 @@ numslots=0
 7		io	line	l		A6
 8		io	line	l		A7
 9		io	line	l		A8
-10		in	line	l		OE
+10		in	line	t		OE
 11		io	line	b	GND	GND
 12		io	line	r		B8
 13		io	line	r		B7
@@ -72,6 +72,6 @@ numslots=0
 16		io	line	r		B4
 17		io	line	r		B3
 18		io	line	r		B2
-19		pwr	line	t	Bcc	VCC
+19		pwr	line	t		Vccb
 20		io	line	r		B1
 

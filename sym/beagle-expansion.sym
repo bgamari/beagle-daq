@@ -189,3 +189,7 @@ pinlabel=GND
 T 3400 500 5 10 0 1 0 0 1
 netname=pin27
 }
+T 295 0 8 10 0 1 0 0 1
+source=beagle-expansion.sch
+T 1000 100 8 10 1 1 0 0 1
+source=beagle-expansion.sch

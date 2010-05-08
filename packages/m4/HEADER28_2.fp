@@ -29,7 +29,7 @@ Element(0x00 "Header 2x14 pins" "" "50" 260 0 3 100 0x00)
 	 Pin(50 1350 60 38 "27" 0x01)
 	Pin(150 1350 60 38 "28" 0x01)
 
-	ElementLine(0 0 0 2500 10)
+	ElementLine(0 0 0 1400 10)
 	ElementLine(0 1400 200 1400 10)
 	ElementLine(200 1400 200 0 10)
 	ElementLine(200 0 0 0 10)

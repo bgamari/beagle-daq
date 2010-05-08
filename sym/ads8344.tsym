@@ -73,5 +73,5 @@ numslots=0
 17		in	line	l		Din
 18		in	line	l		/CS
 19		in	line	l		DCLK
-20		pwr	line	t		Vcc
+20		pwr	line	t		Vccb
 

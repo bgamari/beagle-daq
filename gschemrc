@@ -1,2 +1,2 @@
 ;                                                         -*-Scheme-*-
-(component-library ".")
+(component-library "sym")

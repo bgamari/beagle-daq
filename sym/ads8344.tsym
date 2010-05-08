@@ -65,13 +65,13 @@ numslots=0
 9		pwr	line	b		COM
 10		in	line	l		/SHDN
 11		pwr	line	t		Vref
-12		pwr	line	r	Vcc	Vcca
-13		pwr	line	r	GND	GND
-14		pwr	line	r	GND	GND
-15		out	line	r		Dout
-16		in	line	t		BUSY
-17		in	line	r		Din
-18		in	line	r		/CS
-19		in	line	r		DCLK
-20		pwr	line	r		Vcc
+12		pwr	line	t	Vcc	Vcca
+13		pwr	line	b	GND	GND
+14		pwr	line	b	GND	GND
+15		out	line	l		Dout
+16		in	line	l		BUSY
+17		in	line	l		Din
+18		in	line	l		/CS
+19		in	line	l		DCLK
+20		pwr	line	t		Vcc
 

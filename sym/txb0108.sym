@@ -227,7 +227,7 @@ TXB0108
 T 900 2400 5 10 0 0 0 0 1
 device=TXB0108
 T 900 2600 5 10 0 0 0 0 1
-footprint=SSOP-20
+footprint=SSOP20
 T 900 2800 5 10 0 0 0 0 1
 author=Ben Gamari <bgamari@gmail.com>
 T 900 3000 5 10 0 0 0 0 1

@@ -4,14 +4,14 @@ C 2300 2700 1 0 0 ads8344.sym
 T 3200 6700 5 10 0 0 0 0 1
 device=ADS8344
 T 3200 6900 5 10 0 0 0 0 1
-footprint=SSOP-20
+footprint=SSOP20
 T 4400 6800 5 10 1 1 0 6 1
 refdes=U1
 }
 C 3300 2000 1 0 0 gnd-1.sym
 {
 T 3500 2000 5 10 1 1 0 0 1
-netname=GND
+refdes=GND
 }
 N 3400 2800 3400 2300 4
 N 3000 7000 3000 8200 4
@@ -25,6 +25,8 @@ T 2700 6600 5 10 0 0 180 0 1
 symversion=0.1
 T 2900 7500 5 10 1 1 180 0 1
 value=0.1u
+T 2900 7500 5 10 0 0 0 0 1
+footprint=SMD_CHIP 1206
 }
 C 1600 6900 1 0 0 gnd-1.sym
 C 6000 300 1 0 0 connector16-2.sym

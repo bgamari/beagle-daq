@@ -103,12 +103,14 @@ T 5400 5000 5 10 0 0 180 0 1
 symversion=0.1
 T 5600 5900 5 10 1 1 180 0 1
 value=0.1u
+T 5600 5900 5 10 0 0 0 0 1
+footprint=SMD_CHIP 1206
 }
 N 5600 5700 5800 5700 4
 C 5900 500 1 0 0 gnd-1.sym
 {
 T 5900 500 5 10 0 1 0 0 1
-netname=GND
+refdes=GND
 }
 C 4400 5200 1 0 0 gnd-1.sym
 {
@@ -142,10 +144,10 @@ N 4500 3100 5000 3100 4
 C 5600 6000 1 0 0 5V-plus-1.sym
 {
 T 5400 6000 5 10 1 1 0 0 1
-netname=Vcc
+refdes=Vcc
 }
 C 6000 6000 1 0 0 5V-plus-1.sym
 {
 T 6300 6000 5 10 1 1 0 0 1
-netname=Vref
+refdes=Vref
 }

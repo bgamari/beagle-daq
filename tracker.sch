@@ -22,12 +22,12 @@ N 56800 32700 56800 32300 4
 N 56800 36900 56800 37900 4
 {
 T 56400 37800 5 10 1 1 0 0 1
-net=1V8
+netname=1V8
 }
 N 57200 36900 57200 37900 4
 {
 T 57300 37800 5 10 1 1 0 0 1
-net=5V
+netname=5V
 }
 C 57400 37300 1 0 0 capacitor-1.sym
 {
@@ -83,7 +83,7 @@ footprint=RADIAL_CAN 200
 N 63000 46700 63600 46700 4
 {
 T 63100 46700 5 10 1 1 0 0 1
-net=5V
+netname=5V
 }
 C 65500 46700 1 270 0 capacitor-1.sym
 {
@@ -101,7 +101,7 @@ footprint=SMD_CHIP 1206
 N 64500 46700 66500 46700 4
 {
 T 66300 46700 5 10 1 1 0 0 1
-net=Vref
+netname=Vref
 }
 N 65700 45800 64900 45800 4
 C 56700 39100 1 0 0 gnd-1.sym
@@ -109,7 +109,7 @@ N 56800 39700 56800 39400 4
 N 56800 43900 56800 44400 4
 {
 T 56800 44300 5 10 1 1 0 0 1
-net=5V
+netname=5V
 }
 C 57200 43900 1 0 0 capacitor-1.sym
 {
@@ -158,12 +158,12 @@ device=ADC8568
 N 53200 37200 52400 37200 4
 {
 T 52800 37200 5 10 1 1 0 0 1
-net=1V8
+netname=1V8
 }
 N 52400 36900 53200 36900 4
 {
 T 52800 36900 5 10 1 1 0 0 1
-net=5V
+netname=5V
 }
 C 55600 37300 1 0 0 capacitor-1.sym
 {
@@ -201,132 +201,132 @@ N 56400 37200 56400 36900 4
 N 57800 34600 58400 34600 4
 {
 T 58000 34600 5 10 1 1 0 0 1
-net=spi4_clk
+netname=spi4_clk
 }
 N 57800 34200 58400 34200 4
 {
 T 58000 34200 5 10 1 1 0 0 1
-net=spi4_somi
+netname=spi4_somi
 }
 N 57800 33800 58400 33800 4
 {
 T 58000 33800 5 10 1 1 0 0 1
-net=spi4_simo
+netname=spi4_simo
 }
 N 57800 33400 58400 33400 4
 {
 T 58000 33400 5 10 1 1 0 0 1
-net=spi4_cs
+netname=spi4_cs
 }
 N 57800 35000 58400 35000 4
 {
 T 58000 35000 5 10 1 1 0 0 1
-net=spi3_cs
+netname=spi3_cs
 }
 N 57800 35400 58400 35400 4
 {
 T 58000 35400 5 10 1 1 0 0 1
-net=spi3_simo
+netname=spi3_simo
 }
 N 57800 35800 58400 35800 4
 {
 T 58000 35800 5 10 1 1 0 0 1
-net=spi3_somi
+netname=spi3_somi
 }
 N 57800 36200 58400 36200 4
 {
 T 58000 36200 5 10 1 1 0 0 1
-net=spi3_clk
+netname=spi3_clk
 }
 N 54500 41200 55800 41200 4
 {
 T 54500 41200 5 10 1 1 0 0 1
-net=spi4_cs
+netname=spi4_cs
 }
 N 54500 42400 55800 42400 4
 {
 T 54500 42400 5 10 1 1 0 0 1
-net=spi3_cs
+netname=spi3_cs
 }
 N 49200 36800 48100 36800 4
 {
 T 48200 36800 5 10 1 1 0 0 1
-net=spi3_addr0
+netname=spi3_addr0
 }
 N 49200 36500 48100 36500 4
 {
 T 48200 36500 5 10 1 1 0 0 1
-net=spi3_addr1
+netname=spi3_addr1
 }
 N 49200 36200 48100 36200 4
 {
 T 48200 36200 5 10 1 1 0 0 1
-net=spi4_addr0
+netname=spi4_addr0
 }
 N 49200 35900 48100 35900 4
 {
 T 48200 35900 5 10 1 1 0 0 1
-net=spi4_addr1
+netname=spi4_addr1
 }
 N 54500 42800 55800 42800 4
 {
 T 54500 42800 5 10 1 1 0 0 1
-net=spi3_addr1
+netname=spi3_addr1
 }
 N 54500 43200 55800 43200 4
 {
 T 54500 43200 5 10 1 1 0 0 1
-net=spi3_addr0
+netname=spi3_addr0
 }
 N 54500 42000 55800 42000 4
 {
 T 54500 42000 5 10 1 1 0 0 1
-net=spi4_addr0
+netname=spi4_addr0
 }
 N 54500 41600 55800 41600 4
 {
 T 54500 41600 5 10 1 1 0 0 1
-net=spi3_addr1
+netname=spi3_addr1
 }
 N 57800 43200 59100 43200 4
 {
 T 58600 43200 5 10 1 1 0 0 1
-net=spi3_cs0
+netname=spi3_cs0
 }
 N 57800 42800 59100 42800 4
 {
 T 58600 42800 5 10 1 1 0 0 1
-net=spi3_cs1
+netname=spi3_cs1
 }
 N 57800 42400 59100 42400 4
 {
 T 58600 42400 5 10 1 1 0 0 1
-net=spi3_cs2
+netname=spi3_cs2
 }
 N 57800 42000 59100 42000 4
 {
 T 58600 42000 5 10 1 1 0 0 1
-net=spi3_cs3
+netname=spi3_cs3
 }
 N 57800 41600 59100 41600 4
 {
 T 58600 41600 5 10 1 1 0 0 1
-net=spi4_cs0
+netname=spi4_cs0
 }
 N 57800 41200 59100 41200 4
 {
 T 58600 41200 5 10 1 1 0 0 1
-net=spi4_cs1
+netname=spi4_cs1
 }
 N 57800 40800 59100 40800 4
 {
 T 58600 40800 5 10 1 1 0 0 1
-net=spi4_cs2
+netname=spi4_cs2
 }
 N 57800 40400 59100 40400 4
 {
 T 58600 40400 5 10 1 1 0 0 1
-net=spi4_cs3
+netname=spi4_cs3
 }
 C 63600 46600 1 0 0 resistor-1.sym
 {
@@ -342,42 +342,42 @@ footprint=SMD_CHIP 1206
 C 65200 45500 1 0 0 gnd-1.sym
 {
 T 65200 45500 5 10 0 0 0 0 1
-net=GND
+netname=GND
 }
 N 64200 44600 64200 45000 4
 {
 T 64200 44800 5 10 1 1 0 0 1
-net=Vref
+netname=Vref
 }
 N 64500 36900 64500 37300 4
 {
 T 64500 37200 5 10 1 1 0 0 1
-net=Vref
+netname=Vref
 }
 N 64100 37300 64100 36900 4
 {
 T 64100 37200 5 10 1 1 0 0 1
-net=5V
+netname=5V
 }
 N 63800 45000 63800 44600 4
 {
 T 63800 44800 5 10 1 1 0 0 1
-net=5V
+netname=5V
 }
 N 62800 43900 62200 43900 4
 {
 T 62300 43900 5 10 1 1 0 0 1
-net=spi3_cs0
+netname=spi3_cs0
 }
 N 62800 43500 62200 43500 4
 {
 T 62300 43500 5 10 1 1 0 0 1
-net=spi3_clk
+netname=spi3_clk
 }
 N 62800 43100 62200 43100 4
 {
 T 62300 43100 5 10 1 1 0 0 1
-net=spi3_simo
+netname=spi3_simo
 }
 C 67700 41800 1 0 0 gnd-1.sym
 C 66600 42100 1 0 0 dac_unit.sym
@@ -392,27 +392,27 @@ device=ADC8568
 N 68000 44600 68000 45000 4
 {
 T 68000 44800 5 10 1 1 0 0 1
-net=Vref
+netname=Vref
 }
 N 67600 45000 67600 44600 4
 {
 T 67600 44800 5 10 1 1 0 0 1
-net=5V
+netname=5V
 }
 N 66600 43900 66000 43900 4
 {
 T 66100 43900 5 10 1 1 0 0 1
-net=spi3_cs1
+netname=spi3_cs1
 }
 N 66600 43500 66000 43500 4
 {
 T 66100 43500 5 10 1 1 0 0 1
-net=spi3_clk
+netname=spi3_clk
 }
 N 66600 43100 66000 43100 4
 {
 T 66100 43100 5 10 1 1 0 0 1
-net=spi3_simo
+netname=spi3_simo
 }
 C 63900 38400 1 0 0 gnd-1.sym
 C 62800 38700 1 0 0 dac_unit.sym
@@ -427,27 +427,27 @@ device=ADC8568
 N 64200 41200 64200 41600 4
 {
 T 64200 41400 5 10 1 1 0 0 1
-net=Vref
+netname=Vref
 }
 N 63800 41600 63800 41200 4
 {
 T 63800 41400 5 10 1 1 0 0 1
-net=5V
+netname=5V
 }
 N 62800 40500 62200 40500 4
 {
 T 62300 40500 5 10 1 1 0 0 1
-net=spi3_cs2
+netname=spi3_cs2
 }
 N 62800 40100 62200 40100 4
 {
 T 62300 40100 5 10 1 1 0 0 1
-net=spi3_clk
+netname=spi3_clk
 }
 N 62800 39700 62200 39700 4
 {
 T 62300 39700 5 10 1 1 0 0 1
-net=spi3_simo
+netname=spi3_simo
 }
 C 67700 38400 1 0 0 gnd-1.sym
 C 66600 38700 1 0 0 dac_unit.sym
@@ -462,47 +462,47 @@ device=ADC8568
 N 68000 41200 68000 41600 4
 {
 T 68000 41400 5 10 1 1 0 0 1
-net=Vref
+netname=Vref
 }
 N 67600 41600 67600 41200 4
 {
 T 67600 41400 5 10 1 1 0 0 1
-net=5V
+netname=5V
 }
 N 66600 40500 66000 40500 4
 {
 T 66100 40500 5 10 1 1 0 0 1
-net=spi3_cs3
+netname=spi3_cs3
 }
 N 66600 40100 66000 40100 4
 {
 T 66100 40100 5 10 1 1 0 0 1
-net=spi3_clk
+netname=spi3_clk
 }
 N 66600 39700 66000 39700 4
 {
 T 66100 39700 5 10 1 1 0 0 1
-net=spi3_simo
+netname=spi3_simo
 }
 N 62900 36100 62300 36100 4
 {
 T 62400 36100 5 10 1 1 0 0 1
-net=spi4_cs0
+netname=spi4_cs0
 }
 N 62900 35700 62300 35700 4
 {
 T 62400 35700 5 10 1 1 0 0 1
-net=spi4_clk
+netname=spi4_clk
 }
 N 62900 35300 62300 35300 4
 {
 T 62400 35300 5 10 1 1 0 0 1
-net=spi4_simo
+netname=spi4_simo
 }
 N 62900 34900 62300 34900 4
 {
 T 62400 34900 5 10 1 1 0 0 1
-net=spi4_somi
+netname=spi4_somi
 }
 C 67800 33800 1 0 0 gnd-1.sym
 C 66200 33700 1 0 0 adc_unit.sym
@@ -517,32 +517,32 @@ source=adc_unit.sch
 N 68300 36900 68300 37300 4
 {
 T 68300 37200 5 10 1 1 0 0 1
-net=Vref
+netname=Vref
 }
 N 67900 37300 67900 36900 4
 {
 T 67900 37200 5 10 1 1 0 0 1
-net=5V
+netname=5V
 }
 N 66700 36100 66100 36100 4
 {
 T 66200 36100 5 10 1 1 0 0 1
-net=spi4_cs1
+netname=spi4_cs1
 }
 N 66700 35700 66100 35700 4
 {
 T 66200 35700 5 10 1 1 0 0 1
-net=spi4_clk
+netname=spi4_clk
 }
 N 66700 35300 66100 35300 4
 {
 T 66200 35300 5 10 1 1 0 0 1
-net=spi4_simo
+netname=spi4_simo
 }
 N 66700 34900 66100 34900 4
 {
 T 66200 34900 5 10 1 1 0 0 1
-net=spi4_somi
+netname=spi4_somi
 }
 C 64000 29900 1 0 0 gnd-1.sym
 C 62400 29800 1 0 0 adc_unit.sym
@@ -557,32 +557,32 @@ source=adc_unit.sch
 N 64500 33000 64500 33400 4
 {
 T 64500 33300 5 10 1 1 0 0 1
-net=Vref
+netname=Vref
 }
 N 64100 33400 64100 33000 4
 {
 T 64100 33300 5 10 1 1 0 0 1
-net=5V
+netname=5V
 }
 N 62900 32200 62300 32200 4
 {
 T 62400 32200 5 10 1 1 0 0 1
-net=spi4_cs2
+netname=spi4_cs2
 }
 N 62900 31800 62300 31800 4
 {
 T 62400 31800 5 10 1 1 0 0 1
-net=spi4_clk
+netname=spi4_clk
 }
 N 62900 31400 62300 31400 4
 {
 T 62400 31400 5 10 1 1 0 0 1
-net=spi4_simo
+netname=spi4_simo
 }
 N 62900 31000 62300 31000 4
 {
 T 62400 31000 5 10 1 1 0 0 1
-net=spi4_somi
+netname=spi4_somi
 }
 C 67800 29900 1 0 0 gnd-1.sym
 C 66200 29800 1 0 0 adc_unit.sym
@@ -597,32 +597,32 @@ source=adc_unit.sch
 N 68300 33000 68300 33400 4
 {
 T 68300 33300 5 10 1 1 0 0 1
-net=Vref
+netname=Vref
 }
 N 67900 33400 67900 33000 4
 {
 T 67900 33300 5 10 1 1 0 0 1
-net=5V
+netname=5V
 }
 N 66700 32200 66100 32200 4
 {
 T 66200 32200 5 10 1 1 0 0 1
-net=spi4_cs3
+netname=spi4_cs3
 }
 N 66700 31800 66100 31800 4
 {
 T 66200 31800 5 10 1 1 0 0 1
-net=spi4_clk
+netname=spi4_clk
 }
 N 66700 31400 66100 31400 4
 {
 T 66200 31400 5 10 1 1 0 0 1
-net=spi4_simo
+netname=spi4_simo
 }
 N 66700 31000 66100 31000 4
 {
 T 66200 31000 5 10 1 1 0 0 1
-net=spi4_somi
+netname=spi4_somi
 }
 C 46100 32200 1 0 1 txb0108.sym
 {
@@ -638,12 +638,12 @@ N 45000 32300 45000 31900 4
 N 45000 36500 45000 37500 4
 {
 T 45400 37400 5 10 1 1 0 6 1
-net=1V8
+netname=1V8
 }
 N 44600 36500 44600 37500 4
 {
 T 44500 37400 5 10 1 1 0 6 1
-net=5V
+netname=5V
 }
 C 44400 36900 1 0 1 capacitor-1.sym
 {

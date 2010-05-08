@@ -2,7 +2,7 @@ v 20100214 2
 P 3500 3200 3200 3200 1 0 0
 {
 T 3145 3195 5 10 1 1 0 6 1
-pinlabel=McSPI3_cs1
+pinlabel=McSPI3_CS1
 T 3145 3195 5 10 1 1 0 6 1
 pintype=io
 T 3145 3195 5 10 1 1 0 6 1
@@ -35,7 +35,7 @@ pinseq=3
 P 3500 3500 3200 3500 1 0 0
 {
 T 2400 3500 5 10 1 1 0 0 1
-pinlabel=McSPI3_cs0
+pinlabel=McSPI3_CS0
 T 3145 3195 5 10 1 1 0 6 1
 pintype=io
 T 3145 3195 5 10 1 1 0 6 1
@@ -47,7 +47,7 @@ B 600 0 2600 5900 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 P 3500 4400 3200 4400 1 0 0
 {
 T 3145 4395 5 10 1 1 0 6 1
-pinlabel=McSPI3_clk
+pinlabel=McSPI3_CLK
 T 3145 3195 5 10 1 1 0 6 1
 pintype=io
 T 3145 3195 5 10 1 1 0 6 1
@@ -58,7 +58,7 @@ pinseq=5
 P 3500 4100 3200 4100 1 0 0
 {
 T 3145 4095 5 10 1 1 0 6 1
-pinlabel=McSPI3_somi
+pinlabel=McSPI3_SOMI
 T 3145 3195 5 10 1 1 0 6 1
 pintype=io
 T 3145 3195 5 10 1 1 0 6 1
@@ -69,7 +69,7 @@ pinseq=6
 P 3500 3800 3200 3800 1 0 0
 {
 T 3145 3795 5 10 1 1 0 6 1
-pinlabel=McSPI3_simo
+pinlabel=McSPI3_SIMO
 T 3145 3195 5 10 1 1 0 6 1
 pintype=io
 T 3145 3195 5 10 1 1 0 6 1
@@ -80,7 +80,7 @@ pinseq=7
 P 3500 1700 3200 1700 1 0 0
 {
 T 2400 1700 5 10 1 1 0 0 1
-pinlabel=McSPI4_cs0
+pinlabel=McSPI4_CS0
 T 3145 3195 5 10 1 1 0 6 1
 pintype=io
 T 3145 3195 5 10 1 1 0 6 1
@@ -91,7 +91,7 @@ pinseq=8
 P 3500 2600 3200 2600 1 0 0
 {
 T 3145 2595 5 10 1 1 0 6 1
-pinlabel=McSPI4_clk
+pinlabel=McSPI4_CLK
 T 3145 3195 5 10 1 1 0 6 1
 pintype=io
 T 3145 3195 5 10 1 1 0 6 1
@@ -102,7 +102,7 @@ pinseq=9
 P 3500 2300 3200 2300 1 0 0
 {
 T 3145 2295 5 10 1 1 0 6 1
-pinlabel=McSPI4_somi
+pinlabel=McSPI4_SOMI
 T 3145 3195 5 10 1 1 0 6 1
 pintype=io
 T 3145 3195 5 10 1 1 0 6 1
@@ -113,7 +113,7 @@ pinseq=10
 P 3500 2000 3200 2000 1 0 0
 {
 T 3145 1995 5 10 1 1 0 6 1
-pinlabel=McSPI4_simo
+pinlabel=McSPI4_SIMO
 T 3145 3195 5 10 1 1 0 6 1
 pintype=io
 T 3145 3195 5 10 1 1 0 6 1

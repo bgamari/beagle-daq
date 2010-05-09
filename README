@@ -1,0 +1,26 @@
+
+				   BeagleDAQ
+		A data-acquisition platform for the BeagleBoard
+
+BeagleDAQ is a data acquisition daughterboard for the BeagleBoard single-board
+computer. The board is built on Texas Instruments' 16-bit converters,
+
+  DAC8568: 8-channel 16-bit ADC
+  ADS8344: 8-channel 16-bit DAC (100 ksamples/second)
+  TXB0108: 8-bit level shifter
+
+
+Getting Started:
+=================
+The designs are drawn using the gEDA[1] electronic design suite. See the
+accompanying Makefile for common tasks.
+
+
+License:
+=================
+The board designs are licensed under the GNU General Public License. See
+COPYING for more information.
+
+
+[1] http://www.gpleda.org/
+

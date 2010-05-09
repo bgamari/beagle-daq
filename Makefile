@@ -17,7 +17,7 @@ pcb :
 	gsch2pcb -v project | tee pcb.log
 
 %.ps : %.pcb
-	pcb -x ps --psfile $@ --fill-page $<
+	pcb -x ps --psfile $@ $<
 
 %.pdf : %.ps
 	ps2pdf $< $@

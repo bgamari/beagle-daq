@@ -22,3 +22,12 @@ pcb :
 %.pdf : %.ps
 	ps2pdf $< $@
 
+.PHONY : gerbers
+gerbers : tracker.pcb
+	rm -Rf gerbers
+	mkdir gerbers
+	pcb -x gerber --gerberfile gerbers/tracker $<
+
+gerbers.zip : gerbers
+	zip $@ gerbers
+

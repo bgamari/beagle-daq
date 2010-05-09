@@ -1,12 +1,12 @@
 # release: pcb 1.99z
-# date:    Sun May  9 19:12:09 2010
+# date:    Sun May  9 19:27:44 2010
 # user:    ben (Ben Gamari,,,)
 # host:    ben-laptop
 
 # To read pcb files, the pcb version (or the cvs source date) must be >= the file version
 FileVersion[20070407]
 
-PCB["" 575000 325000]
+PCB["BeagleDAQ" 575000 325000]
 
 Grid[2500.000000 0 0 0]
 Cursor[0 0 0.000000]
@@ -2014,7 +2014,6 @@ Element["" "HEADER16_2" "adc2/ADCIN" "unknown" 277000 298500 -73906 16630 0 100 
 	ElementLine [-75000 -5000 5000 -5000 1000]
 
 	)
-Rat[437500 237500 1 -1000 323000 0  "via"]
 Layer(1 "component")
 (
 	Line[219203 120685 219203 79685 2500 2000 "clearline"]

@@ -297,3 +297,9 @@ pinnumber=27
 T 3145 3195 5 10 0 1 0 6 1
 pinseq=27
 }
+T 1900 6100 8 10 0 1 0 0 1
+device=none
+T 2400 5900 8 10 1 1 0 0 1
+refdes=BEAGLE
+T 4700 5800 8 10 0 1 0 0 1
+numslots=0

@@ -13,7 +13,7 @@ check-symbols : $(SYMBOLS)
 clean :
 	rm -f $(SYMBOLS)
 
-pcb :
+pcb : symbols
 	gsch2pcb -v project | tee pcb.log
 
 %.ps : %.pcb

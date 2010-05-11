@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Tue May 11 05:02:47 2010
+# date:    Tue May 11 05:13:57 2010
 # user:    ben (Ben Gamari,,,)
 # host:    ben-laptop
 
@@ -13,7 +13,7 @@ Cursor[0 325000 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[800 1000 600 500 1500 500]
-Flags("showdrc,rubberband,nameonpcb,clearnew,snappin,liveroute,locknames")
+Flags("showdrc,rubberband,nameonpcb,clearnew,snappin,liveroute,thindrawpoly")
 Groups("1,c:2,4,s:3:5:6:7:8")
 Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
 
@@ -1317,7 +1317,7 @@ Element["" "SMD_CHIP-1206" "adc1/C3" "10u" 295500 94500 -6000 -3000 0 25 ""]
 
 	)
 
-Element["onsolder" "CONNECTOR-1-2" "1V8" "unknown" 450000 62500 5000 -21000 2 100 "auto"]
+Element["onsolder" "CONNECTOR-1-2" "1V8" "unknown" 450000 62500 -2500 -16500 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square"]
 	Pin[0 -10000 6000 3000 6600 3800 "2" "2" "thermal(3X)"]
@@ -1361,7 +1361,7 @@ Element["" "SSOP20" "adc0/U1" "unknown" 60000 72800 4800 -4600 0 100 ""]
 
 	)
 
-Element["onsolder" "HEADER1_1" "GND" "unknown" 120000 137500 14000 5000 3 100 "auto"]
+Element["onsolder" "HEADER1_1" "GND" "unknown" 120000 137500 -5000 -6000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,thermal(3X)"]
 	ElementLine [5000 -5000 5000 5000 1000]
@@ -1487,7 +1487,7 @@ Element["" "SMD_CHIP-1206" "adc1/C2" "0.1u" 210000 212500 6000 3000 2 25 ""]
 
 	)
 
-Element["onsolder" "RADIAL_CAN-200" "C8" "100u" 392500 67500 -10000 15000 1 100 "auto"]
+Element["onsolder" "RADIAL_CAN-200" "C8" "100u" 392500 67500 -2500 -7500 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3000 "1" "1" "square,thermal(3X)"]
 	Pin[0 10000 6000 3000 6600 3000 "2" "2" ""]
@@ -1555,7 +1555,7 @@ Element["onsolder" "LED-60" "LED_5V" "unknown" 422500 40000 3500 -13500 3 100 "a
 
 	)
 
-Element["onsolder" "CONNECTOR-1-2" "5V" "unknown" 410000 62500 5000 -21000 2 100 "auto"]
+Element["onsolder" "CONNECTOR-1-2" "5V" "unknown" 410000 62500 -2500 -16500 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square"]
 	Pin[0 -10000 6000 3000 6600 3800 "2" "2" "thermal(3X)"]
@@ -1568,7 +1568,7 @@ Element["onsolder" "CONNECTOR-1-2" "5V" "unknown" 410000 62500 5000 -21000 2 100
 
 	)
 
-Element["onsolder" "HEADER5_1" "SPI3" "unknown" 65000 165000 20000 -1000 2 100 "auto"]
+Element["onsolder" "HEADER5_1" "SPI3" "unknown" 65000 165000 7500 1000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
 	Pin[-10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
@@ -1595,7 +1595,7 @@ Element["" "SMD_CHIP-1206" "dac3/C1" "10u" 506000 75000 -3000 6000 1 25 ""]
 
 	)
 
-Element["onsolder" "HEADER5_1" "SPI4" "unknown" 65000 142500 20000 -1000 2 100 "auto"]
+Element["onsolder" "HEADER5_1" "SPI4" "unknown" 65000 142500 7500 1000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
 	Pin[-10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
@@ -1709,7 +1709,7 @@ Element["onsolder" "HEADER16_2" "adc1/ADCIN" "unknown" 350000 35000 -75000 -1650
 
 	)
 
-Element["onsolder" "RADIAL_CAN-200" "C6" "100u" 361000 60000 10000 15000 3 100 "auto"]
+Element["onsolder" "RADIAL_CAN-200" "C6" "100u" 361000 60000 1500 -16500 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3000 "1" "1" "square"]
 	Pin[0 -10000 6000 3000 6600 3000 "2" "2" "thermal(3X)"]
@@ -1717,7 +1717,7 @@ Element["onsolder" "RADIAL_CAN-200" "C6" "100u" 361000 60000 10000 15000 3 100 "
 
 	)
 
-Element["onsolder" "HEADER16_2" "CONN2" "unknown" 552500 65000 -21000 -5000 1 100 "auto"]
+Element["onsolder" "HEADER16_2" "CONN2" "unknown" 552500 65000 -12500 -6500 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,thermal(3X)"]
 	Pin[-10000 0 6000 3000 6600 3800 "2" "2" ""]
@@ -2766,10 +2766,11 @@ Layer(1 "component")
 	Line[272800 188200 267000 194000 1000 2000 "clearline"]
 	Line[90000 255000 90000 240000 2500 2000 "clearline"]
 	Line[270000 255000 270000 240000 2500 2000 "clearline"]
+	Line[59000 186500 60000 187500 1000 2000 "clearline"]
 )
 Layer(2 "solder")
 (
-	Line[415000 152500 430000 152500 1000 2000 "clearline"]
+	Line[427500 152500 430000 150000 1000 2000 "clearline"]
 	Line[325000 120000 310000 120000 1000 2000 "clearline"]
 	Line[279000 187000 262000 187000 1000 2000 "clearline"]
 	Line[288000 135000 289500 136500 1000 2000 "clearline"]
@@ -2815,7 +2816,7 @@ Layer(2 "solder")
 	Line[430000 82500 441500 82500 1000 2000 "clearline"]
 	Line[441500 82500 450000 91000 1000 2000 "clearline"]
 	Line[332500 202500 332500 193000 1000 2000 "clearline"]
-	Line[430000 152500 430000 132500 1000 2000 "clearline"]
+	Line[427500 152500 415000 152500 1000 2000 "clearline"]
 	Line[450000 107500 455000 112500 1000 2000 "clearline"]
 	Line[440000 87500 445000 92500 1000 2000 "clearline"]
 	Line[337000 193000 337000 202500 1000 2000 "clearline"]
@@ -2896,10 +2897,7 @@ Layer(2 "solder")
 	Line[283500 148500 279000 148500 1000 2000 "clearline"]
 	Line[322500 187500 382500 187500 1000 2000 "clearline"]
 	Line[382500 187500 383000 188000 1000 2000 "clearline"]
-	Text[395000 310000 0 100 "BeagleDAQ" "auto"]
-	Text[395000 300000 0 100 "http://goldnerlab.physics.umass.edu/wiki/BeagleDAQ" "auto"]
-	Text[395000 292500 0 100 "(C) 2010 Ben Gamari" "auto"]
-	Text[465000 292500 0 100 "bgamari@physics.umass.edu" "auto"]
+	Line[430000 150000 430000 132500 1000 2000 "clearline"]
 )
 Layer(3 "outline")
 (
@@ -2925,6 +2923,20 @@ Layer(8 "signal3")
 )
 Layer(9 "silk")
 (
+	Text[37500 135000 3 100 "CS" "auto"]
+	Text[47500 135000 3 100 "SIMO" "auto"]
+	Text[67500 135000 3 100 "CLK" "auto"]
+	Text[27500 135000 3 100 "GND" "auto"]
+	Text[57500 135000 3 100 "SOMI" "auto"]
+	Text[37500 177500 3 100 "CS" "auto"]
+	Text[47500 185000 3 100 "SIMO" "auto"]
+	Text[67500 180000 3 100 "CLK" "auto"]
+	Text[27500 182500 3 100 "GND" "auto"]
+	Text[57500 185000 3 100 "SOMI" "auto"]
+	Text[395000 310000 0 100 "BeagleDAQ" "auto"]
+	Text[395000 300000 0 100 "http://goldnerlab.physics.umass.edu/wiki/BeagleDAQ" "auto"]
+	Text[395000 292500 0 100 "(C) 2010 Ben Gamari" "auto"]
+	Text[465000 292500 0 100 "bgamari@physics.umass.edu" "auto"]
 )
 Layer(10 "silk")
 (

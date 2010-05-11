@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Tue May 11 05:43:47 2010
+# date:    Tue May 11 14:08:36 2010
 # user:    ben (Ben Gamari,,,)
 # host:    ben-laptop
 
@@ -9,11 +9,11 @@ FileVersion[20070407]
 PCB["BeagleDAQ" 575000 325000]
 
 Grid[2500.000000 0 0 0]
-Cursor[0 0 0.000000]
+Cursor[0 325000 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[800 1000 600 500 1500 500]
-Flags("showdrc,rubberband,nameonpcb,clearnew,snappin,liveroute,thindrawpoly,onlynames")
+Flags("showdrc,rubberband,nameonpcb,clearnew,snappin,liveroute,locknames")
 Groups("1,c:2,4,s:3:5:6:7:8")
 Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
 
@@ -2919,7 +2919,7 @@ Layer(4 "GND")
 (
 	Polygon("clearpoly")
 	(
-		[-1000 3000] [569000 3000] [569000 323000] [-1000 323000] 
+		[1500 3000] [571500 3000] [571500 323000] [1500 323000] 
 	)
 )
 Layer(5 "power")

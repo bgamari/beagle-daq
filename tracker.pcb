@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Wed May 12 16:32:13 2010
+# date:    Wed May 12 19:19:28 2010
 # user:    ben (Ben Gamari,,,)
 # host:    ben-laptop
 
@@ -8,12 +8,12 @@ FileVersion[20070407]
 
 PCB["BeagleDAQ" 575000 325000]
 
-Grid[2500.000000 0 0 0]
-Cursor[0 325000 0.000000]
+Grid[1.000000 0 0 0]
+Cursor[0 0 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[800 1000 600 500 1500 500]
-Flags("showdrc,rubberband,nameonpcb,clearnew,snappin,liveroute,thindrawpoly,locknames")
+Flags("showdrc,rubberband,nameonpcb,clearnew,snappin,liveroute,locknames")
 Groups("1,c:2,4,s:3:5:6:7:8")
 Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
 
@@ -3124,7 +3124,7 @@ Layer(4 "GND")
 (
 	Polygon("clearpoly")
 	(
-		[1500 3000] [571500 3000] [571500 323000] [1500 323000] 
+		[-1000 5500] [569000 5500] [569000 325500] [-1000 325500] 
 	)
 )
 Layer(5 "power")
@@ -3229,6 +3229,26 @@ Layer(9 "silk")
 	Text[560000 137500 0 100 "139" "auto"]
 	Text[560000 77500 0 100 "136" "auto"]
 	Text[560000 145000 0 100 "Pin" "auto"]
+	Text[87500 307500 0 100 "-" "auto"]
+	Text[87500 297500 0 100 "+" "auto"]
+	Text[177500 307500 0 100 "-" "auto"]
+	Text[177500 297500 0 100 "+" "auto"]
+	Text[267500 307500 0 100 "-" "auto"]
+	Text[267500 297500 0 100 "+" "auto"]
+	Text[357500 307500 0 100 "-" "auto"]
+	Text[357500 297500 0 100 "+" "auto"]
+	Text[357500 27500 0 100 "-" "auto"]
+	Text[87500 27500 0 100 "-" "auto"]
+	Text[177500 37500 0 100 "+" "auto"]
+	Text[177500 27500 0 100 "-" "auto"]
+	Text[267500 37500 0 100 "+" "auto"]
+	Text[267500 27500 0 100 "-" "auto"]
+	Text[357500 37500 0 100 "+" "auto"]
+	Text[87500 37500 0 100 "+" "auto"]
+	Text[0 27500 0 100 "-" "auto"]
+	Text[0 37500 0 100 "+" "auto"]
+	Text[0 297500 0 100 "-" "auto"]
+	Text[0 307500 0 100 "+" "auto"]
 )
 Layer(10 "silk")
 (

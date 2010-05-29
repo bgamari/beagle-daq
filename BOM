@@ -1,8 +1,11 @@
-Qty     Price           TI Part #
-====    ======          ==========
-4       $25.00          DAC8568
-4       $10.00          ADS8344
-2       $1.08           TXB0108
-1       $0.13           SN74AHC139
-1       $1.50           REF5045
+Bill of Materials
+
+
+Qty     Price           TI Part #               Description
+====    ======          ==========              ============
+4       $25.00          DAC8568                 16-bit digital-to-analog converter
+4       $10.00          ADS8344                 16-bit 100ksamp/sec analog-to-digital converter
+2       $1.08           TXB0108                 8-bit level shifter
+1       $0.13           SN74AHC139              4-to-2 demultiplexer
+1       $1.50           REF5045                 4.5V voltage reference
 

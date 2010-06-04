@@ -636,42 +636,42 @@ C 57000 37200 1 0 0 vcc-1.sym
 N 64500 35700 64500 35600 4
 {
 T 64300 35800 5 10 1 1 0 0 1
-netname=Vref
+netname=VREF
 }
 N 64200 40000 64200 39900 4
 {
 T 64000 40100 5 10 1 1 0 0 1
-netname=Vref
+netname=VREF
 }
 N 64200 43400 64200 43300 4
 {
 T 64000 43500 5 10 1 1 0 0 1
-netname=Vref
+netname=VREF
 }
 N 68000 43400 68000 43300 4
 {
 T 67800 43500 5 10 1 1 0 0 1
-netname=Vref
+netname=VREF
 }
 N 68000 40000 68000 39900 4
 {
 T 67800 40100 5 10 1 1 0 0 1
-netname=Vref
+netname=VREF
 }
 N 68300 35700 68300 35600 4
 {
 T 68100 35800 5 10 1 1 0 0 1
-netname=Vref
+netname=VREF
 }
 N 68300 31800 68300 31700 4
 {
 T 68100 31900 5 10 1 1 0 0 1
-netname=Vref
+netname=VREF
 }
 N 64500 31800 64500 31700 4
 {
 T 64300 31900 5 10 1 1 0 0 1
-netname=Vref
+netname=VREF
 }
 C 38900 46000 1 0 0 vcc-1.sym
 C 58700 28400 1 0 0 connector5-2.sym
@@ -948,7 +948,7 @@ C 56800 40300 1 0 0 connector2-1.sym
 T 57000 41300 5 10 0 0 0 0 1
 device=CONNECTOR_2
 T 56800 41100 5 10 1 1 0 0 1
-refdes=EXT_Vref
+refdes=EXT_VREF
 T 56800 40600 5 10 0 1 0 0 1
 footprint=CONNECTOR 1 2
 }
@@ -994,7 +994,7 @@ netname=GND
 N 58500 42100 60000 42100 4
 {
 T 60000 42100 5 10 1 1 0 0 1
-netname=Vref
+netname=VREF
 }
 C 59000 42100 1 270 0 capacitor-2.sym
 {

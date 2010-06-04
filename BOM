@@ -1,11 +1,11 @@
 Bill of Materials
 
 
-Qty     Price           TI Part #               Description
-====    ======          ==========              ============
-4       $25.00          DAC8568                 16-bit digital-to-analog converter
-4       $10.00          ADS8344                 16-bit 100ksamp/sec analog-to-digital converter
-2       $1.08           TXB0108                 8-bit level shifter
-1       $0.13           SN74AHC139              4-to-2 demultiplexer
-1       $1.50           REF5045                 4.5V voltage reference
-
+Qty     Vendor          Part #          Description
+====    ==========      ===========     ========================
+4       Texas Instr.    DAC8568         16-bit digital-to-analog converter
+4       Texas Instr.    ADS8344         16-bit 100ksamp/sec analog-to-digital converter
+3       Texas Instr.    TXB0108         8-bit level shifter
+1       Texas Instr.    SN74AHC139      4-to-2 demultiplexer
+1       Texas Instr.    REF5045         4.5V voltage reference
+1       Atmel           AT24C01B        1kbit 2-wire EEPROM

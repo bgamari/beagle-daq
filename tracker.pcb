@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Wed Jun  9 18:48:43 2010
+# date:    Wed Jun  9 18:56:52 2010
 # user:    ben (Ben Gamari,,,)
 # host:    ben-laptop
 
@@ -996,6 +996,7 @@ Via[47500 160000 3600 2000 0 2000 "" "thermal(3X)"]
 Via[87500 137500 6000 2000 0 3500 "" "thermal(3X)"]
 Via[97500 190000 6000 2000 0 3500 "" ""]
 Via[307500 105000 6000 2000 0 3500 "" ""]
+Via[25000 137500 3600 2000 0 2000 "" "thermal(3X)"]
 
 Element["" "SMD_CHIP-1206" "dac0/C2" "0.1u" 120000 205000 6000 3000 2 25 ""]
 (
@@ -2271,6 +2272,17 @@ Element["onsolder" "RADIAL_CAN-200" "C6" "100u" 65000 175000 -17500 -2500 0 100 
 	ElementArc [0 -5000 10000 10000 90 360 1000]
 
 	)
+
+Element["" "SMD_CHIP-1206" "C14" "1u" 35000 137500 6000 3000 2 25 ""]
+(
+	Pad[5000 -2000 5000 2000 2000 3000 2600 "" "1" "square"]
+	Pad[-5000 -2000 -5000 2000 2000 3000 2600 "" "2" "square"]
+	ElementLine [6000 -3000 6000 3000 500]
+	ElementLine [-6000 -3000 6000 -3000 500]
+	ElementLine [-6000 -3000 -6000 3000 500]
+	ElementLine [-6000 3000 6000 3000 500]
+
+	)
 Layer(1 "component")
 (
 	Line[283000 94500 290500 94500 2500 2000 "clearline"]
@@ -3162,6 +3174,8 @@ Layer(1 "component")
 	Line[40000 142500 48050 142500 2500 2000 "clearline"]
 	Line[358300 203200 350700 203200 1000 2000 "clearline"]
 	Line[300500 98000 307500 105000 1000 2000 "clearline"]
+	Line[48050 137500 40000 137500 1000 2000 "clearline"]
+	Line[30000 137500 25000 137500 1000 2000 "clearline"]
 )
 Layer(2 "solder")
 (
@@ -3886,6 +3900,7 @@ NetList()
 		Connect("C11-2")
 		Connect("C12-2")
 		Connect("C13-2")
+		Connect("C14-2")
 		Connect("CONN2-1")
 		Connect("CONN2-3")
 		Connect("CONN2-5")
@@ -4263,6 +4278,11 @@ NetList()
 		Connect("U6-6")
 	)
 	Net("unnamed_net105" "(unknown)")
+	(
+		Connect("C14-1")
+		Connect("U6-5")
+	)
+	Net("unnamed_net106" "(unknown)")
 	(
 		Connect("5VIN-1")
 		Connect("C13-1")

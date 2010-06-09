@@ -1041,7 +1041,7 @@ refdes=C13
 T 51200 46200 5 10 0 0 270 0 1
 symversion=0.1
 T 50400 45700 5 10 1 1 0 6 1
-value=22u
+value=0.33u
 T 50300 46400 5 10 0 0 0 0 1
 footprint=RADIAL_CAN 200
 }
@@ -1054,7 +1054,7 @@ refdes=C13
 T 52200 46200 5 10 0 0 270 2 1
 symversion=0.1
 T 53000 45700 5 10 1 1 0 0 1
-value=22u
+value=0.1u
 T 53100 46400 5 10 0 0 0 6 1
 footprint=RADIAL_CAN 200
 }
@@ -1069,6 +1069,8 @@ T 53200 31900 5 10 1 1 180 0 1
 refdes=L1
 T 52800 32600 5 10 0 0 0 0 1
 symversion=0.1
+T 52600 31900 5 10 0 0 0 0 1
+footprint=RADIAL_CAN 200
 }
 N 52400 32000 52400 32300 4
 C 53500 32900 1 0 0 vcc-1.sym

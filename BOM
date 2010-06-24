@@ -9,3 +9,4 @@ Qty     Vendor          Part #          Description
 1       Texas Instr.    SN74AHC139      4-to-2 demultiplexer
 1       Texas Instr.    REF5045         4.5V voltage reference
 1       Atmel           AT24C01B        1kbit 2-wire EEPROM
+1       National Semi.  LM7805          +5V linear regulator

@@ -23,10 +23,10 @@ pcb : symbols
 	ps2pdf $< $@
 
 .PHONY : gerbers
-gerbers : tracker.pcb
+gerbers : beagle-daq.pcb
 	rm -Rf gerbers
 	mkdir gerbers
-	pcb -x gerber --gerberfile gerbers/tracker $<
+	pcb -x gerber --gerberfile gerbers/beagle-daq $<
 
 gerbers.zip : gerbers
 	zip $@ gerbers

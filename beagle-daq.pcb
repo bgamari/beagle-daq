@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Thu Jun 24 21:25:35 2010
+# date:    Thu Jun 24 22:24:39 2010
 # user:    ben (Ben Gamari,,,)
 # host:    ben-laptop
 
@@ -13,7 +13,7 @@ Cursor[0 325000 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[800 1000 600 500 1500 500]
-Flags("showdrc,rubberband,nameonpcb,clearnew,snappin,liveroute,thindrawpoly,locknames")
+Flags("showdrc,rubberband,nameonpcb,clearnew,snappin,liveroute,thindrawpoly")
 Groups("1,c:2,4,s:3:5:6:7:8")
 Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
 
@@ -1411,7 +1411,7 @@ Element["" "SSOP20" "adc3/U1" "unknown" 150000 72900 4800 -4800 0 100 ""]
 
 	)
 
-Element["onsolder" "HEADER1_1" "GND" "unknown" 140000 157500 -5000 -6000 0 100 "auto"]
+Element["onsolder" "HEADER1_1" "GND" "unknown" 115000 140000 -5000 -6000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,thermal(3X)"]
 	ElementLine [5000 -5000 5000 5000 1000]
@@ -2322,6 +2322,71 @@ Element["" "SSOP20" "U4" "unknown" 380700 226300 -13000 -3800 1 100 ""]
 	ElementLine [-25300 2200 -13500 2200 1000]
 	ElementLine [-8500 2200 3300 2200 1000]
 	ElementArc [-11000 2200 2500 2500 180 180 1000]
+
+	)
+
+Element["" "hard-hex-standoff-2" "" "" 550000 20000 -13300 -17900 0 100 ""]
+(
+	Pin[0 0 12500 3000 13100 9300 "" "1" "hole,selected,edge2"]
+	ElementLine [-5400 -9400 -10800 0 1000]
+	ElementLine [5400 -9400 -5400 -9400 1000]
+	ElementLine [10800 0 5400 -9400 1000]
+	ElementLine [5400 9400 10800 0 1000]
+	ElementLine [-5400 9400 5400 9400 1000]
+	ElementLine [-10800 0 -5400 9400 1000]
+	ElementArc [0 0 5200 5200 0 360 1000]
+
+	)
+
+Element["" "hard-hex-standoff-2" "" "" 550000 310000 -13300 -17900 0 100 ""]
+(
+	Pin[0 0 12500 3000 13100 9300 "" "1" "hole,edge2"]
+	ElementLine [-5400 -9400 -10800 0 1000]
+	ElementLine [5400 -9400 -5400 -9400 1000]
+	ElementLine [10800 0 5400 -9400 1000]
+	ElementLine [5400 9400 10800 0 1000]
+	ElementLine [-5400 9400 5400 9400 1000]
+	ElementLine [-10800 0 -5400 9400 1000]
+	ElementArc [0 0 5200 5200 0 360 1000]
+
+	)
+
+Element["" "hard-hex-standoff-2" "" "" 82500 210000 -13300 -17900 0 100 ""]
+(
+	Pin[0 0 12500 3000 13100 9300 "" "1" "hole,edge2"]
+	ElementLine [-5400 -9400 -10800 0 1000]
+	ElementLine [5400 -9400 -5400 -9400 1000]
+	ElementLine [10800 0 5400 -9400 1000]
+	ElementLine [5400 9400 10800 0 1000]
+	ElementLine [-5400 9400 5400 9400 1000]
+	ElementLine [-10800 0 -5400 9400 1000]
+	ElementArc [0 0 5200 5200 0 360 1000]
+
+	)
+
+Element["" "hard-hex-standoff-2" "" "" 150000 150000 -13300 -17900 0 100 ""]
+(
+	Pin[0 0 12500 3000 13100 9300 "" "1" "hole,edge2"]
+	ElementLine [-5400 -9400 -10800 0 1000]
+	ElementLine [5400 -9400 -5400 -9400 1000]
+	ElementLine [10800 0 5400 -9400 1000]
+	ElementLine [5400 9400 10800 0 1000]
+	ElementLine [-5400 9400 5400 9400 1000]
+	ElementLine [-10800 0 -5400 9400 1000]
+	ElementArc [0 0 5200 5200 0 360 1000]
+
+	)
+
+Element["" "hard-hex-standoff-2" "" "" 82500 92500 -13300 -17900 0 100 ""]
+(
+	Pin[0 0 12500 3000 13100 9300 "" "1" "hole,edge2"]
+	ElementLine [-5400 -9400 -10800 0 1000]
+	ElementLine [5400 -9400 -5400 -9400 1000]
+	ElementLine [10800 0 5400 -9400 1000]
+	ElementLine [5400 9400 10800 0 1000]
+	ElementLine [-5400 9400 5400 9400 1000]
+	ElementLine [-10800 0 -5400 9400 1000]
+	ElementArc [0 0 5200 5200 0 360 1000]
 
 	)
 Layer(1 "component")

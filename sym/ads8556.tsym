@@ -6,10 +6,10 @@
 # sort_labels will sort the pins by it's labels
 #   useful for address ports, busses, ...
 wordswap=yes
-rotate_labels=no
+rotate_labels=yes
 sort_labels=yes
 generate_pinseq=yes
-sym_width=1400
+sym_width=6400
 pinwidthvertical=400
 pinwidthhorizontal=400
 
@@ -64,7 +64,7 @@ numslots=0
 8		pwr	line	b		BGND
 9		pwr	line	t		BVDD
 10		io	line	r		DB7
-11		io	line	r		DB6
+11		io	line	r		DB6/SCLK
 12		io	line	r		DB5/DCIN_A
 13		io	line	r		DB4/DCIN_B
 14		io	line	r		DB3/DCIN_C
@@ -80,31 +80,31 @@ numslots=0
 24		in	line	r		\_STBY\_
 25		pwr	line	b		AGND
 26		pwr	line	t		AVDD
-27		in	line	t		RANGE/XCLK
-28		in	line	t		RESET
-29		in	line	t		WORD/BYTE
+27		in	line	l		RANGE/XCLK
+28		in	line	l		RESET
+29		in	line	l		WORD/BYTE
 30		pwr	line	t		HVSS
 31		pwr	line	t		HVDD
 32		pwr	line	b		AGND
-33		in	line	r		CH_A0
+33		in	line	l		CH_A0
 34		pwr	line	t		AVDD
 35		pwr	line	t		AVDD
-36		in	line	r		CH_A1
+36		in	line	l		CH_A1
 37		pwr	line	b		AGND
 38		pwr	line	b		AGND
-39		in	line	r		CH_B0
+39		in	line	l		CH_B0
 40		pwr	line	t		AVDD
 41		pwr	line	t		AVDD
-42		in	line	r		CH_B1
+42		in	line	l		CH_B1
 43		pwr	line	b		AGND
 44		pwr	line	b		AGND
-45		in	line	r		CH_C0
+45		in	line	l		CH_C0
 46		pwr	line	t		AVDD
 47		pwr	line	t		AVDD
-48		in	line	r		CH_C1
+48		in	line	l		CH_C1
 49		pwr	line	b		AGND
 50		pwr	line	t		AVDD
-51		in	line	r		REFIO
+51		in	line	l		REFIO
 52		pwr	line	b		AGND
 53		pwr	line	b		AGND
 54		in	line	l		REFC_A
@@ -114,7 +114,7 @@ numslots=0
 58		in	line	l		REFC_C
 59		pwr	line	b		AGND
 60		pwr	line	t		AVDD
-61		in	line	t		PAR/SER
-62		in	line	t		HW/SW
-63		in	line	t		REF/WR
-64		in	line	r		BD15
+61		in	line	l		PAR/SER
+62		in	line	l		HW/SW
+63		in	line	l		REF/WR
+64		in	line	r		DB15

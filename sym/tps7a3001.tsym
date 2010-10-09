@@ -60,3 +60,4 @@ numslots=0
 5		in 	line	l		EN
 6		in	line	l		NR/SS
 8		pwr	line	l		IN
+9		pwr	line	b		PWRPAD

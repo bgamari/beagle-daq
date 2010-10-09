@@ -4,7 +4,7 @@ C 49200 31700 1 0 0 beagle-expansion.sym
 T 51100 37800 5 10 0 1 0 0 1
 device=none
 T 49200 31700 5 10 0 0 0 0 1
-refdes=CONN1
+refdes=CONN2
 T 49200 31700 5 10 0 0 0 0 1
 footprint=HEADER28_2.fp
 }
@@ -15,7 +15,7 @@ device=TXB0108
 T 56800 35100 5 10 0 0 90 0 1
 footprint=SSOP20
 T 57800 36500 5 10 1 1 0 6 1
-refdes=U3
+refdes=U6
 }
 C 56700 32400 1 0 0 gnd-1.sym
 N 57200 36900 57200 37200 4
@@ -24,7 +24,7 @@ C 57400 36800 1 0 0 capacitor-1.sym
 T 57600 37500 5 10 0 0 0 0 1
 device=CAPACITOR
 T 58000 37300 5 10 1 1 0 0 1
-refdes=C5
+refdes=C15
 T 57600 37700 5 10 0 0 0 0 1
 symversion=0.1
 T 58000 37100 5 10 1 1 0 0 1
@@ -39,7 +39,7 @@ C 59700 40500 1 270 0 capacitor-1.sym
 T 60400 40300 5 10 0 0 270 0 1
 device=CAPACITOR
 T 60000 40200 5 10 1 1 0 0 1
-refdes=C7
+refdes=C14
 T 60600 40300 5 10 0 0 270 0 1
 symversion=0.1
 T 60000 39800 5 10 1 1 0 0 1
@@ -55,7 +55,7 @@ C 50600 43300 1 0 0 capacitor-1.sym
 T 50800 44000 5 10 0 0 0 0 1
 device=CAPACITOR
 T 50800 43800 5 10 1 1 0 0 1
-refdes=C3
+refdes=C4
 T 50800 44200 5 10 0 0 0 0 1
 symversion=0.1
 T 51200 43700 5 10 1 1 0 0 1
@@ -77,7 +77,7 @@ footprint=SSOP20
 C 62400 32400 1 0 0 adc_unit.sym
 {
 T 63900 34200 5 10 1 1 0 0 1
-refdes=adc0
+refdes=adc1
 T 63700 34200 5 10 0 1 0 0 1
 device=ADS8344
 T 62400 32400 5 10 0 0 0 0 1
@@ -86,7 +86,7 @@ source=adc_unit.sch
 C 62800 40800 1 0 0 dac_unit.sym
 {
 T 63795 41795 5 10 1 1 0 0 1
-refdes=dac0
+refdes=dac1
 T 63500 41900 5 10 0 1 0 0 1
 source=dac_unit.sch
 T 63500 41900 5 10 0 1 0 0 1
@@ -98,7 +98,7 @@ C 55400 36800 1 0 0 capacitor-1.sym
 T 55600 37500 5 10 0 0 0 0 1
 device=CAPACITOR
 T 55800 37300 5 10 1 1 0 6 1
-refdes=C4
+refdes=C12
 T 55600 37700 5 10 0 0 0 0 1
 symversion=0.1
 T 55800 37100 5 10 1 1 0 6 1
@@ -273,7 +273,7 @@ netname=spi3_simo
 C 66600 40800 1 0 0 dac_unit.sym
 {
 T 67600 41800 5 10 1 1 0 0 1
-refdes=dac1
+refdes=dac3
 T 67300 41900 5 10 0 1 0 0 1
 source=dac_unit.sch
 T 67300 41900 5 10 0 1 0 0 1
@@ -321,7 +321,7 @@ netname=spi3_simo
 C 66600 37400 1 0 0 dac_unit.sym
 {
 T 67600 38400 5 10 1 1 0 0 1
-refdes=dac3
+refdes=dac4
 T 67300 38200 5 10 0 1 0 0 1
 source=dac_unit.sch
 T 67300 38500 5 10 0 1 0 0 1
@@ -365,7 +365,7 @@ netname=spi4_somi
 C 66200 32400 1 0 0 adc_unit.sym
 {
 T 67700 34200 5 10 1 1 0 0 1
-refdes=adc1
+refdes=adc2
 T 67500 34200 5 10 0 1 0 0 1
 device=ADS8344
 T 66200 32400 5 10 0 0 0 0 1
@@ -394,7 +394,7 @@ netname=spi4_somi
 C 62400 28500 1 0 0 adc_unit.sym
 {
 T 63900 30300 5 10 1 1 0 0 1
-refdes=adc2
+refdes=adc3
 T 63700 30300 5 10 0 1 0 0 1
 device=ADS8344
 T 62400 28500 5 10 0 0 0 0 1
@@ -423,7 +423,7 @@ netname=spi4_somi
 C 66200 28500 1 0 0 adc_unit.sym
 {
 T 67700 30300 5 10 1 1 0 0 1
-refdes=adc3
+refdes=adc4
 T 67500 30300 5 10 0 1 0 0 1
 device=ADS8344
 T 66200 28500 5 10 0 0 0 0 1
@@ -456,7 +456,7 @@ device=TXB0108
 T 43800 32900 5 10 0 0 90 2 1
 footprint=SSOP20
 T 44900 30400 5 10 0 0 0 0 1
-refdes=U1
+refdes=U4
 }
 C 43900 30200 1 0 1 gnd-1.sym
 N 44200 34700 44200 35100 4
@@ -470,7 +470,7 @@ C 43200 34600 1 0 1 capacitor-1.sym
 T 43000 35300 5 10 0 0 0 6 1
 device=CAPACITOR
 T 42600 35100 5 10 1 1 0 6 1
-refdes=C1
+refdes=C5
 T 43000 35500 5 10 0 0 0 6 1
 symversion=0.1
 T 42600 34900 5 10 1 1 0 6 1
@@ -484,7 +484,7 @@ C 45300 34600 1 0 1 capacitor-1.sym
 T 45100 35300 5 10 0 0 0 6 1
 device=CAPACITOR
 T 45000 35100 5 10 1 1 0 0 1
-refdes=C2
+refdes=C6
 T 45100 35500 5 10 0 0 0 6 1
 symversion=0.1
 T 45000 34900 5 10 1 1 0 0 1
@@ -500,7 +500,7 @@ N 45200 35300 49200 35300 4
 C 40100 29300 1 0 1 connector16-2.sym
 {
 T 39400 36200 5 10 1 1 0 0 1
-refdes=CONN2
+refdes=CONN1
 T 39800 36150 5 10 0 0 0 6 1
 device=CONNECTOR_16
 T 39800 36350 5 10 0 0 0 6 1
@@ -558,7 +558,7 @@ C 39400 44600 1 0 0 led-1.sym
 T 40200 45200 5 10 0 0 0 0 1
 device=LED
 T 40200 45000 5 10 1 1 0 0 1
-refdes=LED_1V8
+refdes=LED_1V1
 T 40200 45400 5 10 0 0 0 0 1
 symversion=0.1
 T 39800 44800 5 10 0 1 0 0 1
@@ -573,7 +573,7 @@ C 38500 44700 1 0 0 resistor-1.sym
 T 38800 45100 5 10 0 0 0 0 1
 device=RESISTOR
 T 38700 45000 5 10 1 1 0 0 1
-refdes=R2
+refdes=R1
 T 38700 44500 5 10 1 1 0 0 1
 value=90
 T 38500 44700 5 10 0 0 0 0 1
@@ -584,7 +584,7 @@ C 38500 43700 1 0 0 resistor-1.sym
 T 38800 44100 5 10 0 0 0 0 1
 device=RESISTOR
 T 38700 44000 5 10 1 1 0 0 1
-refdes=R3
+refdes=R2
 T 38700 43500 5 10 1 1 0 0 1
 value=250
 T 38500 43700 5 10 0 0 0 0 1
@@ -648,7 +648,7 @@ C 37400 43800 1 0 0 vcc-1.sym
 C 58700 28400 1 0 0 connector5-2.sym
 {
 T 59400 30900 5 10 1 1 0 6 1
-refdes=SPI4
+refdes=SPI2
 T 59000 30850 5 10 0 0 0 0 1
 device=CONNECTOR_5
 T 59000 31050 5 10 0 0 0 0 1
@@ -687,7 +687,7 @@ C 58600 28500 1 0 0 gnd-1.sym
 C 56700 28400 1 0 0 connector5-2.sym
 {
 T 57400 30900 5 10 1 1 0 6 1
-refdes=SPI3
+refdes=SPI1
 T 57000 30850 5 10 0 0 0 0 1
 device=CONNECTOR_5
 T 57000 31050 5 10 0 0 0 0 1
@@ -732,7 +732,7 @@ footprint=CONNECTOR 1 2
 C 40300 46100 1 0 0 connector2-2.sym
 {
 T 41000 47400 5 10 1 1 0 6 1
-refdes=1V8
+refdes=1V1
 T 40600 47350 5 10 0 0 0 0 1
 device=CONNECTOR_2
 T 40600 47550 5 10 0 0 0 0 1
@@ -746,7 +746,7 @@ C 40000 41300 1 90 1 capacitor-2.sym
 T 39300 41100 5 10 0 0 270 2 1
 device=POLARIZED_CAPACITOR
 T 40000 40900 5 10 1 1 0 0 1
-refdes=C8
+refdes=C1
 T 39100 41100 5 10 0 0 270 2 1
 symversion=0.1
 T 40000 40700 5 10 1 1 0 0 1
@@ -759,7 +759,7 @@ C 58900 40500 1 270 0 capacitor-2.sym
 T 59600 40300 5 10 0 0 270 0 1
 device=POLARIZED_CAPACITOR
 T 58700 40200 5 10 1 1 0 0 1
-refdes=C6
+refdes=C13
 T 59800 40300 5 10 0 0 270 0 1
 symversion=0.1
 T 58600 39800 5 10 1 1 0 0 1
@@ -802,7 +802,7 @@ device=TXB0108
 T 43800 39200 5 10 0 0 90 2 1
 footprint=SSOP20
 T 44900 36700 5 10 0 0 0 0 1
-refdes=U4
+refdes=U1
 }
 C 43900 36500 1 0 1 gnd-1.sym
 N 44200 41000 44200 41400 4
@@ -816,7 +816,7 @@ C 43200 40900 1 0 1 capacitor-1.sym
 T 43000 41600 5 10 0 0 0 6 1
 device=CAPACITOR
 T 42600 41400 5 10 1 1 0 6 1
-refdes=C9
+refdes=C2
 T 43000 41800 5 10 0 0 0 6 1
 symversion=0.1
 T 42600 41200 5 10 1 1 0 6 1
@@ -831,7 +831,7 @@ C 45200 40900 1 0 1 capacitor-1.sym
 T 45000 41600 5 10 0 0 0 6 1
 device=CAPACITOR
 T 44900 41400 5 10 1 1 0 0 1
-refdes=C10
+refdes=C3
 T 45000 41800 5 10 0 0 0 6 1
 symversion=0.1
 T 44900 41200 5 10 1 1 0 0 1
@@ -872,7 +872,7 @@ C 47000 30200 1 0 1 capacitor-1.sym
 T 46800 30900 5 10 0 0 0 6 1
 device=CAPACITOR
 T 46400 30700 5 10 1 1 0 6 1
-refdes=C11
+refdes=C10
 T 46800 31100 5 10 0 0 0 6 1
 symversion=0.1
 T 46400 30500 5 10 1 1 0 6 1
@@ -930,7 +930,7 @@ netname=GND
 C 56300 43200 1 0 0 ref50xx.sym
 {
 T 58100 45300 5 10 1 1 0 6 1
-refdes=U6
+refdes=U3
 T 56700 45500 5 10 0 0 0 0 1
 device=REF5045
 T 56700 45700 5 10 0 0 0 0 1
@@ -957,7 +957,7 @@ C 58900 42200 1 270 0 capacitor-2.sym
 T 59600 42000 5 10 0 0 270 0 1
 device=POLARIZED_CAPACITOR
 T 59000 41900 5 10 1 1 0 6 1
-refdes=C16
+refdes=C11
 T 59800 42000 5 10 0 0 270 0 1
 symversion=0.1
 T 59000 41500 5 10 1 1 0 6 1
@@ -1007,7 +1007,7 @@ C 53100 37200 1 90 0 capacitor-2.sym
 T 52400 37400 5 10 0 0 90 0 1
 device=POLARIZED_CAPACITOR
 T 52700 37600 5 10 1 1 180 0 1
-refdes=C17
+refdes=C9
 T 52200 37400 5 10 0 0 90 0 1
 symversion=0.1
 T 52700 37800 5 10 1 1 180 0 1
@@ -1028,7 +1028,7 @@ C 58400 44200 1 0 0 capacitor-1.sym
 T 58600 44900 5 10 0 0 0 0 1
 device=CAPACITOR
 T 58600 44700 5 10 1 1 0 0 1
-refdes=C14
+refdes=C8
 T 58600 45100 5 10 0 0 0 0 1
 symversion=0.1
 T 58600 44500 5 10 1 1 0 0 1
@@ -1046,7 +1046,7 @@ C 56000 43900 1 270 1 capacitor-1.sym
 T 56700 44100 5 10 0 0 90 2 1
 device=CAPACITOR
 T 56000 44500 5 10 1 1 180 0 1
-refdes=C12
+refdes=C7
 T 56900 44100 5 10 0 0 90 2 1
 symversion=0.1
 T 56000 44300 5 10 1 1 180 0 1

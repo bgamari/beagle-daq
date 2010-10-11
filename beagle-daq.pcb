@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Mon Oct 11 14:37:52 2010
+# date:    Mon Oct 11 14:41:14 2010
 # user:    ben (Ben Gamari,,,)
 # host:    ben-laptop
 
@@ -8,12 +8,12 @@ FileVersion[20100606]
 
 PCB["" 1000000 1000000]
 
-Grid[5000.000000 0 0 0]
+Grid[1000.000000 0 0 0]
 Cursor[0 0 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[600 600 600 500 1500 800]
-Flags("showdrc,nameonpcb,clearnew,snappin,thindrawpoly,onlynames")
+Flags("showdrc,nameonpcb,clearnew,snappin,thindrawpoly,locknames")
 Groups("1,c:2,4,s:3:5:6:7:8")
 Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
 
@@ -1238,7 +1238,7 @@ Element["onsolder" "HEADER5_1" "SPI1" "unknown" 554000 541000 25000 -3000 2 100 
 
 	)
 
-Element["onsolder" "HEADER1_1" "GND" "unknown" 370000 617000 21000 5000 3 100 "auto"]
+Element["onsolder" "HEADER1_1" "GND" "unknown" 905000 600000 21000 5000 3 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,thermal(3X)"]
 	ElementLine [-5000 5000 -5000 -5000 1000]
@@ -3676,7 +3676,7 @@ Layer(1 "component")
 	Line[806000 692000 811000 692000 2500 2000 "clearline"]
 	Line[618400 607400 621500 607400 1000 2000 "clearline"]
 	Line[732100 649900 732000 649900 1000 2000 "clearline"]
-	Line[584000 468000 44000 468000 2500 2000 "clearline"]
+	Line[584000 468000 86000 468000 2500 2000 "clearline"]
 	Line[603000 592000 606000 589000 1000 2000 "clearline"]
 	Line[793000 619000 784000 619000 1000 2000 "clearline"]
 	Line[794000 627000 793000 627000 1000 2000 "clearline"]
@@ -3699,7 +3699,7 @@ Layer(1 "component")
 	Line[837000 576000 826000 576000 2500 2000 "clearline"]
 	Line[609000 593000 604800 597200 1000 2000 "clearline"]
 	Line[473000 670000 473000 787000 2500 2000 "clearline"]
-	Line[592000 462000 46000 462000 2500 2000 "clearline"]
+	Line[592000 462000 94000 462000 2500 2000 "clearline"]
 	Line[826000 562000 826000 576000 2500 2000 "clearline"]
 	Line[832000 672000 832100 672000 1000 2000 "clearline"]
 	Line[801000 632000 798000 632000 1000 2000 "clearline"]

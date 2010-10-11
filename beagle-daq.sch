@@ -123,132 +123,132 @@ N 55400 33500 55400 33400 4
 N 57800 34600 58400 34600 4
 {
 T 58000 34600 5 10 1 1 0 0 1
-netname=spi4_clk
+netname=dac_spi_clk
 }
 N 57800 34200 58400 34200 4
 {
 T 58000 34200 5 10 1 1 0 0 1
-netname=spi4_somi
+netname=dac_spi_somi
 }
 N 57800 33800 58400 33800 4
 {
 T 58000 33800 5 10 1 1 0 0 1
-netname=spi4_simo
+netname=dac_spi_simo
 }
 N 57800 33400 58400 33400 4
 {
 T 58000 33400 5 10 1 1 0 0 1
-netname=spi4_cs
+netname=dac_spi_cs
 }
 N 57800 35000 58400 35000 4
 {
 T 58000 35000 5 10 1 1 0 0 1
-netname=spi3_cs
+netname=adc_spi_cs
 }
 N 57800 35400 58400 35400 4
 {
 T 58000 35400 5 10 1 1 0 0 1
-netname=spi3_simo
+netname=adc_spi_simo
 }
 N 57800 35800 58400 35800 4
 {
 T 58000 35800 5 10 1 1 0 0 1
-netname=spi3_somi
+netname=adc_spi_somi
 }
 N 57800 36200 58400 36200 4
 {
 T 58000 36200 5 10 1 1 0 0 1
-netname=spi3_clk
-}
-N 48200 40700 49500 40700 4
-{
-T 48200 40700 5 10 1 1 0 0 1
-netname=spi4_cs
+netname=adc_spi_clk
 }
 N 48200 41900 49500 41900 4
 {
 T 48200 41900 5 10 1 1 0 0 1
-netname=spi3_cs
+netname=adc_spi_cs
+}
+N 48200 40700 49500 40700 4
+{
+T 48200 40700 5 10 1 1 0 0 1
+netname=dac_spi_cs
 }
 N 42800 40300 41700 40300 4
 {
 T 41800 40300 5 10 1 1 0 0 1
-netname=spi3_addr0
+netname=dac_spi_addr0
 }
 N 42800 39900 41700 39900 4
 {
 T 41800 39900 5 10 1 1 0 0 1
-netname=spi3_addr1
+netname=dac_spi_addr1
 }
 N 42800 39500 41700 39500 4
 {
 T 41800 39500 5 10 1 1 0 0 1
-netname=spi4_addr0
+netname=adc_spi_addr0
 }
 N 42800 39100 41700 39100 4
 {
 T 41800 39100 5 10 1 1 0 0 1
-netname=spi4_addr1
-}
-N 48200 42300 49500 42300 4
-{
-T 48200 42300 5 10 1 1 0 0 1
-netname=spi3_addr1
-}
-N 48200 42700 49500 42700 4
-{
-T 48200 42700 5 10 1 1 0 0 1
-netname=spi3_addr0
-}
-N 48200 41500 49500 41500 4
-{
-T 48200 41500 5 10 1 1 0 0 1
-netname=spi4_addr0
+netname=adc_spi_addr1
 }
 N 48200 41100 49500 41100 4
 {
 T 48200 41100 5 10 1 1 0 0 1
-netname=spi4_addr1
+netname=dac_spi_addr1
 }
-N 51500 42700 52800 42700 4
+N 48200 41500 49500 41500 4
 {
-T 52300 42700 5 10 1 1 0 0 1
-netname=spi3_cs0
+T 48200 41500 5 10 1 1 0 0 1
+netname=dac_spi_addr0
 }
-N 51500 42300 52800 42300 4
+N 48200 42700 49500 42700 4
 {
-T 52300 42300 5 10 1 1 0 0 1
-netname=spi3_cs1
+T 48200 42700 5 10 1 1 0 0 1
+netname=adc_spi_addr0
 }
-N 51500 41900 52800 41900 4
+N 48200 42300 49500 42300 4
 {
-T 52300 41900 5 10 1 1 0 0 1
-netname=spi3_cs2
-}
-N 51500 41500 52800 41500 4
-{
-T 52300 41500 5 10 1 1 0 0 1
-netname=spi3_cs3
+T 48200 42300 5 10 1 1 0 0 1
+netname=adc_spi_addr1
 }
 N 51500 41100 52800 41100 4
 {
 T 52300 41100 5 10 1 1 0 0 1
-netname=spi4_cs0
+netname=dac_spi_cs0
 }
 N 51500 40700 52800 40700 4
 {
 T 52300 40700 5 10 1 1 0 0 1
-netname=spi4_cs1
+netname=dac_spi_cs1
 }
 N 51500 40300 52800 40300 4
 {
 T 52300 40300 5 10 1 1 0 0 1
-netname=spi4_cs2
+netname=dac_spi_cs2
 }
 N 51500 39900 52800 39900 4
 {
 T 52300 39900 5 10 1 1 0 0 1
-netname=spi4_cs3
+netname=dac_spi_cs3
+}
+N 51500 42700 52800 42700 4
+{
+T 52300 42700 5 10 1 1 0 0 1
+netname=adc_spi_cs0
+}
+N 51500 42300 52800 42300 4
+{
+T 52300 42300 5 10 1 1 0 0 1
+netname=adc_spi_cs1
+}
+N 51500 41900 52800 41900 4
+{
+T 52300 41900 5 10 1 1 0 0 1
+netname=adc_spi_cs2
+}
+N 51500 41500 52800 41500 4
+{
+T 52300 41500 5 10 1 1 0 0 1
+netname=adc_spi_cs3
 }
 C 59400 39300 1 0 0 gnd-1.sym
 {
@@ -258,17 +258,17 @@ netname=GND
 N 62800 42600 62200 42600 4
 {
 T 62300 42600 5 10 1 1 0 0 1
-netname=spi3_cs0
+netname=dac_spi_cs0
 }
 N 62800 42200 62200 42200 4
 {
 T 62300 42200 5 10 1 1 0 0 1
-netname=spi3_clk
+netname=dac_spi_clk
 }
 N 62800 41800 62200 41800 4
 {
 T 62300 41800 5 10 1 1 0 0 1
-netname=spi3_simo
+netname=dac_spi_simo
 }
 C 66600 40800 1 0 0 dac_unit.sym
 {
@@ -282,17 +282,17 @@ device=ADC8568
 N 66600 42600 66000 42600 4
 {
 T 66100 42600 5 10 1 1 0 0 1
-netname=spi3_cs1
+netname=dac_spi_cs1
 }
 N 66600 42200 66000 42200 4
 {
 T 66100 42200 5 10 1 1 0 0 1
-netname=spi3_clk
+netname=dac_spi_clk
 }
 N 66600 41800 66000 41800 4
 {
 T 66100 41800 5 10 1 1 0 0 1
-netname=spi3_simo
+netname=dac_spi_simo
 }
 C 62800 37400 1 0 0 dac_unit.sym
 {
@@ -306,17 +306,17 @@ device=ADC8568
 N 62800 39200 62200 39200 4
 {
 T 62300 39200 5 10 1 1 0 0 1
-netname=spi3_cs2
+netname=dac_spi_cs2
 }
 N 62800 38800 62200 38800 4
 {
 T 62300 38800 5 10 1 1 0 0 1
-netname=spi3_clk
+netname=dac_spi_clk
 }
 N 62800 38400 62200 38400 4
 {
 T 62300 38400 5 10 1 1 0 0 1
-netname=spi3_simo
+netname=dac_spi_simo
 }
 C 66600 37400 1 0 0 dac_unit.sym
 {
@@ -330,37 +330,37 @@ device=ADC8568
 N 66600 39200 66000 39200 4
 {
 T 66100 39200 5 10 1 1 0 0 1
-netname=spi3_cs3
+netname=dac_spi_cs3
 }
 N 66600 38800 66000 38800 4
 {
 T 66100 38800 5 10 1 1 0 0 1
-netname=spi3_clk
+netname=dac_spi_clk
 }
 N 66600 38400 66000 38400 4
 {
 T 66100 38400 5 10 1 1 0 0 1
-netname=spi3_simo
+netname=dac_spi_simo
 }
 N 62900 34800 62300 34800 4
 {
 T 62400 34800 5 10 1 1 0 0 1
-netname=spi4_cs0
+netname=adc_spi_cs0
 }
 N 62900 34400 62300 34400 4
 {
 T 62400 34400 5 10 1 1 0 0 1
-netname=spi4_clk
+netname=adc_spi_clk
 }
 N 62900 34000 62300 34000 4
 {
 T 62400 34000 5 10 1 1 0 0 1
-netname=spi4_simo
+netname=adc_spi_simo
 }
 N 62900 33600 62300 33600 4
 {
 T 62400 33600 5 10 1 1 0 0 1
-netname=spi4_somi
+netname=adc_spi_somi
 }
 C 66200 32400 1 0 0 adc_unit.sym
 {
@@ -374,22 +374,22 @@ source=adc_unit.sch
 N 66700 34800 66100 34800 4
 {
 T 66200 34800 5 10 1 1 0 0 1
-netname=spi4_cs1
+netname=adc_spi_cs1
 }
 N 66700 34400 66100 34400 4
 {
 T 66200 34400 5 10 1 1 0 0 1
-netname=spi4_clk
+netname=adc_spi_clk
 }
 N 66700 34000 66100 34000 4
 {
 T 66200 34000 5 10 1 1 0 0 1
-netname=spi4_simo
+netname=adc_spi_simo
 }
 N 66700 33600 66100 33600 4
 {
 T 66200 33600 5 10 1 1 0 0 1
-netname=spi4_somi
+netname=adc_spi_somi
 }
 C 62400 28500 1 0 0 adc_unit.sym
 {
@@ -403,22 +403,22 @@ source=adc_unit.sch
 N 62900 30900 62300 30900 4
 {
 T 62400 30900 5 10 1 1 0 0 1
-netname=spi4_cs2
+netname=adc_spi_cs2
 }
 N 62900 30500 62300 30500 4
 {
 T 62400 30500 5 10 1 1 0 0 1
-netname=spi4_clk
+netname=adc_spi_clk
 }
 N 62900 30100 62300 30100 4
 {
 T 62400 30100 5 10 1 1 0 0 1
-netname=spi4_simo
+netname=adc_spi_simo
 }
 N 62900 29700 62300 29700 4
 {
 T 62400 29700 5 10 1 1 0 0 1
-netname=spi4_somi
+netname=adc_spi_somi
 }
 C 66200 28500 1 0 0 adc_unit.sym
 {
@@ -432,22 +432,22 @@ source=adc_unit.sch
 N 66700 30900 66100 30900 4
 {
 T 66200 30900 5 10 1 1 0 0 1
-netname=spi4_cs3
+netname=adc_spi_cs3
 }
 N 66700 30500 66100 30500 4
 {
 T 66200 30500 5 10 1 1 0 0 1
-netname=spi4_clk
+netname=adc_spi_clk
 }
 N 66700 30100 66100 30100 4
 {
 T 66200 30100 5 10 1 1 0 0 1
-netname=spi4_simo
+netname=adc_spi_simo
 }
 N 66700 29700 66100 29700 4
 {
 T 66200 29700 5 10 1 1 0 0 1
-netname=spi4_somi
+netname=adc_spi_somi
 }
 C 44900 30400 1 0 1 txb0108.sym
 {
@@ -666,22 +666,22 @@ footprint=HEADER1_1
 N 58200 30400 58700 30400 4
 {
 T 58100 30500 5 10 1 1 0 0 1
-netname=spi4_clk
+netname=adc_spi_clk
 }
 N 58700 30000 58200 30000 4
 {
 T 58100 30100 5 10 1 1 0 0 1
-netname=spi4_somi
+netname=adc_spi_somi
 }
 N 58700 29600 58200 29600 4
 {
 T 58100 29700 5 10 1 1 0 0 1
-netname=spi4_simo
+netname=adc_spi_simo
 }
 N 58700 29200 58200 29200 4
 {
 T 58100 29300 5 10 1 1 0 0 1
-netname=spi4_cs
+netname=adc_spi_cs
 }
 C 58600 28500 1 0 0 gnd-1.sym
 C 56700 28400 1 0 0 connector5-2.sym
@@ -696,22 +696,22 @@ footprint=HEADER5_1
 N 56200 30400 56700 30400 4
 {
 T 56100 30500 5 10 1 1 0 0 1
-netname=spi3_clk
+netname=dac_spi_clk
 }
 N 56700 30000 56200 30000 4
 {
 T 56100 30100 5 10 1 1 0 0 1
-netname=spi3_somi
+netname=dac_spi_somi
 }
 N 56700 29600 56200 29600 4
 {
 T 56100 29700 5 10 1 1 0 0 1
-netname=spi3_simo
+netname=dac_spi_simo
 }
 N 56700 29200 56200 29200 4
 {
 T 56100 29300 5 10 1 1 0 0 1
-netname=spi3_cs
+netname=dac_spi_cs
 }
 C 56600 28500 1 0 0 gnd-1.sym
 C 37800 46900 1 0 0 vcc-1.sym

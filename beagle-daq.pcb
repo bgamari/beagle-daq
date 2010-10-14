@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Mon Oct 11 14:42:27 2010
+# date:    Thu Oct 14 11:06:33 2010
 # user:    ben (Ben Gamari,,,)
 # host:    ben-laptop
 
@@ -1322,30 +1322,14 @@ Element["" "SSOP20" "U6" "unknown" 610000 180000 -13000 -3800 1 100 ""]
 
 	)
 
-Element["" "HEADER16_2" "adc1/DACOUT" "unknown" 521000 329000 -4000 7000 0 100 ""]
+Element["onsolder" "SMD_CHIP-1206" "dac4/C2" "0.1u" 105000 97000 -3000 -6000 1 25 "auto"]
 (
-	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2,thermal(3X)"]
-	Pin[0 -10000 6000 3000 6600 3800 "2" "2" "edge2"]
-	Pin[10000 0 6000 3000 6600 3800 "3" "3" "edge2,thermal(3X)"]
-	Pin[10000 -10000 6000 3000 6600 3800 "4" "4" "edge2"]
-	Pin[20000 0 6000 3000 6600 3800 "5" "5" "edge2,thermal(3X)"]
-	Pin[20000 -10000 6000 3000 6600 3800 "6" "6" "edge2"]
-	Pin[30000 0 6000 3000 6600 3800 "7" "7" "edge2,thermal(3X)"]
-	Pin[30000 -10000 6000 3000 6600 3800 "8" "8" "edge2"]
-	Pin[40000 0 6000 3000 6600 3800 "9" "9" "edge2,thermal(3X)"]
-	Pin[40000 -10000 6000 3000 6600 3800 "10" "10" "edge2"]
-	Pin[50000 0 6000 3000 6600 3800 "11" "11" "edge2,thermal(3X)"]
-	Pin[50000 -10000 6000 3000 6600 3800 "12" "12" "edge2"]
-	Pin[60000 0 6000 3000 6600 3800 "13" "13" "edge2,thermal(3X)"]
-	Pin[60000 -10000 6000 3000 6600 3800 "14" "14" "edge2"]
-	Pin[70000 0 6000 3000 6600 3800 "15" "15" "edge2,thermal(3X)"]
-	Pin[70000 -10000 6000 3000 6600 3800 "16" "16" "edge2"]
-	ElementLine [-5000 5000 75000 5000 1000]
-	ElementLine [75000 -15000 75000 5000 1000]
-	ElementLine [-5000 -15000 75000 -15000 1000]
-	ElementLine [-5000 -15000 -5000 5000 1000]
-	ElementLine [5000 -5000 5000 5000 1000]
-	ElementLine [-5000 -5000 5000 -5000 1000]
+	Pad[-2000 -5000 2000 -5000 2000 3000 2600 "" "1" "onsolder,square"]
+	Pad[-2000 5000 2000 5000 2000 3000 2600 "" "2" "onsolder,square"]
+	ElementLine [-3000 6000 -3000 -6000 500]
+	ElementLine [-3000 6000 3000 6000 500]
+	ElementLine [3000 6000 3000 -6000 500]
+	ElementLine [-3000 -6000 3000 -6000 500]
 
 	)
 
@@ -1644,30 +1628,30 @@ Element["onsolder" "SMD_CHIP-1206" "C12" "0.1u" 754000 97000 -3000 -6000 1 25 "a
 
 	)
 
-Element["" "HEADER16_2" "dac1/DACOUT" "unknown" 590000 70000 -5000 -21000 0 100 ""]
+Element["onsolder" "HEADER16_2" "adc4/DACOUT" "unknown" 47000 319000 -4000 -7000 0 100 "auto"]
 (
-	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
-	Pin[0 -10000 6000 3000 6600 3800 "2" "2" "edge2,thermal(3X)"]
-	Pin[10000 0 6000 3000 6600 3800 "3" "3" "edge2"]
-	Pin[10000 -10000 6000 3000 6600 3800 "4" "4" "edge2,thermal(3X)"]
-	Pin[20000 0 6000 3000 6600 3800 "5" "5" "edge2"]
-	Pin[20000 -10000 6000 3000 6600 3800 "6" "6" "edge2,thermal(3X)"]
+	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2,thermal(0X)"]
+	Pin[0 10000 6000 3000 6600 3800 "2" "2" "edge2,thermal(3X)"]
+	Pin[10000 0 6000 3000 6600 3800 "3" "3" "edge2,thermal(0X)"]
+	Pin[10000 10000 6000 3000 6600 3800 "4" "4" "edge2,thermal(3X)"]
+	Pin[20000 0 6000 3000 6600 3800 "5" "5" "edge2,thermal(0X)"]
+	Pin[20000 10000 6000 3000 6600 3800 "6" "6" "edge2,thermal(3X)"]
 	Pin[30000 0 6000 3000 6600 3800 "7" "7" "edge2"]
-	Pin[30000 -10000 6000 3000 6600 3800 "8" "8" "edge2,thermal(3X)"]
+	Pin[30000 10000 6000 3000 6600 3800 "8" "8" "edge2,thermal(3X)"]
 	Pin[40000 0 6000 3000 6600 3800 "9" "9" "edge2"]
-	Pin[40000 -10000 6000 3000 6600 3800 "10" "10" "edge2,thermal(3X)"]
+	Pin[40000 10000 6000 3000 6600 3800 "10" "10" "edge2,thermal(3X)"]
 	Pin[50000 0 6000 3000 6600 3800 "11" "11" "edge2"]
-	Pin[50000 -10000 6000 3000 6600 3800 "12" "12" "edge2,thermal(3X)"]
+	Pin[50000 10000 6000 3000 6600 3800 "12" "12" "edge2,thermal(3X)"]
 	Pin[60000 0 6000 3000 6600 3800 "13" "13" "edge2"]
-	Pin[60000 -10000 6000 3000 6600 3800 "14" "14" "edge2,thermal(3X)"]
+	Pin[60000 10000 6000 3000 6600 3800 "14" "14" "edge2,thermal(3X)"]
 	Pin[70000 0 6000 3000 6600 3800 "15" "15" "edge2"]
-	Pin[70000 -10000 6000 3000 6600 3800 "16" "16" "edge2,thermal(3X)"]
-	ElementLine [-5000 5000 75000 5000 1000]
-	ElementLine [75000 -15000 75000 5000 1000]
-	ElementLine [-5000 -15000 75000 -15000 1000]
-	ElementLine [-5000 -15000 -5000 5000 1000]
-	ElementLine [5000 -5000 5000 5000 1000]
-	ElementLine [-5000 -5000 5000 -5000 1000]
+	Pin[70000 10000 6000 3000 6600 3800 "16" "16" "edge2,thermal(3X)"]
+	ElementLine [-5000 -5000 75000 -5000 1000]
+	ElementLine [75000 15000 75000 -5000 1000]
+	ElementLine [-5000 15000 75000 15000 1000]
+	ElementLine [-5000 15000 -5000 -5000 1000]
+	ElementLine [5000 5000 5000 -5000 1000]
+	ElementLine [-5000 5000 5000 5000 1000]
 
 	)
 
@@ -2467,30 +2451,30 @@ Element["" "SMD_CHIP-1206" "adc2/C10" "10n" 441500 248000 -6000 -3000 0 25 ""]
 
 	)
 
-Element["" "HEADER16_2" "adc2/DACOUT" "unknown" 363000 329000 -4000 7000 0 100 ""]
+Element["" "SSOP16" "dac4/U1" "unknown" 112000 90000 12200 3800 3 100 ""]
 (
-	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2,thermal(3X)"]
-	Pin[0 -10000 6000 3000 6600 3800 "2" "2" "edge2"]
-	Pin[10000 0 6000 3000 6600 3800 "3" "3" "edge2,thermal(3X)"]
-	Pin[10000 -10000 6000 3000 6600 3800 "4" "4" "edge2"]
-	Pin[20000 0 6000 3000 6600 3800 "5" "5" "edge2,thermal(3X)"]
-	Pin[20000 -10000 6000 3000 6600 3800 "6" "6" "edge2"]
-	Pin[30000 0 6000 3000 6600 3800 "7" "7" "edge2,thermal(3X)"]
-	Pin[30000 -10000 6000 3000 6600 3800 "8" "8" "edge2"]
-	Pin[40000 0 6000 3000 6600 3800 "9" "9" "edge2,thermal(3X)"]
-	Pin[40000 -10000 6000 3000 6600 3800 "10" "10" "edge2"]
-	Pin[50000 0 6000 3000 6600 3800 "11" "11" "edge2,thermal(3X)"]
-	Pin[50000 -10000 6000 3000 6600 3800 "12" "12" "edge2"]
-	Pin[60000 0 6000 3000 6600 3800 "13" "13" "edge2,thermal(3X)"]
-	Pin[60000 -10000 6000 3000 6600 3800 "14" "14" "edge2"]
-	Pin[70000 0 6000 3000 6600 3800 "15" "15" "edge2,thermal(3X)"]
-	Pin[70000 -10000 6000 3000 6600 3800 "16" "16" "edge2"]
-	ElementLine [-5000 -5000 5000 -5000 1000]
-	ElementLine [5000 -5000 5000 5000 1000]
-	ElementLine [-5000 -15000 -5000 5000 1000]
-	ElementLine [-5000 -15000 75000 -15000 1000]
-	ElementLine [75000 -15000 75000 5000 1000]
-	ElementLine [-5000 5000 75000 5000 1000]
+	Pad[-1500 0 700 0 1600 3000 2200 "1" "1" ""]
+	Pad[-1500 2600 700 2600 1600 3000 2200 "2" "2" "square"]
+	Pad[-1500 5100 700 5100 1600 3000 2200 "3" "3" "square"]
+	Pad[-1500 7700 700 7700 1600 3000 2200 "4" "4" "square"]
+	Pad[-1500 10300 700 10300 1600 3000 2200 "5" "5" "square"]
+	Pad[-1500 12800 700 12800 1600 3000 2200 "6" "6" "square"]
+	Pad[-1500 15400 700 15400 1600 3000 2200 "7" "7" "square"]
+	Pad[-1500 17900 700 17900 1600 3000 2200 "8" "8" "square"]
+	Pad[19700 18000 21900 18000 1600 3000 2200 "9" "9" "square,edge2"]
+	Pad[19700 15400 21900 15400 1600 3000 2200 "10" "10" "square,edge2"]
+	Pad[19700 12900 21900 12900 1600 3000 2200 "11" "11" "square,edge2"]
+	Pad[19700 10300 21900 10300 1600 3000 2200 "12" "12" "square,edge2"]
+	Pad[19700 7700 21900 7700 1600 3000 2200 "13" "13" "square,edge2"]
+	Pad[19700 5200 21900 5200 1600 3000 2200 "14" "14" "square,edge2"]
+	Pad[19700 2600 21900 2600 1600 3000 2200 "15" "15" "square,edge2"]
+	Pad[19700 100 21900 100 1600 3000 2200 "16" "16" "square,edge2"]
+	ElementLine [-3300 -2200 7700 -2200 1000]
+	ElementLine [12700 -2200 23700 -2200 1000]
+	ElementLine [23700 -2200 23700 20200 1000]
+	ElementLine [23700 20200 -3300 20200 1000]
+	ElementLine [-3300 20200 -3300 -2200 1000]
+	ElementArc [10200 -2200 2500 2500 0 180 1000]
 
 	)
 
@@ -2560,30 +2544,30 @@ Element["" "SMD_CHIP-1206" "adc3/C11" "10u" 197000 256000 6000 3000 2 25 ""]
 
 	)
 
-Element["" "HEADER16_2" "adc3/DACOUT" "unknown" 205000 329000 -4000 7000 0 100 ""]
+Element["onsolder" "HEADER16_2" "adc2/DACOUT" "unknown" 363000 319000 -4000 -7000 0 100 "auto"]
 (
-	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2,thermal(3X)"]
-	Pin[0 -10000 6000 3000 6600 3800 "2" "2" "edge2"]
-	Pin[10000 0 6000 3000 6600 3800 "3" "3" "edge2,thermal(3X)"]
-	Pin[10000 -10000 6000 3000 6600 3800 "4" "4" "edge2"]
-	Pin[20000 0 6000 3000 6600 3800 "5" "5" "edge2,thermal(3X)"]
-	Pin[20000 -10000 6000 3000 6600 3800 "6" "6" "edge2"]
-	Pin[30000 0 6000 3000 6600 3800 "7" "7" "edge2,thermal(3X)"]
-	Pin[30000 -10000 6000 3000 6600 3800 "8" "8" "edge2"]
-	Pin[40000 0 6000 3000 6600 3800 "9" "9" "edge2,thermal(3X)"]
-	Pin[40000 -10000 6000 3000 6600 3800 "10" "10" "edge2"]
-	Pin[50000 0 6000 3000 6600 3800 "11" "11" "edge2,thermal(3X)"]
-	Pin[50000 -10000 6000 3000 6600 3800 "12" "12" "edge2"]
-	Pin[60000 0 6000 3000 6600 3800 "13" "13" "edge2,thermal(3X)"]
-	Pin[60000 -10000 6000 3000 6600 3800 "14" "14" "edge2"]
-	Pin[70000 0 6000 3000 6600 3800 "15" "15" "edge2,thermal(3X)"]
-	Pin[70000 -10000 6000 3000 6600 3800 "16" "16" "edge2"]
-	ElementLine [-5000 5000 75000 5000 1000]
-	ElementLine [75000 -15000 75000 5000 1000]
-	ElementLine [-5000 -15000 75000 -15000 1000]
-	ElementLine [-5000 -15000 -5000 5000 1000]
-	ElementLine [5000 -5000 5000 5000 1000]
-	ElementLine [-5000 -5000 5000 -5000 1000]
+	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
+	Pin[0 10000 6000 3000 6600 3800 "2" "2" "edge2,thermal(3X)"]
+	Pin[10000 0 6000 3000 6600 3800 "3" "3" "edge2"]
+	Pin[10000 10000 6000 3000 6600 3800 "4" "4" "edge2,thermal(3X)"]
+	Pin[20000 0 6000 3000 6600 3800 "5" "5" "edge2"]
+	Pin[20000 10000 6000 3000 6600 3800 "6" "6" "edge2,thermal(3X)"]
+	Pin[30000 0 6000 3000 6600 3800 "7" "7" "edge2"]
+	Pin[30000 10000 6000 3000 6600 3800 "8" "8" "edge2,thermal(3X)"]
+	Pin[40000 0 6000 3000 6600 3800 "9" "9" "edge2"]
+	Pin[40000 10000 6000 3000 6600 3800 "10" "10" "edge2,thermal(3X)"]
+	Pin[50000 0 6000 3000 6600 3800 "11" "11" "edge2"]
+	Pin[50000 10000 6000 3000 6600 3800 "12" "12" "edge2,thermal(3X)"]
+	Pin[60000 0 6000 3000 6600 3800 "13" "13" "edge2"]
+	Pin[60000 10000 6000 3000 6600 3800 "14" "14" "edge2,thermal(3X)"]
+	Pin[70000 0 6000 3000 6600 3800 "15" "15" "edge2"]
+	Pin[70000 10000 6000 3000 6600 3800 "16" "16" "edge2,thermal(3X)"]
+	ElementLine [-5000 5000 5000 5000 1000]
+	ElementLine [5000 5000 5000 -5000 1000]
+	ElementLine [-5000 15000 -5000 -5000 1000]
+	ElementLine [-5000 15000 75000 15000 1000]
+	ElementLine [75000 15000 75000 -5000 1000]
+	ElementLine [-5000 -5000 75000 -5000 1000]
 
 	)
 
@@ -2879,30 +2863,14 @@ Element["" "SMD_CHIP-1206" "adc4/C11" "10u" 39000 256000 6000 3000 2 25 ""]
 
 	)
 
-Element["" "HEADER16_2" "adc4/DACOUT" "unknown" 47000 329000 -4000 7000 0 100 ""]
+Element["onsolder" "SMD_CHIP-1206" "dac4/C1" "10u" 98000 90000 3000 6000 3 25 "auto"]
 (
-	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2,thermal(3X)"]
-	Pin[0 -10000 6000 3000 6600 3800 "2" "2" "edge2"]
-	Pin[10000 0 6000 3000 6600 3800 "3" "3" "edge2,thermal(3X)"]
-	Pin[10000 -10000 6000 3000 6600 3800 "4" "4" "edge2"]
-	Pin[20000 0 6000 3000 6600 3800 "5" "5" "edge2,thermal(3X)"]
-	Pin[20000 -10000 6000 3000 6600 3800 "6" "6" "edge2"]
-	Pin[30000 0 6000 3000 6600 3800 "7" "7" "edge2,thermal(3X)"]
-	Pin[30000 -10000 6000 3000 6600 3800 "8" "8" "edge2"]
-	Pin[40000 0 6000 3000 6600 3800 "9" "9" "edge2,thermal(3X)"]
-	Pin[40000 -10000 6000 3000 6600 3800 "10" "10" "edge2"]
-	Pin[50000 0 6000 3000 6600 3800 "11" "11" "edge2,thermal(3X)"]
-	Pin[50000 -10000 6000 3000 6600 3800 "12" "12" "edge2"]
-	Pin[60000 0 6000 3000 6600 3800 "13" "13" "edge2,thermal(3X)"]
-	Pin[60000 -10000 6000 3000 6600 3800 "14" "14" "edge2"]
-	Pin[70000 0 6000 3000 6600 3800 "15" "15" "edge2,thermal(3X)"]
-	Pin[70000 -10000 6000 3000 6600 3800 "16" "16" "edge2"]
-	ElementLine [-5000 5000 75000 5000 1000]
-	ElementLine [75000 -15000 75000 5000 1000]
-	ElementLine [-5000 -15000 75000 -15000 1000]
-	ElementLine [-5000 -15000 -5000 5000 1000]
-	ElementLine [5000 -5000 5000 5000 1000]
-	ElementLine [-5000 -5000 5000 -5000 1000]
+	Pad[-2000 5000 2000 5000 2000 3000 2600 "" "1" "onsolder,square"]
+	Pad[-2000 -5000 2000 -5000 2000 3000 2600 "" "2" "onsolder,square"]
+	ElementLine [3000 -6000 3000 6000 500]
+	ElementLine [-3000 -6000 3000 -6000 500]
+	ElementLine [-3000 -6000 -3000 6000 500]
+	ElementLine [-3000 6000 3000 6000 500]
 
 	)
 
@@ -3176,30 +3144,30 @@ Element["onsolder" "SMD_CHIP-1206" "dac2/C1" "10u" 416000 90000 3000 6000 3 25 "
 
 	)
 
-Element["" "HEADER16_2" "dac2/DACOUT" "unknown" 410000 70000 -5000 -21000 0 100 ""]
+Element["onsolder" "HEADER16_2" "adc3/DACOUT" "unknown" 205000 319000 -4000 -7000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
-	Pin[0 -10000 6000 3000 6600 3800 "2" "2" "edge2,thermal(3X)"]
+	Pin[0 10000 6000 3000 6600 3800 "2" "2" "edge2,thermal(3X)"]
 	Pin[10000 0 6000 3000 6600 3800 "3" "3" "edge2"]
-	Pin[10000 -10000 6000 3000 6600 3800 "4" "4" "edge2,thermal(3X)"]
+	Pin[10000 10000 6000 3000 6600 3800 "4" "4" "edge2,thermal(3X)"]
 	Pin[20000 0 6000 3000 6600 3800 "5" "5" "edge2"]
-	Pin[20000 -10000 6000 3000 6600 3800 "6" "6" "edge2,thermal(3X)"]
+	Pin[20000 10000 6000 3000 6600 3800 "6" "6" "edge2,thermal(3X)"]
 	Pin[30000 0 6000 3000 6600 3800 "7" "7" "edge2"]
-	Pin[30000 -10000 6000 3000 6600 3800 "8" "8" "edge2,thermal(3X)"]
+	Pin[30000 10000 6000 3000 6600 3800 "8" "8" "edge2,thermal(3X)"]
 	Pin[40000 0 6000 3000 6600 3800 "9" "9" "edge2"]
-	Pin[40000 -10000 6000 3000 6600 3800 "10" "10" "edge2,thermal(3X)"]
+	Pin[40000 10000 6000 3000 6600 3800 "10" "10" "edge2,thermal(3X)"]
 	Pin[50000 0 6000 3000 6600 3800 "11" "11" "edge2"]
-	Pin[50000 -10000 6000 3000 6600 3800 "12" "12" "edge2,thermal(3X)"]
+	Pin[50000 10000 6000 3000 6600 3800 "12" "12" "edge2,thermal(3X)"]
 	Pin[60000 0 6000 3000 6600 3800 "13" "13" "edge2"]
-	Pin[60000 -10000 6000 3000 6600 3800 "14" "14" "edge2,thermal(3X)"]
+	Pin[60000 10000 6000 3000 6600 3800 "14" "14" "edge2,thermal(3X)"]
 	Pin[70000 0 6000 3000 6600 3800 "15" "15" "edge2"]
-	Pin[70000 -10000 6000 3000 6600 3800 "16" "16" "edge2,thermal(3X)"]
-	ElementLine [-5000 -5000 5000 -5000 1000]
-	ElementLine [5000 -5000 5000 5000 1000]
-	ElementLine [-5000 -15000 -5000 5000 1000]
-	ElementLine [-5000 -15000 75000 -15000 1000]
-	ElementLine [75000 -15000 75000 5000 1000]
-	ElementLine [-5000 5000 75000 5000 1000]
+	Pin[70000 10000 6000 3000 6600 3800 "16" "16" "edge2,thermal(3X)"]
+	ElementLine [-5000 -5000 75000 -5000 1000]
+	ElementLine [75000 15000 75000 -5000 1000]
+	ElementLine [-5000 15000 75000 15000 1000]
+	ElementLine [-5000 15000 -5000 -5000 1000]
+	ElementLine [5000 5000 5000 -5000 1000]
+	ElementLine [-5000 5000 5000 5000 1000]
 
 	)
 
@@ -3279,30 +3247,30 @@ Element["" "SSOP16" "dac3/U1" "unknown" 271000 90000 12200 3800 3 100 ""]
 
 	)
 
-Element["" "HEADER16_2" "dac3/DACOUT" "unknown" 251000 70000 -5000 -21000 0 100 ""]
+Element["onsolder" "HEADER16_2" "adc1/DACOUT" "unknown" 521000 319000 -4000 -7000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
-	Pin[0 -10000 6000 3000 6600 3800 "2" "2" "edge2,thermal(3X)"]
+	Pin[0 10000 6000 3000 6600 3800 "2" "2" "edge2,thermal(3X)"]
 	Pin[10000 0 6000 3000 6600 3800 "3" "3" "edge2"]
-	Pin[10000 -10000 6000 3000 6600 3800 "4" "4" "edge2,thermal(3X)"]
+	Pin[10000 10000 6000 3000 6600 3800 "4" "4" "edge2,thermal(3X)"]
 	Pin[20000 0 6000 3000 6600 3800 "5" "5" "edge2"]
-	Pin[20000 -10000 6000 3000 6600 3800 "6" "6" "edge2,thermal(3X)"]
+	Pin[20000 10000 6000 3000 6600 3800 "6" "6" "edge2,thermal(3X)"]
 	Pin[30000 0 6000 3000 6600 3800 "7" "7" "edge2"]
-	Pin[30000 -10000 6000 3000 6600 3800 "8" "8" "edge2,thermal(3X)"]
+	Pin[30000 10000 6000 3000 6600 3800 "8" "8" "edge2,thermal(3X)"]
 	Pin[40000 0 6000 3000 6600 3800 "9" "9" "edge2"]
-	Pin[40000 -10000 6000 3000 6600 3800 "10" "10" "edge2,thermal(3X)"]
+	Pin[40000 10000 6000 3000 6600 3800 "10" "10" "edge2,thermal(3X)"]
 	Pin[50000 0 6000 3000 6600 3800 "11" "11" "edge2"]
-	Pin[50000 -10000 6000 3000 6600 3800 "12" "12" "edge2,thermal(3X)"]
+	Pin[50000 10000 6000 3000 6600 3800 "12" "12" "edge2,thermal(3X)"]
 	Pin[60000 0 6000 3000 6600 3800 "13" "13" "edge2"]
-	Pin[60000 -10000 6000 3000 6600 3800 "14" "14" "edge2,thermal(3X)"]
+	Pin[60000 10000 6000 3000 6600 3800 "14" "14" "edge2,thermal(3X)"]
 	Pin[70000 0 6000 3000 6600 3800 "15" "15" "edge2"]
-	Pin[70000 -10000 6000 3000 6600 3800 "16" "16" "edge2,thermal(3X)"]
-	ElementLine [-5000 5000 75000 5000 1000]
-	ElementLine [75000 -15000 75000 5000 1000]
-	ElementLine [-5000 -15000 75000 -15000 1000]
-	ElementLine [-5000 -15000 -5000 5000 1000]
-	ElementLine [5000 -5000 5000 5000 1000]
-	ElementLine [-5000 -5000 5000 -5000 1000]
+	Pin[70000 10000 6000 3000 6600 3800 "16" "16" "edge2,thermal(3X)"]
+	ElementLine [-5000 -5000 75000 -5000 1000]
+	ElementLine [75000 15000 75000 -5000 1000]
+	ElementLine [-5000 15000 75000 15000 1000]
+	ElementLine [-5000 15000 -5000 -5000 1000]
+	ElementLine [5000 5000 5000 -5000 1000]
+	ElementLine [-5000 5000 5000 5000 1000]
 
 	)
 
@@ -3317,81 +3285,177 @@ Element["onsolder" "SMD_CHIP-1206" "dac3/C1" "10u" 257000 90000 3000 6000 3 25 "
 
 	)
 
-Element["onsolder" "SMD_CHIP-1206" "dac4/C2" "0.1u" 105000 97000 -3000 -6000 1 25 "auto"]
+Element["onsolder" "HEADER16_2" "dac1/DACOUT" "unknown" 590000 60000 -5000 21000 0 100 "auto"]
 (
-	Pad[-2000 -5000 2000 -5000 2000 3000 2600 "" "1" "onsolder,square"]
-	Pad[-2000 5000 2000 5000 2000 3000 2600 "" "2" "onsolder,square"]
-	ElementLine [-3000 6000 -3000 -6000 500]
-	ElementLine [-3000 6000 3000 6000 500]
-	ElementLine [3000 6000 3000 -6000 500]
-	ElementLine [-3000 -6000 3000 -6000 500]
+	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2,thermal(3X)"]
+	Pin[0 10000 6000 3000 6600 3800 "2" "2" "edge2"]
+	Pin[10000 0 6000 3000 6600 3800 "3" "3" "edge2,thermal(3X)"]
+	Pin[10000 10000 6000 3000 6600 3800 "4" "4" "edge2"]
+	Pin[20000 0 6000 3000 6600 3800 "5" "5" "edge2,thermal(3X)"]
+	Pin[20000 10000 6000 3000 6600 3800 "6" "6" "edge2"]
+	Pin[30000 0 6000 3000 6600 3800 "7" "7" "edge2,thermal(3X)"]
+	Pin[30000 10000 6000 3000 6600 3800 "8" "8" "edge2"]
+	Pin[40000 0 6000 3000 6600 3800 "9" "9" "edge2,thermal(3X)"]
+	Pin[40000 10000 6000 3000 6600 3800 "10" "10" "edge2"]
+	Pin[50000 0 6000 3000 6600 3800 "11" "11" "edge2,thermal(3X)"]
+	Pin[50000 10000 6000 3000 6600 3800 "12" "12" "edge2"]
+	Pin[60000 0 6000 3000 6600 3800 "13" "13" "edge2,thermal(3X)"]
+	Pin[60000 10000 6000 3000 6600 3800 "14" "14" "edge2"]
+	Pin[70000 0 6000 3000 6600 3800 "15" "15" "edge2,thermal(3X)"]
+	Pin[70000 10000 6000 3000 6600 3800 "16" "16" "edge2"]
+	ElementLine [-5000 -5000 75000 -5000 1000]
+	ElementLine [75000 15000 75000 -5000 1000]
+	ElementLine [-5000 15000 75000 15000 1000]
+	ElementLine [-5000 15000 -5000 -5000 1000]
+	ElementLine [5000 5000 5000 -5000 1000]
+	ElementLine [-5000 5000 5000 5000 1000]
 
 	)
 
-Element["" "SSOP16" "dac4/U1" "unknown" 112000 90000 12200 3800 3 100 ""]
+Element["onsolder" "HEADER16_2" "dac4/DACOUT" "unknown" 92000 60000 -5000 21000 0 100 "auto"]
 (
-	Pad[-1500 0 700 0 1600 3000 2200 "1" "1" ""]
-	Pad[-1500 2600 700 2600 1600 3000 2200 "2" "2" "square"]
-	Pad[-1500 5100 700 5100 1600 3000 2200 "3" "3" "square"]
-	Pad[-1500 7700 700 7700 1600 3000 2200 "4" "4" "square"]
-	Pad[-1500 10300 700 10300 1600 3000 2200 "5" "5" "square"]
-	Pad[-1500 12800 700 12800 1600 3000 2200 "6" "6" "square"]
-	Pad[-1500 15400 700 15400 1600 3000 2200 "7" "7" "square"]
-	Pad[-1500 17900 700 17900 1600 3000 2200 "8" "8" "square"]
-	Pad[19700 18000 21900 18000 1600 3000 2200 "9" "9" "square,edge2"]
-	Pad[19700 15400 21900 15400 1600 3000 2200 "10" "10" "square,edge2"]
-	Pad[19700 12900 21900 12900 1600 3000 2200 "11" "11" "square,edge2"]
-	Pad[19700 10300 21900 10300 1600 3000 2200 "12" "12" "square,edge2"]
-	Pad[19700 7700 21900 7700 1600 3000 2200 "13" "13" "square,edge2"]
-	Pad[19700 5200 21900 5200 1600 3000 2200 "14" "14" "square,edge2"]
-	Pad[19700 2600 21900 2600 1600 3000 2200 "15" "15" "square,edge2"]
-	Pad[19700 100 21900 100 1600 3000 2200 "16" "16" "square,edge2"]
-	ElementLine [-3300 -2200 7700 -2200 1000]
-	ElementLine [12700 -2200 23700 -2200 1000]
-	ElementLine [23700 -2200 23700 20200 1000]
-	ElementLine [23700 20200 -3300 20200 1000]
-	ElementLine [-3300 20200 -3300 -2200 1000]
-	ElementArc [10200 -2200 2500 2500 0 180 1000]
+	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2,thermal(3X)"]
+	Pin[0 10000 6000 3000 6600 3800 "2" "2" "edge2"]
+	Pin[10000 0 6000 3000 6600 3800 "3" "3" "edge2,thermal(3X)"]
+	Pin[10000 10000 6000 3000 6600 3800 "4" "4" "edge2"]
+	Pin[20000 0 6000 3000 6600 3800 "5" "5" "edge2,thermal(3X)"]
+	Pin[20000 10000 6000 3000 6600 3800 "6" "6" "edge2"]
+	Pin[30000 0 6000 3000 6600 3800 "7" "7" "edge2,thermal(3X)"]
+	Pin[30000 10000 6000 3000 6600 3800 "8" "8" "edge2"]
+	Pin[40000 0 6000 3000 6600 3800 "9" "9" "edge2,thermal(3X)"]
+	Pin[40000 10000 6000 3000 6600 3800 "10" "10" "edge2"]
+	Pin[50000 0 6000 3000 6600 3800 "11" "11" "edge2,thermal(3X)"]
+	Pin[50000 10000 6000 3000 6600 3800 "12" "12" "edge2"]
+	Pin[60000 0 6000 3000 6600 3800 "13" "13" "edge2,thermal(3X)"]
+	Pin[60000 10000 6000 3000 6600 3800 "14" "14" "edge2"]
+	Pin[70000 0 6000 3000 6600 3800 "15" "15" "edge2,thermal(3X)"]
+	Pin[70000 10000 6000 3000 6600 3800 "16" "16" "edge2"]
+	ElementLine [-5000 -5000 75000 -5000 1000]
+	ElementLine [75000 15000 75000 -5000 1000]
+	ElementLine [-5000 15000 75000 15000 1000]
+	ElementLine [-5000 15000 -5000 -5000 1000]
+	ElementLine [5000 5000 5000 -5000 1000]
+	ElementLine [-5000 5000 5000 5000 1000]
 
 	)
 
-Element["" "HEADER16_2" "dac4/DACOUT" "unknown" 92000 70000 -5000 -21000 0 100 ""]
+Element["onsolder" "HEADER16_2" "dac2/DACOUT" "unknown" 410000 60000 -5000 21000 0 100 "auto"]
 (
-	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
-	Pin[0 -10000 6000 3000 6600 3800 "2" "2" "edge2,thermal(3X)"]
-	Pin[10000 0 6000 3000 6600 3800 "3" "3" "edge2"]
-	Pin[10000 -10000 6000 3000 6600 3800 "4" "4" "edge2,thermal(3X)"]
-	Pin[20000 0 6000 3000 6600 3800 "5" "5" "edge2"]
-	Pin[20000 -10000 6000 3000 6600 3800 "6" "6" "edge2,thermal(3X)"]
-	Pin[30000 0 6000 3000 6600 3800 "7" "7" "edge2"]
-	Pin[30000 -10000 6000 3000 6600 3800 "8" "8" "edge2,thermal(3X)"]
-	Pin[40000 0 6000 3000 6600 3800 "9" "9" "edge2"]
-	Pin[40000 -10000 6000 3000 6600 3800 "10" "10" "edge2,thermal(3X)"]
-	Pin[50000 0 6000 3000 6600 3800 "11" "11" "edge2"]
-	Pin[50000 -10000 6000 3000 6600 3800 "12" "12" "edge2,thermal(3X)"]
-	Pin[60000 0 6000 3000 6600 3800 "13" "13" "edge2"]
-	Pin[60000 -10000 6000 3000 6600 3800 "14" "14" "edge2,thermal(3X)"]
-	Pin[70000 0 6000 3000 6600 3800 "15" "15" "edge2"]
-	Pin[70000 -10000 6000 3000 6600 3800 "16" "16" "edge2,thermal(3X)"]
-	ElementLine [-5000 5000 75000 5000 1000]
-	ElementLine [75000 -15000 75000 5000 1000]
-	ElementLine [-5000 -15000 75000 -15000 1000]
-	ElementLine [-5000 -15000 -5000 5000 1000]
-	ElementLine [5000 -5000 5000 5000 1000]
-	ElementLine [-5000 -5000 5000 -5000 1000]
+	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2,thermal(3X)"]
+	Pin[0 10000 6000 3000 6600 3800 "2" "2" "edge2"]
+	Pin[10000 0 6000 3000 6600 3800 "3" "3" "edge2,thermal(3X)"]
+	Pin[10000 10000 6000 3000 6600 3800 "4" "4" "edge2"]
+	Pin[20000 0 6000 3000 6600 3800 "5" "5" "edge2,thermal(3X)"]
+	Pin[20000 10000 6000 3000 6600 3800 "6" "6" "edge2"]
+	Pin[30000 0 6000 3000 6600 3800 "7" "7" "edge2,thermal(3X)"]
+	Pin[30000 10000 6000 3000 6600 3800 "8" "8" "edge2"]
+	Pin[40000 0 6000 3000 6600 3800 "9" "9" "edge2,thermal(3X)"]
+	Pin[40000 10000 6000 3000 6600 3800 "10" "10" "edge2"]
+	Pin[50000 0 6000 3000 6600 3800 "11" "11" "edge2,thermal(3X)"]
+	Pin[50000 10000 6000 3000 6600 3800 "12" "12" "edge2"]
+	Pin[60000 0 6000 3000 6600 3800 "13" "13" "edge2,thermal(3X)"]
+	Pin[60000 10000 6000 3000 6600 3800 "14" "14" "edge2"]
+	Pin[70000 0 6000 3000 6600 3800 "15" "15" "edge2,thermal(3X)"]
+	Pin[70000 10000 6000 3000 6600 3800 "16" "16" "edge2"]
+	ElementLine [-5000 5000 5000 5000 1000]
+	ElementLine [5000 5000 5000 -5000 1000]
+	ElementLine [-5000 15000 -5000 -5000 1000]
+	ElementLine [-5000 15000 75000 15000 1000]
+	ElementLine [75000 15000 75000 -5000 1000]
+	ElementLine [-5000 -5000 75000 -5000 1000]
 
 	)
 
-Element["onsolder" "SMD_CHIP-1206" "dac4/C1" "10u" 98000 90000 3000 6000 3 25 "auto"]
+Element["onsolder" "HEADER16_2" "dac3/DACOUT" "unknown" 251000 60000 -5000 21000 0 100 "auto"]
 (
-	Pad[-2000 5000 2000 5000 2000 3000 2600 "" "1" "onsolder,square"]
-	Pad[-2000 -5000 2000 -5000 2000 3000 2600 "" "2" "onsolder,square"]
-	ElementLine [3000 -6000 3000 6000 500]
-	ElementLine [-3000 -6000 3000 -6000 500]
-	ElementLine [-3000 -6000 -3000 6000 500]
-	ElementLine [-3000 6000 3000 6000 500]
+	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2,thermal(3X)"]
+	Pin[0 10000 6000 3000 6600 3800 "2" "2" "edge2"]
+	Pin[10000 0 6000 3000 6600 3800 "3" "3" "edge2,thermal(3X)"]
+	Pin[10000 10000 6000 3000 6600 3800 "4" "4" "edge2"]
+	Pin[20000 0 6000 3000 6600 3800 "5" "5" "edge2,thermal(3X)"]
+	Pin[20000 10000 6000 3000 6600 3800 "6" "6" "edge2"]
+	Pin[30000 0 6000 3000 6600 3800 "7" "7" "edge2,thermal(3X)"]
+	Pin[30000 10000 6000 3000 6600 3800 "8" "8" "edge2"]
+	Pin[40000 0 6000 3000 6600 3800 "9" "9" "edge2,thermal(3X)"]
+	Pin[40000 10000 6000 3000 6600 3800 "10" "10" "edge2"]
+	Pin[50000 0 6000 3000 6600 3800 "11" "11" "edge2,thermal(3X)"]
+	Pin[50000 10000 6000 3000 6600 3800 "12" "12" "edge2"]
+	Pin[60000 0 6000 3000 6600 3800 "13" "13" "edge2,thermal(3X)"]
+	Pin[60000 10000 6000 3000 6600 3800 "14" "14" "edge2"]
+	Pin[70000 0 6000 3000 6600 3800 "15" "15" "edge2,thermal(3X)"]
+	Pin[70000 10000 6000 3000 6600 3800 "16" "16" "edge2"]
+	ElementLine [-5000 -5000 75000 -5000 1000]
+	ElementLine [75000 15000 75000 -5000 1000]
+	ElementLine [-5000 15000 75000 15000 1000]
+	ElementLine [-5000 15000 -5000 -5000 1000]
+	ElementLine [5000 5000 5000 -5000 1000]
+	ElementLine [-5000 5000 5000 5000 1000]
 
 	)
+Rat[590000 70000 1 590000 70000 0  ""]
+Rat[600000 70000 1 615000 85000 0  ""]
+Rat[610000 70000 1 617000 77000 0  ""]
+Rat[620000 70000 1 619000 71000 0  ""]
+Rat[630000 70000 1 621500 78500 0  ""]
+Rat[640000 70000 1 637000 73000 0  ""]
+Rat[650000 70000 1 643000 77000 0  ""]
+Rat[660000 70000 1 643000 88000 1  ""]
+Rat[410000 70000 1 410000 70000 0  ""]
+Rat[420000 70000 1 435000 85000 0  ""]
+Rat[430000 70000 1 437000 77000 0  ""]
+Rat[440000 70000 1 439000 71000 0  ""]
+Rat[450000 70000 1 441500 78500 0  ""]
+Rat[460000 70000 1 457000 73000 0  ""]
+Rat[470000 70000 1 463000 77000 0  ""]
+Rat[480000 70000 1 463000 88000 1  ""]
+Rat[251000 70000 1 251000 70000 0  ""]
+Rat[261000 70000 1 276000 85000 0  ""]
+Rat[271000 70000 1 278000 77000 0  ""]
+Rat[281000 70000 1 280000 71000 0  ""]
+Rat[291000 70000 1 282500 78500 0  ""]
+Rat[301000 70000 1 298000 73000 0  ""]
+Rat[311000 70000 1 304000 77000 0  ""]
+Rat[321000 70000 1 304000 88000 1  ""]
+Rat[92000 70000 1 92000 70000 0  ""]
+Rat[102000 70000 1 117000 85000 0  ""]
+Rat[112000 70000 1 119000 77000 0  ""]
+Rat[122000 70000 1 121000 71000 0  ""]
+Rat[132000 70000 1 123500 78500 0  ""]
+Rat[142000 70000 1 139000 73000 0  ""]
+Rat[152000 70000 1 145000 77000 0  ""]
+Rat[162000 70000 1 145000 88000 1  ""]
+Rat[590000 60000 1 -370 -127 1  "via"]
+Rat[600000 60000 1 -370 -127 1  "via"]
+Rat[610000 60000 1 -370 -127 1  "via"]
+Rat[620000 60000 1 -370 -127 1  "via"]
+Rat[630000 60000 1 -370 -127 1  "via"]
+Rat[640000 60000 1 -370 -127 1  "via"]
+Rat[650000 60000 1 -370 -127 1  "via"]
+Rat[660000 60000 1 -370 -127 1  "via"]
+Rat[410000 60000 1 -370 -127 1  "via"]
+Rat[420000 60000 1 -370 -127 1  "via"]
+Rat[430000 60000 1 -370 -127 1  "via"]
+Rat[440000 60000 1 -370 -127 1  "via"]
+Rat[450000 60000 1 -370 -127 1  "via"]
+Rat[460000 60000 1 -370 -127 1  "via"]
+Rat[470000 60000 1 -370 -127 1  "via"]
+Rat[480000 60000 1 -370 -127 1  "via"]
+Rat[251000 60000 1 -370 -127 1  "via"]
+Rat[261000 60000 1 -370 -127 1  "via"]
+Rat[271000 60000 1 -370 -127 1  "via"]
+Rat[281000 60000 1 -370 -127 1  "via"]
+Rat[291000 60000 1 -370 -127 1  "via"]
+Rat[301000 60000 1 -370 -127 1  "via"]
+Rat[311000 60000 1 -370 -127 1  "via"]
+Rat[321000 60000 1 -370 -127 1  "via"]
+Rat[92000 60000 1 -370 -127 1  "via"]
+Rat[102000 60000 1 -370 -127 1  "via"]
+Rat[112000 60000 1 -370 -127 1  "via"]
+Rat[122000 60000 1 -370 -127 1  "via"]
+Rat[132000 60000 1 -370 -127 1  "via"]
+Rat[142000 60000 1 -370 -127 1  "via"]
+Rat[152000 60000 1 -370 -127 1  "via"]
+Rat[162000 60000 1 -370 -127 1  "via"]
 Layer(1 "component")
 (
 	Line[574000 93000 575000 94000 2500 2000 "clearline"]
@@ -5257,42 +5321,42 @@ NetList()
 	)
 	Net("adc1/unnamed_net31" "(unknown)")
 	(
-		Connect("adc1/DACOUT-2")
+		Connect("adc1/DACOUT-1")
 		Connect("adc1/U1-49")
 	)
 	Net("adc1/unnamed_net32" "(unknown)")
 	(
-		Connect("adc1/DACOUT-4")
+		Connect("adc1/DACOUT-3")
 		Connect("adc1/U1-51")
 	)
 	Net("adc1/unnamed_net33" "(unknown)")
 	(
-		Connect("adc1/DACOUT-6")
+		Connect("adc1/DACOUT-5")
 		Connect("adc1/U1-53")
 	)
 	Net("adc1/unnamed_net34" "(unknown)")
 	(
-		Connect("adc1/DACOUT-8")
+		Connect("adc1/DACOUT-7")
 		Connect("adc1/U1-55")
 	)
 	Net("adc1/unnamed_net35" "(unknown)")
 	(
-		Connect("adc1/DACOUT-10")
+		Connect("adc1/DACOUT-9")
 		Connect("adc1/U1-57")
 	)
 	Net("adc1/unnamed_net36" "(unknown)")
 	(
-		Connect("adc1/DACOUT-12")
+		Connect("adc1/DACOUT-11")
 		Connect("adc1/U1-59")
 	)
 	Net("adc1/unnamed_net37" "(unknown)")
 	(
-		Connect("adc1/DACOUT-14")
+		Connect("adc1/DACOUT-13")
 		Connect("adc1/U1-61")
 	)
 	Net("adc1/unnamed_net38" "(unknown)")
 	(
-		Connect("adc1/DACOUT-16")
+		Connect("adc1/DACOUT-15")
 		Connect("adc1/U1-63")
 	)
 	Net("adc1/unnamed_net39" "(unknown)")
@@ -5343,42 +5407,42 @@ NetList()
 	)
 	Net("adc2/unnamed_net69" "(unknown)")
 	(
-		Connect("adc2/DACOUT-2")
+		Connect("adc2/DACOUT-1")
 		Connect("adc2/U1-49")
 	)
 	Net("adc2/unnamed_net70" "(unknown)")
 	(
-		Connect("adc2/DACOUT-4")
+		Connect("adc2/DACOUT-3")
 		Connect("adc2/U1-51")
 	)
 	Net("adc2/unnamed_net71" "(unknown)")
 	(
-		Connect("adc2/DACOUT-6")
+		Connect("adc2/DACOUT-5")
 		Connect("adc2/U1-53")
 	)
 	Net("adc2/unnamed_net72" "(unknown)")
 	(
-		Connect("adc2/DACOUT-8")
+		Connect("adc2/DACOUT-7")
 		Connect("adc2/U1-55")
 	)
 	Net("adc2/unnamed_net73" "(unknown)")
 	(
-		Connect("adc2/DACOUT-10")
+		Connect("adc2/DACOUT-9")
 		Connect("adc2/U1-57")
 	)
 	Net("adc2/unnamed_net74" "(unknown)")
 	(
-		Connect("adc2/DACOUT-12")
+		Connect("adc2/DACOUT-11")
 		Connect("adc2/U1-59")
 	)
 	Net("adc2/unnamed_net75" "(unknown)")
 	(
-		Connect("adc2/DACOUT-14")
+		Connect("adc2/DACOUT-13")
 		Connect("adc2/U1-61")
 	)
 	Net("adc2/unnamed_net76" "(unknown)")
 	(
-		Connect("adc2/DACOUT-16")
+		Connect("adc2/DACOUT-15")
 		Connect("adc2/U1-63")
 	)
 	Net("adc2/unnamed_net77" "(unknown)")
@@ -5429,42 +5493,42 @@ NetList()
 	)
 	Net("adc3/unnamed_net91" "(unknown)")
 	(
-		Connect("adc3/DACOUT-2")
+		Connect("adc3/DACOUT-1")
 		Connect("adc3/U1-49")
 	)
 	Net("adc3/unnamed_net92" "(unknown)")
 	(
-		Connect("adc3/DACOUT-4")
+		Connect("adc3/DACOUT-3")
 		Connect("adc3/U1-51")
 	)
 	Net("adc3/unnamed_net93" "(unknown)")
 	(
-		Connect("adc3/DACOUT-6")
+		Connect("adc3/DACOUT-5")
 		Connect("adc3/U1-53")
 	)
 	Net("adc3/unnamed_net94" "(unknown)")
 	(
-		Connect("adc3/DACOUT-8")
+		Connect("adc3/DACOUT-7")
 		Connect("adc3/U1-55")
 	)
 	Net("adc3/unnamed_net95" "(unknown)")
 	(
-		Connect("adc3/DACOUT-10")
+		Connect("adc3/DACOUT-9")
 		Connect("adc3/U1-57")
 	)
 	Net("adc3/unnamed_net96" "(unknown)")
 	(
-		Connect("adc3/DACOUT-12")
+		Connect("adc3/DACOUT-11")
 		Connect("adc3/U1-59")
 	)
 	Net("adc3/unnamed_net97" "(unknown)")
 	(
-		Connect("adc3/DACOUT-14")
+		Connect("adc3/DACOUT-13")
 		Connect("adc3/U1-61")
 	)
 	Net("adc3/unnamed_net98" "(unknown)")
 	(
-		Connect("adc3/DACOUT-16")
+		Connect("adc3/DACOUT-15")
 		Connect("adc3/U1-63")
 	)
 	Net("adc3/unnamed_net99" "(unknown)")
@@ -5515,42 +5579,42 @@ NetList()
 	)
 	Net("adc4/unnamed_net113" "(unknown)")
 	(
-		Connect("adc4/DACOUT-2")
+		Connect("adc4/DACOUT-1")
 		Connect("adc4/U1-49")
 	)
 	Net("adc4/unnamed_net114" "(unknown)")
 	(
-		Connect("adc4/DACOUT-4")
+		Connect("adc4/DACOUT-3")
 		Connect("adc4/U1-51")
 	)
 	Net("adc4/unnamed_net115" "(unknown)")
 	(
-		Connect("adc4/DACOUT-6")
+		Connect("adc4/DACOUT-5")
 		Connect("adc4/U1-53")
 	)
 	Net("adc4/unnamed_net116" "(unknown)")
 	(
-		Connect("adc4/DACOUT-8")
+		Connect("adc4/DACOUT-7")
 		Connect("adc4/U1-55")
 	)
 	Net("adc4/unnamed_net117" "(unknown)")
 	(
-		Connect("adc4/DACOUT-10")
+		Connect("adc4/DACOUT-9")
 		Connect("adc4/U1-57")
 	)
 	Net("adc4/unnamed_net118" "(unknown)")
 	(
-		Connect("adc4/DACOUT-12")
+		Connect("adc4/DACOUT-11")
 		Connect("adc4/U1-59")
 	)
 	Net("adc4/unnamed_net119" "(unknown)")
 	(
-		Connect("adc4/DACOUT-14")
+		Connect("adc4/DACOUT-13")
 		Connect("adc4/U1-61")
 	)
 	Net("adc4/unnamed_net120" "(unknown)")
 	(
-		Connect("adc4/DACOUT-16")
+		Connect("adc4/DACOUT-15")
 		Connect("adc4/U1-63")
 	)
 	Net("adc4/unnamed_net121" "(unknown)")
@@ -5676,162 +5740,162 @@ NetList()
 	)
 	Net("dac1/OUT0" "(unknown)")
 	(
-		Connect("dac1/DACOUT-1")
+		Connect("dac1/DACOUT-2")
 		Connect("dac1/U1-4")
 	)
 	Net("dac1/OUT1" "(unknown)")
 	(
-		Connect("dac1/DACOUT-3")
+		Connect("dac1/DACOUT-4")
 		Connect("dac1/U1-5")
 	)
 	Net("dac1/OUT2" "(unknown)")
 	(
-		Connect("dac1/DACOUT-5")
+		Connect("dac1/DACOUT-6")
 		Connect("dac1/U1-6")
 	)
 	Net("dac1/OUT3" "(unknown)")
 	(
-		Connect("dac1/DACOUT-7")
+		Connect("dac1/DACOUT-8")
 		Connect("dac1/U1-7")
 	)
 	Net("dac1/OUT4" "(unknown)")
 	(
-		Connect("dac1/DACOUT-9")
+		Connect("dac1/DACOUT-10")
 		Connect("dac1/U1-10")
 	)
 	Net("dac1/OUT5" "(unknown)")
 	(
-		Connect("dac1/DACOUT-11")
+		Connect("dac1/DACOUT-12")
 		Connect("dac1/U1-11")
 	)
 	Net("dac1/OUT6" "(unknown)")
 	(
-		Connect("dac1/DACOUT-13")
+		Connect("dac1/DACOUT-14")
 		Connect("dac1/U1-12")
 	)
 	Net("dac1/OUT7" "(unknown)")
 	(
-		Connect("dac1/DACOUT-15")
+		Connect("dac1/DACOUT-16")
 		Connect("dac1/U1-13")
 	)
 	Net("dac2/OUT0" "(unknown)")
 	(
-		Connect("dac2/DACOUT-1")
+		Connect("dac2/DACOUT-2")
 		Connect("dac2/U1-4")
 	)
 	Net("dac2/OUT1" "(unknown)")
 	(
-		Connect("dac2/DACOUT-3")
+		Connect("dac2/DACOUT-4")
 		Connect("dac2/U1-5")
 	)
 	Net("dac2/OUT2" "(unknown)")
 	(
-		Connect("dac2/DACOUT-5")
+		Connect("dac2/DACOUT-6")
 		Connect("dac2/U1-6")
 	)
 	Net("dac2/OUT3" "(unknown)")
 	(
-		Connect("dac2/DACOUT-7")
+		Connect("dac2/DACOUT-8")
 		Connect("dac2/U1-7")
 	)
 	Net("dac2/OUT4" "(unknown)")
 	(
-		Connect("dac2/DACOUT-9")
+		Connect("dac2/DACOUT-10")
 		Connect("dac2/U1-10")
 	)
 	Net("dac2/OUT5" "(unknown)")
 	(
-		Connect("dac2/DACOUT-11")
+		Connect("dac2/DACOUT-12")
 		Connect("dac2/U1-11")
 	)
 	Net("dac2/OUT6" "(unknown)")
 	(
-		Connect("dac2/DACOUT-13")
+		Connect("dac2/DACOUT-14")
 		Connect("dac2/U1-12")
 	)
 	Net("dac2/OUT7" "(unknown)")
 	(
-		Connect("dac2/DACOUT-15")
+		Connect("dac2/DACOUT-16")
 		Connect("dac2/U1-13")
 	)
 	Net("dac3/OUT0" "(unknown)")
 	(
-		Connect("dac3/DACOUT-1")
+		Connect("dac3/DACOUT-2")
 		Connect("dac3/U1-4")
 	)
 	Net("dac3/OUT1" "(unknown)")
 	(
-		Connect("dac3/DACOUT-3")
+		Connect("dac3/DACOUT-4")
 		Connect("dac3/U1-5")
 	)
 	Net("dac3/OUT2" "(unknown)")
 	(
-		Connect("dac3/DACOUT-5")
+		Connect("dac3/DACOUT-6")
 		Connect("dac3/U1-6")
 	)
 	Net("dac3/OUT3" "(unknown)")
 	(
-		Connect("dac3/DACOUT-7")
+		Connect("dac3/DACOUT-8")
 		Connect("dac3/U1-7")
 	)
 	Net("dac3/OUT4" "(unknown)")
 	(
-		Connect("dac3/DACOUT-9")
+		Connect("dac3/DACOUT-10")
 		Connect("dac3/U1-10")
 	)
 	Net("dac3/OUT5" "(unknown)")
 	(
-		Connect("dac3/DACOUT-11")
+		Connect("dac3/DACOUT-12")
 		Connect("dac3/U1-11")
 	)
 	Net("dac3/OUT6" "(unknown)")
 	(
-		Connect("dac3/DACOUT-13")
+		Connect("dac3/DACOUT-14")
 		Connect("dac3/U1-12")
 	)
 	Net("dac3/OUT7" "(unknown)")
 	(
-		Connect("dac3/DACOUT-15")
+		Connect("dac3/DACOUT-16")
 		Connect("dac3/U1-13")
 	)
 	Net("dac4/OUT0" "(unknown)")
 	(
-		Connect("dac4/DACOUT-1")
+		Connect("dac4/DACOUT-2")
 		Connect("dac4/U1-4")
 	)
 	Net("dac4/OUT1" "(unknown)")
 	(
-		Connect("dac4/DACOUT-3")
+		Connect("dac4/DACOUT-4")
 		Connect("dac4/U1-5")
 	)
 	Net("dac4/OUT2" "(unknown)")
 	(
-		Connect("dac4/DACOUT-5")
+		Connect("dac4/DACOUT-6")
 		Connect("dac4/U1-6")
 	)
 	Net("dac4/OUT3" "(unknown)")
 	(
-		Connect("dac4/DACOUT-7")
+		Connect("dac4/DACOUT-8")
 		Connect("dac4/U1-7")
 	)
 	Net("dac4/OUT4" "(unknown)")
 	(
-		Connect("dac4/DACOUT-9")
+		Connect("dac4/DACOUT-10")
 		Connect("dac4/U1-10")
 	)
 	Net("dac4/OUT5" "(unknown)")
 	(
-		Connect("dac4/DACOUT-11")
+		Connect("dac4/DACOUT-12")
 		Connect("dac4/U1-11")
 	)
 	Net("dac4/OUT6" "(unknown)")
 	(
-		Connect("dac4/DACOUT-13")
+		Connect("dac4/DACOUT-14")
 		Connect("dac4/U1-12")
 	)
 	Net("dac4/OUT7" "(unknown)")
 	(
-		Connect("dac4/DACOUT-15")
+		Connect("dac4/DACOUT-16")
 		Connect("dac4/U1-13")
 	)
 	Net("dac_spi_addr0" "(unknown)")
@@ -5907,14 +5971,14 @@ NetList()
 		Connect("adc1/C9-2")
 		Connect("adc1/C10-2")
 		Connect("adc1/C11-2")
-		Connect("adc1/DACOUT-1")
-		Connect("adc1/DACOUT-3")
-		Connect("adc1/DACOUT-5")
-		Connect("adc1/DACOUT-7")
-		Connect("adc1/DACOUT-9")
-		Connect("adc1/DACOUT-11")
-		Connect("adc1/DACOUT-13")
-		Connect("adc1/DACOUT-15")
+		Connect("adc1/DACOUT-2")
+		Connect("adc1/DACOUT-4")
+		Connect("adc1/DACOUT-6")
+		Connect("adc1/DACOUT-8")
+		Connect("adc1/DACOUT-10")
+		Connect("adc1/DACOUT-12")
+		Connect("adc1/DACOUT-14")
+		Connect("adc1/DACOUT-16")
 		Connect("adc1/R1-2")
 		Connect("adc1/R2-2")
 		Connect("adc1/R3-2")
@@ -5959,14 +6023,14 @@ NetList()
 		Connect("adc2/C9-2")
 		Connect("adc2/C10-2")
 		Connect("adc2/C11-2")
-		Connect("adc2/DACOUT-1")
-		Connect("adc2/DACOUT-3")
-		Connect("adc2/DACOUT-5")
-		Connect("adc2/DACOUT-7")
-		Connect("adc2/DACOUT-9")
-		Connect("adc2/DACOUT-11")
-		Connect("adc2/DACOUT-13")
-		Connect("adc2/DACOUT-15")
+		Connect("adc2/DACOUT-2")
+		Connect("adc2/DACOUT-4")
+		Connect("adc2/DACOUT-6")
+		Connect("adc2/DACOUT-8")
+		Connect("adc2/DACOUT-10")
+		Connect("adc2/DACOUT-12")
+		Connect("adc2/DACOUT-14")
+		Connect("adc2/DACOUT-16")
 		Connect("adc2/R1-2")
 		Connect("adc2/R2-2")
 		Connect("adc2/R3-2")
@@ -6011,14 +6075,14 @@ NetList()
 		Connect("adc3/C9-2")
 		Connect("adc3/C10-2")
 		Connect("adc3/C11-2")
-		Connect("adc3/DACOUT-1")
-		Connect("adc3/DACOUT-3")
-		Connect("adc3/DACOUT-5")
-		Connect("adc3/DACOUT-7")
-		Connect("adc3/DACOUT-9")
-		Connect("adc3/DACOUT-11")
-		Connect("adc3/DACOUT-13")
-		Connect("adc3/DACOUT-15")
+		Connect("adc3/DACOUT-2")
+		Connect("adc3/DACOUT-4")
+		Connect("adc3/DACOUT-6")
+		Connect("adc3/DACOUT-8")
+		Connect("adc3/DACOUT-10")
+		Connect("adc3/DACOUT-12")
+		Connect("adc3/DACOUT-14")
+		Connect("adc3/DACOUT-16")
 		Connect("adc3/R1-2")
 		Connect("adc3/R2-2")
 		Connect("adc3/R3-2")
@@ -6063,14 +6127,14 @@ NetList()
 		Connect("adc4/C9-2")
 		Connect("adc4/C10-2")
 		Connect("adc4/C11-2")
-		Connect("adc4/DACOUT-1")
-		Connect("adc4/DACOUT-3")
-		Connect("adc4/DACOUT-5")
-		Connect("adc4/DACOUT-7")
-		Connect("adc4/DACOUT-9")
-		Connect("adc4/DACOUT-11")
-		Connect("adc4/DACOUT-13")
-		Connect("adc4/DACOUT-15")
+		Connect("adc4/DACOUT-2")
+		Connect("adc4/DACOUT-4")
+		Connect("adc4/DACOUT-6")
+		Connect("adc4/DACOUT-8")
+		Connect("adc4/DACOUT-10")
+		Connect("adc4/DACOUT-12")
+		Connect("adc4/DACOUT-14")
+		Connect("adc4/DACOUT-16")
 		Connect("adc4/R1-2")
 		Connect("adc4/R2-2")
 		Connect("adc4/R3-2")
@@ -6130,47 +6194,47 @@ NetList()
 		Connect("CONN1-14")
 		Connect("dac1/C1-2")
 		Connect("dac1/C2-2")
-		Connect("dac1/DACOUT-2")
-		Connect("dac1/DACOUT-4")
-		Connect("dac1/DACOUT-6")
-		Connect("dac1/DACOUT-8")
-		Connect("dac1/DACOUT-10")
-		Connect("dac1/DACOUT-12")
-		Connect("dac1/DACOUT-14")
-		Connect("dac1/DACOUT-16")
+		Connect("dac1/DACOUT-1")
+		Connect("dac1/DACOUT-3")
+		Connect("dac1/DACOUT-5")
+		Connect("dac1/DACOUT-7")
+		Connect("dac1/DACOUT-9")
+		Connect("dac1/DACOUT-11")
+		Connect("dac1/DACOUT-13")
+		Connect("dac1/DACOUT-15")
 		Connect("dac1/U1-14")
 		Connect("dac2/C1-2")
 		Connect("dac2/C2-2")
-		Connect("dac2/DACOUT-2")
-		Connect("dac2/DACOUT-4")
-		Connect("dac2/DACOUT-6")
-		Connect("dac2/DACOUT-8")
-		Connect("dac2/DACOUT-10")
-		Connect("dac2/DACOUT-12")
-		Connect("dac2/DACOUT-14")
-		Connect("dac2/DACOUT-16")
+		Connect("dac2/DACOUT-1")
+		Connect("dac2/DACOUT-3")
+		Connect("dac2/DACOUT-5")
+		Connect("dac2/DACOUT-7")
+		Connect("dac2/DACOUT-9")
+		Connect("dac2/DACOUT-11")
+		Connect("dac2/DACOUT-13")
+		Connect("dac2/DACOUT-15")
 		Connect("dac2/U1-14")
 		Connect("dac3/C1-2")
 		Connect("dac3/C2-2")
-		Connect("dac3/DACOUT-2")
-		Connect("dac3/DACOUT-4")
-		Connect("dac3/DACOUT-6")
-		Connect("dac3/DACOUT-8")
-		Connect("dac3/DACOUT-10")
-		Connect("dac3/DACOUT-12")
-		Connect("dac3/DACOUT-14")
-		Connect("dac3/DACOUT-16")
+		Connect("dac3/DACOUT-1")
+		Connect("dac3/DACOUT-3")
+		Connect("dac3/DACOUT-5")
+		Connect("dac3/DACOUT-7")
+		Connect("dac3/DACOUT-9")
+		Connect("dac3/DACOUT-11")
+		Connect("dac3/DACOUT-13")
+		Connect("dac3/DACOUT-15")
 		Connect("dac3/U1-14")
 		Connect("dac4/C1-2")
 		Connect("dac4/C2-2")
-		Connect("dac4/DACOUT-2")
-		Connect("dac4/DACOUT-4")
-		Connect("dac4/DACOUT-6")
-		Connect("dac4/DACOUT-8")
-		Connect("dac4/DACOUT-10")
-		Connect("dac4/DACOUT-12")
-		Connect("dac4/DACOUT-14")
-		Connect("dac4/DACOUT-16")
+		Connect("dac4/DACOUT-1")
+		Connect("dac4/DACOUT-3")
+		Connect("dac4/DACOUT-5")
+		Connect("dac4/DACOUT-7")
+		Connect("dac4/DACOUT-9")
+		Connect("dac4/DACOUT-11")
+		Connect("dac4/DACOUT-13")
+		Connect("dac4/DACOUT-15")
 		Connect("dac4/U1-14")
 		Connect("GND-1")
 		Connect("L1-2")

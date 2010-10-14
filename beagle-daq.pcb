@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Thu Oct 14 12:41:39 2010
+# date:    Thu Oct 14 12:42:03 2010
 # user:    ben (Ben Gamari,,,)
 # host:    ben-laptop
 
@@ -3392,13 +3392,6 @@ Element["onsolder" "HEADER16_2" "dac3/DACOUT" "unknown" 251000 60000 -5000 21000
 	ElementLine [-5000 5000 5000 5000 1000]
 
 	)
-Rat[690000 160000 1 -370 -127 1  "via"]
-Rat[690000 150000 1 -370 -127 1  "via"]
-Rat[690000 140000 1 -370 -127 1  "via"]
-Rat[690000 130000 1 -370 -127 1  "via"]
-Rat[690000 120000 1 -370 -127 1  "via"]
-Rat[690000 110000 1 -370 -127 1  "via"]
-Rat[690000 100000 1 -370 -127 1  "via"]
 Layer(1 "component")
 (
 	Line[574000 93000 575000 94000 2500 2000 "clearline"]

@@ -20,11 +20,11 @@ pinwidthhorizontal=400
 # if you have a device with slots, you'll have to use slot= and slotdef=
 # use comment= if there are special information you want to add
 version=20060113 1
-name=LM78xx
-device=LM78xx
+name=LP2981 LDO
+device=LP2981
 refdes=U?
-footprint=TO220
-description=Positive-voltage linear regulator
+footprint=SOT23
+description=Low-droplout regulator
 documentation=
 author=Ben Gamari <bgamari@gmail.com>
 dist-license=
@@ -54,6 +54,8 @@ numslots=0
 #-----------------------------------------------------
 #pinnr	seq	type	style	posit.	net	label	
 #-----------------------------------------------------
-1		pwr	line	l		IN
+1		pwr	line	l		VIN
 2		pwr	line	b		GND
-3		pwr	line	r		OUT
+3		pwr	line	t		ON/\_OFF\_
+5		pwr	line	r		VOUT
+

@@ -403,7 +403,7 @@ netname=adc_spi_somi
 }
 C 66200 28500 1 0 0 adc_unit.sym
 {
-T 67300 30300 5 10 1 1 0 0 1
+T 67700 30300 5 10 1 1 0 0 1
 refdes=adc4
 T 67500 30300 5 10 0 1 0 0 1
 device=ADS8344

@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Fri Oct 22 15:18:22 2010
+# date:    Fri Oct 22 16:15:08 2010
 # user:    ben (Ben Gamari,,,)
 # host:    ben-laptop
 
@@ -9,7 +9,7 @@ FileVersion[20100606]
 PCB["BeagleDAQ" 950000 390000]
 
 Grid[1000.000000 0 0 0]
-Cursor[0 0 0.000000]
+Cursor[0 390000 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[600 600 600 500 1500 800]
@@ -1246,7 +1246,7 @@ Element["" "SMD_CHIP-1206" "C10" "0.1u" 623000 154000 -6000 -3000 0 25 ""]
 
 	)
 
-Element["onsolder" "HEADER16_2" "dac1/DACOUT" "unknown" 590000 60000 -5000 21000 0 100 "auto"]
+Element["onsolder" "HEADER16_2" "dac1/DACOUT" "unknown" 590000 60000 77000 8000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2,thermal(3X)"]
 	Pin[0 10000 6000 3000 6600 3800 "2" "2" "edge2"]
@@ -1273,7 +1273,7 @@ Element["onsolder" "HEADER16_2" "dac1/DACOUT" "unknown" 590000 60000 -5000 21000
 
 	)
 
-Element["onsolder" "RADIAL_CAN-200" "L1" "unknown" 775000 262000 -15000 -10000 2 100 "auto"]
+Element["onsolder" "RADIAL_CAN-200" "L1" "unknown" 775000 262000 -21000 -4000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3000 "1" "1" "square"]
 	Pin[-10000 0 6000 3000 6600 3000 "2" "2" "thermal(3X)"]
@@ -1376,7 +1376,7 @@ Element["" "SSOP20" "U6" "unknown" 610000 180000 -13000 -3800 1 100 ""]
 
 	)
 
-Element["onsolder" "HEADER16_2" "adc1/DACOUT" "unknown" 521000 319000 -4000 -7000 0 100 "auto"]
+Element["onsolder" "HEADER16_2" "adc1/DACOUT" "unknown" 521000 319000 77000 8000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
 	Pin[0 10000 6000 3000 6600 3800 "2" "2" "edge2,thermal(3X)"]
@@ -1403,7 +1403,7 @@ Element["onsolder" "HEADER16_2" "adc1/DACOUT" "unknown" 521000 319000 -4000 -700
 
 	)
 
-Element["onsolder" "HEADER16_2" "CONN1" "unknown" 690000 160000 21000 5000 3 100 "auto"]
+Element["onsolder" "HEADER16_2" "DIGITAL_IO" "unknown" 690000 160000 17000 -62000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,thermal(3X)"]
 	Pin[10000 0 6000 3000 6600 3800 "2" "2" ""]
@@ -1568,7 +1568,7 @@ Element["" "SMD_CHIP-1206" "adc1/C3" "100n" 513000 277000 6000 3000 2 25 ""]
 
 	)
 
-Element["onsolder" "RADIAL_CAN-200" "C9" "22u" 801000 118000 10000 -15000 3 100 "auto"]
+Element["onsolder" "RADIAL_CAN-200" "C9" "22u" 801000 118000 9000 -12000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3000 "1" "1" "square"]
 	Pin[0 -10000 6000 3000 6600 3000 "2" "2" "thermal(3X)"]
@@ -1576,7 +1576,7 @@ Element["onsolder" "RADIAL_CAN-200" "C9" "22u" 801000 118000 10000 -15000 3 100 
 
 	)
 
-Element["onsolder" "HEADER1_1" "BB5V" "unknown" 770000 100000 21000 5000 3 100 "auto"]
+Element["onsolder" "HEADER1_1" "BB5V" "unknown" 770000 100000 -5000 -7000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square"]
 	ElementLine [-5000 5000 -5000 -5000 1000]
@@ -1587,7 +1587,7 @@ Element["onsolder" "HEADER1_1" "BB5V" "unknown" 770000 100000 21000 5000 3 100 "
 
 	)
 
-Element["onsolder" "HEADER5_1" "SPI1" "unknown" 528000 148000 25000 -3000 2 100 "auto"]
+Element["onsolder" "HEADER5_1" "SPI1" "unknown" 528000 148000 8000 2000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
 	Pin[-10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
@@ -2101,7 +2101,7 @@ Element["" "SMD_CHIP-1206" "adc1/R4" "1k" 611000 255000 -3000 6000 1 25 ""]
 
 	)
 
-Element["onsolder" "RADIAL_CAN-200" "C16" "22u" 750000 337000 -15000 -10000 2 100 "auto"]
+Element["onsolder" "RADIAL_CAN-200" "C16" "22u" 750000 337000 -21000 -6000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3000 "1" "1" "square"]
 	Pin[-10000 0 6000 3000 6600 3000 "2" "2" "thermal(3X)"]
@@ -2109,7 +2109,7 @@ Element["onsolder" "RADIAL_CAN-200" "C16" "22u" 750000 337000 -15000 -10000 2 10
 
 	)
 
-Element["onsolder" "TO220" "psu/U2" "unknown" 900000 312000 15000 -23000 3 100 "auto"]
+Element["onsolder" "TO220" "psu/U2" "unknown" 900000 312000 16000 -8000 0 100 "auto"]
 (
 	Pin[10000 0 9000 3000 9600 6000 "1" "1" "square"]
 	Pin[0 0 9000 3000 9600 6000 "2" "2" "thermal(3X)"]
@@ -2205,7 +2205,7 @@ Element["onsolder" "SMD_CHIP-1206" "C13" "4.7u" 751000 285000 -3000 -6000 1 25 "
 
 	)
 
-Element["onsolder" "RADIAL_CAN-200" "C11" "22u" 849500 85950 -10000 15000 1 100 "auto"]
+Element["onsolder" "RADIAL_CAN-200" "C11" "22u" 849500 85950 9450 18550 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3000 "1" "1" "square"]
 	Pin[0 10000 6000 3000 6600 3000 "2" "2" "thermal(3X)"]
@@ -2255,7 +2255,7 @@ Element["onsolder" "SMD_CHIP-1206" "dac1/C1" "10u" 595000 90000 3000 6000 3 25 "
 
 	)
 
-Element["onsolder" "HEADER5_1" "SPI2" "unknown" 528000 194000 24000 -2000 2 100 "auto"]
+Element["onsolder" "HEADER5_1" "SPI2" "unknown" 528000 194000 8000 3000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
 	Pin[-10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
@@ -2271,7 +2271,7 @@ Element["onsolder" "HEADER5_1" "SPI2" "unknown" 528000 194000 24000 -2000 2 100 
 
 	)
 
-Element["onsolder" "RADIAL_CAN-200" "psu/C2" "22u" 801000 329000 -15000 -10000 2 100 "auto"]
+Element["onsolder" "RADIAL_CAN-200" "psu/C2" "22u" 801000 329000 -20000 -12000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3000 "1" "1" "square"]
 	Pin[-10000 0 6000 3000 6600 3000 "2" "2" "thermal(3X)"]
@@ -2360,7 +2360,7 @@ Element["onsolder" "CONNECTOR-1-2" "CONN_AVCC" "unknown" 847000 189000 -19000 -7
 
 	)
 
-Element["onsolder" "HEADER16_2" "dac4/DACOUT" "unknown" 130000 60000 -5000 21000 0 100 "auto"]
+Element["onsolder" "HEADER16_2" "dac4/DACOUT" "unknown" 130000 60000 77000 8000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2,thermal(3X)"]
 	Pin[0 10000 6000 3000 6600 3800 "2" "2" "edge2"]
@@ -2442,7 +2442,7 @@ Element["onsolder" "CONNECTOR-1-2" "adc2/OS1" "unknown" 453000 303000 16500 3500
 
 	)
 
-Element["onsolder" "RADIAL_CAN-200" "psu/C1" "22u" 847000 40000 -10000 15000 1 100 "auto"]
+Element["onsolder" "RADIAL_CAN-200" "psu/C1" "22u" 847000 40000 -23000 22000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3000 "1" "1" "square"]
 	Pin[0 10000 6000 3000 6600 3000 "2" "2" "thermal(3X)"]
@@ -2621,7 +2621,7 @@ Element["" "SMD_CHIP-1206" "adc2/C10" "10n" 441500 248000 -6000 -3000 0 25 ""]
 
 	)
 
-Element["onsolder" "HEADER16_2" "adc2/DACOUT" "unknown" 363000 319000 -4000 -7000 0 100 "auto"]
+Element["onsolder" "HEADER16_2" "adc2/DACOUT" "unknown" 363000 319000 77000 8000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
 	Pin[0 10000 6000 3000 6600 3800 "2" "2" "edge2,thermal(3X)"]
@@ -2940,7 +2940,7 @@ Element["" "SMD_CHIP-1206" "adc3/C10" "10n" 283500 248000 -6000 -3000 0 25 ""]
 
 	)
 
-Element["onsolder" "HEADER16_2" "adc3/DACOUT" "unknown" 205000 319000 -4000 -7000 0 100 "auto"]
+Element["onsolder" "HEADER16_2" "adc3/DACOUT" "unknown" 205000 319000 77000 8000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
 	Pin[0 10000 6000 3000 6600 3800 "2" "2" "edge2,thermal(3X)"]
@@ -3259,7 +3259,7 @@ Element["" "SMD_CHIP-1206" "adc4/C10" "10n" 125500 248000 -6000 -3000 0 25 ""]
 
 	)
 
-Element["onsolder" "HEADER16_2" "adc4/DACOUT" "unknown" 47000 319000 -4000 -7000 0 100 "auto"]
+Element["onsolder" "HEADER16_2" "adc4/DACOUT" "unknown" 47000 319000 77000 9000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
 	Pin[0 10000 6000 3000 6600 3800 "2" "2" "edge2,thermal(3X)"]
@@ -3357,7 +3357,7 @@ Element["onsolder" "SMD_CHIP-1206" "dac3/C2" "0.1u" 293000 97000 -3000 -6000 1 2
 
 	)
 
-Element["onsolder" "HEADER16_2" "dac3/DACOUT" "unknown" 280000 60000 -5000 21000 0 100 "auto"]
+Element["onsolder" "HEADER16_2" "dac3/DACOUT" "unknown" 280000 60000 77000 8000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2,thermal(3X)"]
 	Pin[0 10000 6000 3000 6600 3800 "2" "2" "edge2"]
@@ -3433,7 +3433,7 @@ Element["onsolder" "SMD_CHIP-1206" "dac2/C2" "0.1u" 453000 97000 -3000 -6000 1 2
 
 	)
 
-Element["onsolder" "HEADER16_2" "dac2/DACOUT" "unknown" 440000 60000 -5000 21000 0 100 "auto"]
+Element["onsolder" "HEADER16_2" "dac2/DACOUT" "unknown" 440000 60000 77000 8000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2,thermal(3X)"]
 	Pin[0 10000 6000 3000 6600 3800 "2" "2" "edge2"]
@@ -3471,7 +3471,18 @@ Element["onsolder" "HEADER1_1" "GND" "unknown" 901000 123000 -5000 12000 0 100 "
 
 	)
 
-Element["" "SMD_CHIP-1206" "psu/R1" "250" 917000 180000 6000 3000 2 25 ""]
+Element["" "SMD_CHIP-1206" "psu/C11" "10u" 856000 332000 -3000 6000 1 25 ""]
+(
+	Pad[-2000 5000 2000 5000 2000 3000 2600 "" "1" "square"]
+	Pad[-2000 -5000 2000 -5000 2000 3000 2600 "" "2" "square"]
+	ElementLine [-3000 -6000 -3000 6000 500]
+	ElementLine [-3000 -6000 3000 -6000 500]
+	ElementLine [3000 -6000 3000 6000 500]
+	ElementLine [-3000 6000 3000 6000 500]
+
+	)
+
+Element["" "SMD_CHIP-1206" "psu/R1" "250" 918000 189000 6000 3000 2 25 ""]
 (
 	Pad[5000 -2000 5000 2000 2000 3000 2600 "" "1" "square"]
 	Pad[-5000 -2000 -5000 2000 2000 3000 2600 "" "2" "square"]
@@ -3482,7 +3493,7 @@ Element["" "SMD_CHIP-1206" "psu/R1" "250" 917000 180000 6000 3000 2 25 ""]
 
 	)
 
-Element["onsolder" "LED-60" "psu/LED_DVCC" "unknown" 901000 180000 -13000 12000 0 100 "auto"]
+Element["onsolder" "LED-60" "psu/LED_DVCC" "unknown" 901000 189000 -18000 -7000 0 100 "auto"]
 (
 	Pin[5000 0 6500 3000 7100 4300 "1" "1" "square,edge2"]
 	Pin[-5000 0 6500 3000 7100 4300 "2" "2" "edge2,thermal(3X)"]
@@ -3490,17 +3501,6 @@ Element["onsolder" "LED-60" "psu/LED_DVCC" "unknown" 901000 180000 -13000 12000 
 	ElementArc [0 0 5000 5000 45 90 1000]
 	ElementArc [0 0 3000 3000 225 90 1000]
 	ElementArc [0 0 3000 3000 45 90 1000]
-
-	)
-
-Element["" "SMD_CHIP-1206" "psu/C11" "10u" 856000 332000 -3000 6000 1 25 ""]
-(
-	Pad[-2000 5000 2000 5000 2000 3000 2600 "" "1" "square"]
-	Pad[-2000 -5000 2000 -5000 2000 3000 2600 "" "2" "square"]
-	ElementLine [-3000 -6000 -3000 6000 500]
-	ElementLine [-3000 -6000 3000 -6000 500]
-	ElementLine [3000 -6000 3000 6000 500]
-	ElementLine [-3000 6000 3000 6000 500]
 
 	)
 Layer(1 "component")
@@ -3677,7 +3677,7 @@ Layer(1 "component")
 	Line[648000 180000 611500 180000 1000 2000 "clearline"]
 	Line[565000 196000 565000 204000 1000 2000 "clearline"]
 	Line[608100 156900 607000 158000 1000 2000 "clearline"]
-	Line[927000 180000 927000 164000 2500 2000 "clearline"]
+	Line[927000 156000 927000 157000 2500 2000 "clearline"]
 	Line[380204 238264 380204 241796 1000 2000 "clearline"]
 	Line[202000 293000 202000 279000 2500 2000 "clearline"]
 	Line[750300 107000 750300 106900 1000 2000 "clearline"]
@@ -3774,10 +3774,10 @@ Layer(1 "component")
 	Line[91000 204000 78000 204000 1000 2000 "clearline"]
 	Line[791000 242000 796000 247000 1000 2000 "clearline"]
 	Line[671400 222700 671400 225400 1000 2000 "clearline"]
-	Line[912000 180000 906000 180000 1000 2000 "clearline"]
+	Line[224173 238264 224173 239827 1000 2000 "clearline"]
 	Line[608400 177400 611500 177400 1000 2000 "clearline"]
 	Line[776000 38000 582000 38000 2500 2000 "clearline"]
-	Line[922000 180000 927000 180000 1000 2000 "clearline"]
+	Line[906000 189000 905000 189000 1000 2000 "clearline"]
 	Line[796000 197000 785000 197000 1000 2000 "clearline"]
 	Line[507500 262500 508000 263000 1000 2000 "clearline"]
 	Line[801000 182000 796000 187000 1000 2000 "clearline"]
@@ -4171,7 +4171,7 @@ Layer(1 "component")
 	Line[891000 327000 897000 327000 2500 2000 "clearline"]
 	Line[239921 238921 243000 242000 1000 2000 "clearline"]
 	Line[763600 302500 768500 302500 2500 2000 "clearline"]
-	Line[528000 124000 528000 124000 1000 2000 "clearline"]
+	Line[913000 189000 906000 189000 1000 2000 "clearline"]
 	Line[760500 307500 766000 313000 2500 2000 "clearline"]
 	Line[768500 302500 772000 306000 2500 2000 "clearline"]
 	Line[498000 194000 498000 191000 1000 2000 "clearline"]
@@ -4288,7 +4288,7 @@ Layer(1 "component")
 	Line[650000 140000 630000 140000 1000 2000 "clearline"]
 	Line[519500 256000 518000 256000 1000 2000 "clearline"]
 	Line[652000 98000 643000 89000 1000 2000 "clearline"]
-	Line[679500 258000 679500 258000 2500 2000 "clearline"]
+	Line[923000 189000 927000 189000 1000 2000 "clearline"]
 	Line[751500 127400 763400 127400 1000 2000 "clearline"]
 	Line[676500 243300 676500 241500 1000 2000 "clearline"]
 	Line[587000 95000 582000 90000 2500 2000 "clearline"]
@@ -4332,8 +4332,8 @@ Layer(1 "component")
 	Line[650200 167200 658000 175000 1000 2000 "clearline"]
 	Line[329000 91000 334000 96000 1000 2000 "clearline"]
 	Line[575134 263921 575134 264000 1000 2000 "clearline"]
-	Line[552000 204000 552000 204000 1000 2000 "clearline"]
-	Line[528000 208000 528000 208000 1000 2000 "clearline"]
+	Line[927000 188000 927000 180000 2500 2000 "clearline"]
+	Line[722100 216000 722100 193900 3000 2000 "clearline"]
 	Line[663700 245500 663700 250300 1000 2000 "clearline"]
 	Line[164000 101500 164000 84500 1000 2000 "clearline"]
 	Line[663000 108000 631900 108000 1000 2000 "clearline"]
@@ -4345,7 +4345,7 @@ Layer(1 "component")
 	Line[590000 85000 590000 86000 1000 2000 "clearline"]
 	Line[822000 242000 822100 242000 1000 2000 "clearline"]
 	Line[728500 240400 722100 240400 1000 2000 "clearline"]
-	Line[508000 212000 508000 212000 1000 2000 "clearline"]
+	Line[927000 164000 927000 157000 2500 2000 "clearline"]
 	Line[673000 163000 650000 140000 1000 2000 "clearline"]
 	Line[518000 261953 518547 261953 1000 2000 "clearline"]
 	Line[785000 197000 784000 197000 1000 2000 "clearline"]
@@ -4383,7 +4383,7 @@ Layer(1 "component")
 	Line[751000 285000 751000 297000 2500 2000 "clearline"]
 	Line[606000 153000 606000 149000 2500 2000 "clearline"]
 	Line[663000 108000 670000 101000 2500 2000 "clearline"]
-	Line[927000 164000 927000 180000 2500 2000 "clearline"]
+	Line[847000 40000 874000 40000 2500 2000 "clearline"]
 	Line[769000 357000 512000 357000 2500 2000 "clearline"]
 	Line[744700 307500 738400 307500 2500 2000 "clearline"]
 	Line[85000 271000 73000 259000 1000 2000 "clearline"]
@@ -4829,7 +4829,7 @@ Layer(1 "component")
 	Line[85859 283134 85859 297859 1000 2000 "clearline"]
 	Line[671400 245500 671400 250600 1000 2000 "clearline"]
 	Line[538204 241796 538000 242000 1000 2000 "clearline"]
-	Line[927000 180000 927000 213000 2500 2000 "clearline"]
+	Line[927000 180000 927000 188000 2500 2000 "clearline"]
 	Line[89796 291796 117000 319000 1000 2000 "clearline"]
 	Line[89796 283134 89796 291796 1000 2000 "clearline"]
 	Line[85859 297859 107000 319000 1000 2000 "clearline"]
@@ -5270,7 +5270,7 @@ Layer(1 "component")
 	Line[677000 263000 635000 263000 1000 2000 "clearline"]
 	Line[500000 124000 528000 124000 1000 2000 "clearline"]
 	Line[576000 32000 426000 32000 2500 2000 "clearline"]
-	Line[670000 26000 670000 26000 2500 2000 "clearline"]
+	Line[87826 238264 87826 239826 1000 2000 "clearline"]
 	Line[455000 250000 455000 249500 1000 2000 "clearline"]
 	Line[455000 249500 453000 250000 1000 2000 "clearline"]
 	Line[801000 329000 818000 312000 2500 2000 "clearline"]
@@ -5338,20 +5338,15 @@ Layer(1 "component")
 	Line[68141 238264 68141 241859 1000 2000 "clearline"]
 	Line[81921 238264 81921 238921 1000 2000 "clearline"]
 	Line[927000 213000 927000 214000 2500 2000 "clearline"]
-	Line[906000 180000 905000 180000 1000 2000 "clearline"]
+	Line[247795 238264 247795 241795 1000 2000 "clearline"]
 	Line[927000 157000 927000 164000 2500 2000 "clearline"]
-	Line[906000 180000 905000 180000 1000 2000 "clearline"]
+	Line[479700 108000 468000 108000 1000 2000 "clearline"]
 	Line[222204 238264 222204 241796 1000 2000 "clearline"]
 	Line[83889 238264 83889 240889 1000 2000 "clearline"]
-	Line[87826 238264 87826 239826 1000 2000 "clearline"]
-	Line[927000 164000 927000 157000 2500 2000 "clearline"]
-	Line[722100 216000 722100 193900 3000 2000 "clearline"]
-	Line[927000 156000 927000 157000 2500 2000 "clearline"]
-	Line[224173 238264 224173 239827 1000 2000 "clearline"]
-	Line[744700 307500 744700 307500 2500 2000 "clearline"]
-	Line[847000 40000 874000 40000 2500 2000 "clearline"]
-	Line[247795 238264 247795 241795 1000 2000 "clearline"]
-	Line[479700 108000 468000 108000 1000 2000 "clearline"]
+	Line[927000 180000 927000 164000 2500 2000 "clearline"]
+	Line[906000 189000 905000 189000 1000 2000 "clearline"]
+	Line[927000 189000 927000 213000 2500 2000 "clearline"]
+	Line[927000 188000 927000 189000 2500 2000 "clearline"]
 )
 Layer(2 "solder")
 (
@@ -5669,7 +5664,6 @@ Layer(2 "solder")
 	Line[303000 96000 303000 128000 1000 2000 "clearline"]
 	Line[751000 192000 751000 191000 1000 2000 "clearline"]
 	Line[751000 192000 751000 191000 1000 2000 "clearline"]
-	Line[528000 194000 528000 194000 1000 2000 "clearline"]
 )
 Layer(3 "outline")
 (
@@ -5695,6 +5689,20 @@ Layer(8 "signal3")
 )
 Layer(9 "silk")
 (
+	Line[6000 92000 58000 92000 1000 2000 "clearline"]
+	Line[6000 100000 58000 100000 1000 2000 "clearline"]
+	Line[58000 100000 58000 76000 1000 2000 "clearline"]
+	Line[6000 100000 6000 76000 1000 2000 "clearline"]
+	Line[31000 100000 31000 76000 1000 2000 "clearline"]
+	Line[58000 76000 6000 76000 1000 2000 "clearline"]
+	Line[6000 180000 75000 180000 1000 2000 "clearline"]
+	Line[75000 180000 75000 123000 1000 2000 "clearline"]
+	Line[75000 123000 6000 123000 1000 2000 "clearline"]
+	Line[6000 123000 6000 180000 1000 2000 "clearline"]
+	Line[75000 173000 6000 173000 1000 2000 "clearline"]
+	Line[58000 180000 58000 123000 1000 2000 "clearline"]
+	Line[41000 180000 41000 123000 1000 2000 "clearline"]
+	Line[23000 180000 23000 123000 1000 2000 "clearline"]
 	Text[90000 175000 0 100 "Ben Gamari" "clearline,auto"]
 	Text[132500 175000 0 100 "<bgamari@physics.umass.edu>" "clearline,auto"]
 	Text[145000 195000 0 100 "Revision 2" "clearline,auto"]
@@ -5704,6 +5712,45 @@ Layer(9 "silk")
 	Text[90000 195000 0 100 "BeagleDAQ" "clearline,auto"]
 	Text[90000 160000 0 100 "WARNING:" "clearline,auto"]
 	Text[867500 365000 0 100 "Power Supply: 9VDC" "clearline,auto"]
+	Text[707000 91000 0 100 "5V levels" "clearline,auto"]
+	Text[37000 91000 0 100 "+/- 5V" "clearline,auto"]
+	Text[11000 90000 0 100 "0" "clearline,auto"]
+	Text[11000 83000 0 100 "1" "clearline,auto"]
+	Text[7000 108000 0 100 "ADC Input Range:" "clearline,auto"]
+	Text[10000 99000 0 100 "RANGE" "clearline,auto"]
+	Text[35000 83000 0 100 "+/- 10V" "clearline,auto"]
+	Text[45000 180000 0 100 "OS3" "clearline,auto"]
+	Text[13000 172000 0 100 "0" "clearline,auto"]
+	Text[30000 172000 0 100 "0" "clearline,auto"]
+	Text[48000 172000 0 100 "0" "clearline,auto"]
+	Text[13000 165000 0 100 "0" "clearline,auto"]
+	Text[30000 165000 0 100 "0" "clearline,auto"]
+	Text[10000 180000 0 100 "OS1" "clearline,auto"]
+	Text[8000 188000 0 100 "Oversampling Mode:" "clearline,auto"]
+	Text[48000 158000 0 100 "0" "clearline,auto"]
+	Text[27000 180000 0 100 "OS2" "clearline,auto"]
+	Text[30000 144000 0 100 "0" "clearline,auto"]
+	Text[48000 137000 0 100 "0" "clearline,auto"]
+	Text[13000 137000 0 100 "1" "clearline,auto"]
+	Text[30000 137000 0 100 "1" "clearline,auto"]
+	Text[13000 130000 0 100 "1" "clearline,auto"]
+	Text[30000 130000 0 100 "1" "clearline,auto"]
+	Text[48000 130000 0 100 "1" "clearline,auto"]
+	Text[13000 158000 0 100 "0" "clearline,auto"]
+	Text[13000 144000 0 100 "1" "clearline,auto"]
+	Text[30000 151000 0 100 "1" "clearline,auto"]
+	Text[48000 165000 0 100 "1" "clearline,auto"]
+	Text[30000 158000 0 100 "1" "clearline,auto"]
+	Text[48000 151000 0 100 "1" "clearline,auto"]
+	Text[13000 151000 0 100 "0" "clearline,auto"]
+	Text[48000 144000 0 100 "0" "clearline,auto"]
+	Text[62000 130000 0 100 "x64" "clearline,auto"]
+	Text[62000 137000 0 100 "x32" "clearline,auto"]
+	Text[62000 144000 0 100 "x16" "clearline,auto"]
+	Text[62000 151000 0 100 "x8" "clearline,auto"]
+	Text[62000 158000 0 100 "x4" "clearline,auto"]
+	Text[62000 165000 0 100 "x2" "clearline,auto"]
+	Text[62000 172000 0 100 "x1" "clearline,auto"]
 )
 Layer(10 "silk")
 (

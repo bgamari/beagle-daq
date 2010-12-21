@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Sun Oct 24 14:17:56 2010
+# date:    Mon Dec 20 21:51:56 2010
 # user:    ben (Ben Gamari,,,)
 # host:    ben-laptop
 
@@ -9,11 +9,11 @@ FileVersion[20100606]
 PCB["BeagleDAQ" 950000 390000]
 
 Grid[1000.000000 0 0 0]
-Cursor[0 0 0.000000]
+Cursor[0 390000 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[600 600 600 500 1500 800]
-Flags("showdrc,nameonpcb,clearnew,snappin,thindrawpoly")
+Flags("showdrc,nameonpcb,clearnew,snappin")
 Groups("1,c:2,4,s:3:5:6:7:8")
 Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
 
@@ -5661,7 +5661,7 @@ Layer(4 "GND")
 (
 	Polygon("clearpoly")
 	(
-		[-370 -127] [940000 0] [939634 379768] [-413 379594] 
+		[9630 -127] [950000 0] [949634 379768] [9587 379594] 
 	)
 )
 Layer(5 "power")
@@ -5692,14 +5692,15 @@ Layer(9 "silk")
 	Line[22000 180000 22000 123000 1000 2000 "clearline"]
 	Line[5000 180000 74000 180000 1000 2000 "clearline"]
 	Line[74000 180000 74000 123000 1000 2000 "clearline"]
-	Text[90000 175000 0 100 "Ben Gamari" "clearline,auto"]
-	Text[132500 175000 0 100 "<bgamari@physics.umass.edu>" "clearline,auto"]
-	Text[145000 195000 0 100 "Revision 2" "clearline,auto"]
-	Text[90000 187500 0 100 "Design available @" "clearline,auto"]
-	Text[145000 187500 0 100 "http://goldnerlab.physics.umass.edu/wiki" "clearline,auto"]
-	Text[120000 160000 0 100 "Power off before modifying jumpers" "clearline,auto"]
-	Text[90000 195000 0 100 "BeagleDAQ" "clearline,auto"]
-	Text[90000 160000 0 100 "WARNING:" "clearline,auto"]
+	Line[90000 152000 118000 152000 600 1200 "clearline"]
+	Text[91000 150000 0 100 "Power down before modifying configuration jumpers" "clearline,auto"]
+	Text[90000 177500 0 100 "Design available @" "clearline,auto"]
+	Text[90000 202000 0 166 "BeagleDAQ" "clearline,auto"]
+	Text[47000 144000 0 100 "0" "clearline,auto"]
+	Text[61000 130000 0 100 "x64" "clearline,auto"]
+	Text[91000 158000 0 100 "WARNING:" "clearline,auto"]
+	Text[90000 190000 0 100 "Flexible Data Acquisition Platform for BeagleBoard" "clearline,auto"]
+	Text[145000 177500 0 100 "http://goldnerlab.physics.umass.edu/wiki" "clearline,auto"]
 	Text[867500 365000 0 100 "Power Supply: 9VDC" "clearline,auto"]
 	Text[707000 91000 0 100 "5V levels" "clearline,auto"]
 	Text[9000 223000 0 100 "RANGE" "clearline,auto"]
@@ -5738,8 +5739,9 @@ Layer(9 "silk")
 	Text[29000 158000 0 100 "1" "clearline,auto"]
 	Text[47000 151000 0 100 "1" "clearline,auto"]
 	Text[12000 151000 0 100 "0" "clearline,auto"]
-	Text[47000 144000 0 100 "0" "clearline,auto"]
-	Text[61000 130000 0 100 "x64" "clearline,auto"]
+	Text[90000 170000 0 100 "Ben Gamari" "clearline,auto"]
+	Text[145000 200000 0 120 "Revision 2" "clearline,auto"]
+	Text[127500 170000 0 100 "<bgamari@physics.umass.edu>" "clearline,auto"]
 )
 Layer(10 "silk")
 (

@@ -164,12 +164,12 @@ netname=dac_spi_addr0
 N 42800 39900 41300 39900 4
 {
 T 41400 39900 5 10 1 1 0 0 1
-netname=dac_spi_addr1
+netname=adc_spi_addr0
 }
 N 42800 39500 41300 39500 4
 {
 T 41400 39500 5 10 1 1 0 0 1
-netname=adc_spi_addr0
+netname=dac_spi_addr1
 }
 N 42800 39100 41300 39100 4
 {

@@ -29,5 +29,6 @@ gerbers : beagle-daq.pcb
 	pcb -x gerber --gerberfile gerbers/beagle-daq $<
 
 gerbers.zip : gerbers
-	zip $@ gerbers
+	rm -f $@
+	zip -j $@ gerbers/*
 

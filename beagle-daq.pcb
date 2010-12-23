@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Wed Dec 22 20:39:54 2010
+# date:    Wed Dec 22 20:54:12 2010
 # user:    ben (Ben Gamari,,,)
 # host:    ben-laptop
 
@@ -1542,7 +1542,7 @@ Element["" "SSOP16" "dac1/U1" "unknown" 556500 75500 -3700 20300 0 100 ""]
 
 	)
 
-Element["onsolder" "HEADER1_1" "BB5V" "unknown" 769500 103500 -5000 -7000 0 100 "auto"]
+Element["onsolder" "HEADER1_1" "BB5V" "unknown" 754500 102500 7000 3000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square"]
 	ElementLine [-5000 5000 -5000 -5000 1000]
@@ -1871,7 +1871,7 @@ Element["onsolder" "SMD_CHIP-1206" "C6" "0.1u" 726500 233500 3000 6000 3 25 "aut
 
 	)
 
-Element["onsolder" "HEADER16_2" "CONN_DIO" "unknown" 685500 45500 62000 17000 1 100 "auto"]
+Element["onsolder" "HEADER16_2" "CONN_DIO" "unknown" 685500 45500 77000 8000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2,thermal(3X)"]
 	Pin[0 10000 6000 3000 6600 3800 "2" "2" "edge2"]
@@ -3520,7 +3520,7 @@ Layer(1 "component")
 	Line[803500 235500 809600 235500 1000 2000 "clearline"]
 	Line[835500 230500 838700 230500 1000 2000 "clearline"]
 	Line[739500 109800 739600 109900 1000 2000 "clearline"]
-	Line[846500 174500 846500 115500 2500 2000 "clearline"]
+	Line[846500 174500 846500 115500 2500 2000 "clearline,rubberend"]
 	Line[66326 225326 68500 227500 1000 2000 "clearline"]
 	Line[482500 248000 486000 248000 1000 2000 "clearline"]
 	Line[715500 225500 715500 226500 1000 2000 "clearline"]
@@ -3790,7 +3790,7 @@ Layer(1 "component")
 	Line[719500 93500 719100 93500 2500 2000 "clearline"]
 	Line[388500 85500 388500 70500 1000 2000 "clearline"]
 	Line[716500 86500 685500 55500 1000 2000 "clearline"]
-	Line[769500 117500 769500 103500 2500 2000 "clearline"]
+	Line[769500 117500 754500 102500 2500 2000 "clearline"]
 	Line[724500 172500 737500 172500 1000 2000 "clearline"]
 	Line[638500 242500 666500 242500 1000 2000 "clearline"]
 	Line[200704 227296 200500 227500 1000 2000 "clearline"]
@@ -4877,7 +4877,7 @@ Layer(1 "component")
 	Line[257500 81500 257500 89500 1000 2000 "clearline"]
 	Line[67600 80600 67500 80600 1000 2000 "clearline"]
 	Line[252500 76500 257500 81500 1000 2000 "clearline"]
-	Line[754500 23500 528500 23500 2500 2000 "clearline"]
+	Line[754500 23500 528500 23500 2500 2000 "clearline,rubberend"]
 	Line[66500 80600 66600 80600 1000 2000 "clearline"]
 	Line[113500 89500 113500 81500 1000 2000 "clearline"]
 	Line[107500 81500 107500 89500 1000 2000 "clearline"]
@@ -5155,7 +5155,7 @@ Layer(1 "component")
 	Line[697500 243500 701500 243500 2500 2000 "clearline"]
 	Line[709000 218200 667800 218200 1000 2000 "clearline"]
 	Line[683200 226800 684200 226800 1000 2000 "clearline"]
-	Line[769500 103500 769500 103500 2500 2000 "clearline"]
+	Line[754500 102500 754500 102500 2500 2000 "clearline"]
 	Line[189366 235642 188642 235642 1000 2000 "clearline"]
 	Line[688200 205800 688200 183800 1000 2000 "clearline"]
 	Line[671600 231300 671600 242400 1000 2000 "clearline"]
@@ -5675,7 +5675,7 @@ Layer(9 "silk")
 	Text[68500 164500 0 95 "(c) 2010 Ben Gamari" "clearline,auto"]
 	Text[68500 187500 0 166 "BeagleDAQ" "clearline,auto"]
 	Text[846000 350500 0 100 "Power Supply: 9VDC" "clearline,auto"]
-	Text[755500 66500 1 100 "5V levels" "clearline,auto"]
+	Text[762500 46500 0 100 "5V levels" "clearline,auto"]
 	Text[354500 141500 0 95 "Power down before modifying" "clearline,auto"]
 	Text[309500 178500 0 100 "OS3" "clearline,auto"]
 	Text[358500 162500 0 100 "1" "clearline,auto"]

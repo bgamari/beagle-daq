@@ -4,7 +4,7 @@ C 49200 31700 1 0 0 beagle-expansion.sym
 T 51100 37800 5 10 0 1 0 0 1
 device=none
 T 49200 31700 5 10 0 0 0 0 1
-refdes=CONN2
+refdes=CONN_BB
 T 49200 31700 5 10 0 0 0 0 1
 footprint=HEADER28_2.fp
 }

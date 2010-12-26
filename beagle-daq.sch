@@ -6,7 +6,7 @@ device=none
 T 49200 31700 5 10 0 0 0 0 1
 refdes=CONN_BB
 T 49200 31700 5 10 0 0 0 0 1
-footprint=HEADER28_2.fp
+footprint=HEADER28_2
 }
 C 55700 32600 1 0 0 txb0108.sym
 {

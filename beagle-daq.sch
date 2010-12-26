@@ -336,11 +336,6 @@ netname=adc_spi_clk
 N 62900 34000 61900 34000 4
 {
 T 62000 34000 5 10 1 1 0 0 1
-netname=adc_spi_simo
-}
-N 62900 33600 61900 33600 4
-{
-T 62000 33600 5 10 1 1 0 0 1
 netname=adc_spi_somi
 }
 C 66200 32400 1 0 0 adc_unit.sym
@@ -365,11 +360,6 @@ netname=adc_spi_clk
 N 66700 34000 65700 34000 4
 {
 T 65800 34000 5 10 1 1 0 0 1
-netname=adc_spi_simo
-}
-N 66700 33600 65700 33600 4
-{
-T 65800 33600 5 10 1 1 0 0 1
 netname=adc_spi_somi
 }
 C 62400 28500 1 0 0 adc_unit.sym
@@ -394,11 +384,6 @@ netname=adc_spi_clk
 N 62900 30100 61900 30100 4
 {
 T 62000 30100 5 10 1 1 0 0 1
-netname=adc_spi_simo
-}
-N 62900 29700 61900 29700 4
-{
-T 62000 29700 5 10 1 1 0 0 1
 netname=adc_spi_somi
 }
 C 66200 28500 1 0 0 adc_unit.sym
@@ -423,11 +408,6 @@ netname=adc_spi_clk
 N 66700 30100 65700 30100 4
 {
 T 65800 30100 5 10 1 1 0 0 1
-netname=adc_spi_simo
-}
-N 66700 29700 65700 29700 4
-{
-T 65800 29700 5 10 1 1 0 0 1
 netname=adc_spi_somi
 }
 C 44900 30400 1 0 1 txb0108.sym

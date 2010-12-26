@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Thu Dec 23 13:12:08 2010
+# date:    Sat Dec 25 22:25:54 2010
 # user:    ben (Ben Gamari,,,)
 # host:    ben-laptop
 
@@ -8,12 +8,12 @@ FileVersion[20100606]
 
 PCB["BeagleDAQ" 917500 372500]
 
-Grid[1000.000000 500 500 1]
+Grid[1000.000000 500 500 0]
 Cursor[0 0 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[600 600 600 500 1500 800]
-Flags("showdrc,rubberband,nameonpcb,clearnew,snappin,thindrawpoly")
+Flags("showdrc,rubberband,nameonpcb,clearnew,snappin,thindrawpoly,locknames")
 Groups("1,c:2,4,s:3:5:6:7:8")
 Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,16000,15600,1000:Skinny,600,2402,1181,600"]
 
@@ -1135,6 +1135,10 @@ Via[376500 80500 3600 2000 0 2000 "" ""]
 Via[423500 109500 3600 2000 0 2000 "" ""]
 Via[676500 146500 3600 2000 0 2000 "" ""]
 Via[728500 348500 6000 2000 0 3500 "" ""]
+Via[216500 93500 3600 2000 0 2000 "" ""]
+Via[66500 93500 3600 2000 0 2000 "" ""]
+Via[376500 93500 3600 2000 0 2000 "" ""]
+Via[549500 93500 3600 2000 0 2000 "" ""]
 
 Element["" "SMD_CHIP-1206" "adc1/C7" "10u" 491500 248500 -6000 -3000 0 25 ""]
 (
@@ -1429,7 +1433,7 @@ Element["" "SMD_CHIP-1206" "adc1/C9" "10u" 491500 234000 6000 3000 2 25 ""]
 
 	)
 
-Element["" "HEADER28_2.fp" "CONN_BB" "unknown" 779500 117500 11000 -5000 3 100 ""]
+Element["" "HEADER28_2" "CONN_BB" "unknown" 779500 117500 11000 -5000 3 100 ""]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square"]
 	Pin[-10000 0 6000 3000 6600 3800 "2" "2" ""]
@@ -1771,7 +1775,7 @@ Element["" "SMD_CHIP-1206" "R1" "90" 802500 117500 -6000 -3000 0 25 ""]
 
 	)
 
-Element["" "SMD_CHIP-1206" "adc1/R5" "1k" 578000 226500 6000 3000 2 25 ""]
+Element["" "SMD_CHIP-1206" "adc1/R5" "20k" 578000 226500 6000 3000 2 25 ""]
 (
 	Pad[5000 -2000 5000 2000 2000 3000 2600 "" "1" "square"]
 	Pad[-5000 -2000 -5000 2000 2000 3000 2600 "" "2" "square"]
@@ -2378,7 +2382,7 @@ Element["" "SMD_CHIP-1206" "adc2/R2" "1k" 414000 275500 3000 -6000 3 25 ""]
 
 	)
 
-Element["" "SMD_CHIP-1206" "adc2/R5" "1k" 420000 226500 6000 3000 2 25 ""]
+Element["" "SMD_CHIP-1206" "adc2/R5" "20k" 420000 226500 6000 3000 2 25 ""]
 (
 	Pad[5000 -2000 5000 2000 2000 3000 2600 "" "1" "square"]
 	Pad[-5000 -2000 -5000 2000 2000 3000 2600 "" "2" "square"]
@@ -2781,7 +2785,7 @@ Element["" "SMD_CHIP-1206" "adc3/R2" "1k" 256000 275500 3000 -6000 3 25 ""]
 
 	)
 
-Element["" "SMD_CHIP-1206" "adc3/R5" "1k" 262000 226500 6000 3000 2 25 ""]
+Element["" "SMD_CHIP-1206" "adc3/R5" "20k" 262000 226500 6000 3000 2 25 ""]
 (
 	Pad[5000 -2000 5000 2000 2000 3000 2600 "" "1" "square"]
 	Pad[-5000 -2000 -5000 2000 2000 3000 2600 "" "2" "square"]
@@ -3116,7 +3120,7 @@ Element["" "SMD_CHIP-1206" "adc4/R2" "1k" 98000 275500 3000 -6000 3 25 ""]
 
 	)
 
-Element["" "SMD_CHIP-1206" "adc4/R5" "1k" 104000 226500 6000 3000 2 25 ""]
+Element["" "SMD_CHIP-1206" "adc4/R5" "20k" 104000 226500 6000 3000 2 25 ""]
 (
 	Pad[5000 -2000 5000 2000 2000 3000 2600 "" "1" "square"]
 	Pad[-5000 -2000 -5000 2000 2000 3000 2600 "" "2" "square"]
@@ -3463,6 +3467,50 @@ Element["onsolder" "SMD_CHIP-1206" "C5" "0.1u" 719500 102500 -3000 -6000 1 25 "a
 	ElementLine [-3000 6000 3000 6000 500]
 	ElementLine [3000 -6000 3000 6000 500]
 	ElementLine [-3000 -6000 3000 -6000 500]
+
+	)
+
+Element["onsolder" "SMD_CHIP-1206" "dac1/C3" "0.1u" 549500 101500 3000 6000 3 25 "auto"]
+(
+	Pad[-2000 5000 2000 5000 2000 3000 2600 "" "1" "onsolder,square"]
+	Pad[-2000 -5000 2000 -5000 2000 3000 2600 "" "2" "onsolder,square"]
+	ElementLine [-3000 6000 3000 6000 500]
+	ElementLine [-3000 -6000 -3000 6000 500]
+	ElementLine [-3000 -6000 3000 -6000 500]
+	ElementLine [3000 -6000 3000 6000 500]
+
+	)
+
+Element["onsolder" "SMD_CHIP-1206" "dac3/C3" "0.1u" 216500 101500 3000 6000 3 25 "auto"]
+(
+	Pad[-2000 5000 2000 5000 2000 3000 2600 "" "1" "onsolder,square"]
+	Pad[-2000 -5000 2000 -5000 2000 3000 2600 "" "2" "onsolder,square"]
+	ElementLine [-3000 6000 3000 6000 500]
+	ElementLine [-3000 -6000 -3000 6000 500]
+	ElementLine [-3000 -6000 3000 -6000 500]
+	ElementLine [3000 -6000 3000 6000 500]
+
+	)
+
+Element["onsolder" "SMD_CHIP-1206" "dac2/C3" "0.1u" 376500 101500 3000 6000 3 25 "auto"]
+(
+	Pad[-2000 5000 2000 5000 2000 3000 2600 "" "1" "onsolder,square"]
+	Pad[-2000 -5000 2000 -5000 2000 3000 2600 "" "2" "onsolder,square"]
+	ElementLine [-3000 6000 3000 6000 500]
+	ElementLine [-3000 -6000 -3000 6000 500]
+	ElementLine [-3000 -6000 3000 -6000 500]
+	ElementLine [3000 -6000 3000 6000 500]
+
+	)
+
+Element["onsolder" "SMD_CHIP-1206" "dac4/C3" "0.1u" 66500 101500 3000 6000 3 25 "auto"]
+(
+	Pad[-2000 5000 2000 5000 2000 3000 2600 "" "1" "onsolder,square"]
+	Pad[-2000 -5000 2000 -5000 2000 3000 2600 "" "2" "onsolder,square"]
+	ElementLine [-3000 6000 3000 6000 500]
+	ElementLine [-3000 -6000 -3000 6000 500]
+	ElementLine [-3000 -6000 3000 -6000 500]
+	ElementLine [3000 -6000 3000 6000 500]
 
 	)
 Layer(1 "component")
@@ -4398,7 +4446,7 @@ Layer(1 "component")
 	Line[374452 227500 374500 227500 1000 2000 "clearline"]
 	Line[415000 234000 409422 239578 1000 2000 "clearline"]
 	Line[399264 229736 399500 229500 1000 2000 "clearline"]
-	Line[225500 99500 231500 93500 2500 2000 "clearline"]
+	Line[225500 99500 231500 93500 2500 2000 "clearline,rubberend"]
 	Line[79500 273500 79500 278500 1000 2000 "clearline"]
 	Line[328000 248000 328500 248500 1000 2000 "clearline"]
 	Line[376422 289422 391500 304500 1000 2000 "clearline"]
@@ -4819,7 +4867,7 @@ Layer(1 "component")
 	Line[99000 58500 100500 58500 1000 2000 "clearline"]
 	Line[76500 117500 619500 117500 1000 2000 "clearline"]
 	Line[87500 70000 99000 58500 1000 2000 "clearline"]
-	Line[75500 99500 81500 93500 2500 2000 "clearline"]
+	Line[75500 99500 81500 93500 2500 2000 "clearline,rubberend"]
 	Line[45500 75500 45500 23500 2500 2000 "clearline"]
 	Line[50500 80500 45500 75500 2500 2000 "clearline"]
 	Line[529500 99500 558500 99500 2500 2000 "clearline"]
@@ -4922,7 +4970,7 @@ Layer(1 "component")
 	Line[250500 58500 253500 55500 1000 2000 "clearline"]
 	Line[245400 80700 249300 80700 1000 2000 "clearline"]
 	Line[245400 83200 247700 83200 1000 2000 "clearline"]
-	Line[33500 85500 47500 99500 2500 2000 "clearline"]
+	Line[33500 85500 47500 99500 2500 2000 "clearline,rubberend"]
 	Line[97700 83200 100000 85500 1000 2000 "clearline"]
 	Line[222000 83200 219800 83200 1000 2000 "clearline"]
 	Line[216500 80600 216600 80600 1000 2000 "clearline"]
@@ -5253,7 +5301,7 @@ Layer(1 "component")
 	Line[227500 250500 227500 249421 1000 2000 "clearline"]
 	Line[33500 11500 33500 85500 2500 2000 "clearline"]
 	Line[181500 33500 181500 84500 2500 2000 "clearline,rubberend"]
-	Line[181500 84500 196500 99500 2500 2000 "clearline"]
+	Line[181500 84500 196500 99500 2500 2000 "clearline,rubberend"]
 	Line[196500 99500 225500 99500 2500 2000 "clearline"]
 	Line[324500 348500 486500 348500 2500 2000 "clearline"]
 	Line[486500 348500 494500 340500 2500 2000 "clearline"]
@@ -5272,7 +5320,7 @@ Layer(2 "solder")
 	Line[584500 85500 585500 85500 1000 2000 "clearline"]
 	Line[514500 11500 514500 30500 2500 2000 "clearline"]
 	Line[549500 80500 550500 80500 1000 2000 "clearline"]
-	Line[216500 87500 216500 90500 1000 2000 "rubberend"]
+	Line[66500 84500 66500 87500 1000 2000 "rubberend"]
 	Line[635100 174100 637500 176500 2500 2000 "clearline"]
 	Line[559500 94500 559500 81500 1000 2000 "clearline"]
 	Line[719500 93500 719500 97500 2500 2000 "clearline"]
@@ -5300,7 +5348,7 @@ Layer(2 "solder")
 	Line[410500 85500 411500 85500 1000 2000 "clearline"]
 	Line[265500 249500 278000 249500 1000 2000 "clearline"]
 	Line[283500 336500 283500 354500 2500 2000 "clearline"]
-	Line[549500 87500 549500 90500 1000 2000 "rubberend"]
+	Line[376500 84500 376500 87500 1000 2000 "rubberend"]
 	Line[482500 333500 482500 348500 2500 2000 "clearline"]
 	Line[251500 85500 250500 85500 1000 2000 "clearline"]
 	Line[563500 125500 563500 98500 1000 2000 "clearline"]
@@ -5465,7 +5513,7 @@ Layer(2 "solder")
 	Line[383500 70500 383500 74500 1000 2000 "clearline"]
 	Line[377500 80500 376500 80500 1000 2000 "clearline"]
 	Line[81500 82500 81500 93500 1000 2000 "clearline"]
-	Line[66500 87500 66500 90500 1000 2000 "rubberend"]
+	Line[728500 322500 728500 348500 2500 2000 "clearline"]
 	Line[536500 213000 536500 216500 1000 2000 "rubberend"]
 	Line[386500 81500 386500 121500 1000 2000 "clearline"]
 	Line[262500 74500 251500 85500 1000 2000 "clearline"]
@@ -5500,7 +5548,7 @@ Layer(2 "solder")
 	Line[66500 80500 67500 80500 1000 2000 "clearline"]
 	Line[66500 80500 66500 77500 1000 2000 "clearline"]
 	Line[263500 102500 263500 109500 1000 2000 "clearline"]
-	Line[376500 87500 376500 90500 1000 2000 "rubberend"]
+	Line[216500 84500 216500 87500 1000 2000 "rubberend"]
 	Line[231500 82500 231500 93500 1000 2000 "clearline"]
 	Line[216500 80500 216500 77500 1000 2000 "clearline"]
 	Line[113500 101500 113500 102500 1000 2000 "clearline"]
@@ -5545,7 +5593,15 @@ Layer(2 "solder")
 	Line[197500 238500 203500 238500 2500 2000 "clearline"]
 	Line[39500 238500 45500 238500 2500 2000 "clearline"]
 	Line[58500 227500 58500 227000 1000 2000 "clearline"]
-	Line[728500 322500 728500 348500 2500 2000 "clearline"]
+	Line[549500 84500 549500 87500 1000 2000 "rubberend"]
+	Line[66500 93500 66500 96500 1000 2000 "clearline"]
+	Line[66500 106500 66500 103500 1000 2000 ""]
+	Line[216500 93500 216500 96500 1000 2000 "clearline"]
+	Line[216500 106500 216500 103500 1000 2000 ""]
+	Line[376500 93500 376500 96500 1000 2000 "clearline"]
+	Line[376500 106500 376500 103500 1000 2000 ""]
+	Line[549500 93500 549500 96500 1000 2000 "clearline"]
+	Line[549500 106500 549500 103500 1000 2000 ""]
 )
 Layer(3 "outline")
 (
@@ -6586,6 +6642,7 @@ NetList()
 		Connect("CONN_VCC-2")
 		Connect("dac1/C1-2")
 		Connect("dac1/C2-2")
+		Connect("dac1/C3-1")
 		Connect("dac1/DACOUT-1")
 		Connect("dac1/DACOUT-3")
 		Connect("dac1/DACOUT-5")
@@ -6597,6 +6654,7 @@ NetList()
 		Connect("dac1/U1-14")
 		Connect("dac2/C1-2")
 		Connect("dac2/C2-2")
+		Connect("dac2/C3-1")
 		Connect("dac2/DACOUT-1")
 		Connect("dac2/DACOUT-3")
 		Connect("dac2/DACOUT-5")
@@ -6608,6 +6666,7 @@ NetList()
 		Connect("dac2/U1-14")
 		Connect("dac3/C1-2")
 		Connect("dac3/C2-2")
+		Connect("dac3/C3-1")
 		Connect("dac3/DACOUT-1")
 		Connect("dac3/DACOUT-3")
 		Connect("dac3/DACOUT-5")
@@ -6619,6 +6678,7 @@ NetList()
 		Connect("dac3/U1-14")
 		Connect("dac4/C1-2")
 		Connect("dac4/C2-2")
+		Connect("dac4/C3-1")
 		Connect("dac4/DACOUT-1")
 		Connect("dac4/DACOUT-3")
 		Connect("dac4/DACOUT-5")
@@ -6720,9 +6780,13 @@ NetList()
 	Net("REF5V" "(unknown)")
 	(
 		Connect("C11-1")
+		Connect("dac1/C3-2")
 		Connect("dac1/U1-8")
+		Connect("dac2/C3-2")
 		Connect("dac2/U1-8")
+		Connect("dac3/C3-2")
 		Connect("dac3/U1-8")
+		Connect("dac4/C3-2")
 		Connect("dac4/U1-8")
 		Connect("U3-6")
 	)

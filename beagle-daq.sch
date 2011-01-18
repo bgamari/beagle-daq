@@ -927,7 +927,7 @@ refdes=C7
 T 56900 44100 5 10 0 0 90 2 1
 symversion=0.1
 T 56000 44300 5 10 1 1 180 0 1
-value=4.7u
+value=10u
 T 56000 43900 5 10 0 0 90 2 1
 footprint=SMD_CHIP 1206
 }
@@ -1044,7 +1044,7 @@ refdes=C13
 T 56900 41000 5 10 0 0 90 2 1
 symversion=0.1
 T 56000 41200 5 10 1 1 180 0 1
-value=4.7u
+value=10u
 T 56000 40800 5 10 0 0 90 2 1
 footprint=SMD_CHIP 1206
 }

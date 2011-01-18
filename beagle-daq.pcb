@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Tue Jan 18 17:25:55 2011
+# date:    Tue Jan 18 17:28:06 2011
 # user:    ben (Ben Gamari,,,)
 # host:    ben-laptop
 
@@ -3535,7 +3535,7 @@ Element["onsolder" "SMD_CHIP-1206" "adc4/C4" "100n" 45500 243500 -3000 -6000 1 2
 
 	)
 
-Element["onsolder" "HEADER16_2" "GPIO/GPIOOUT" "unknown" 621500 304500 76000 0 0 100 "auto"]
+Element["onsolder" "HEADER16_2" "GPIO/GPIOOUT" "unknown" 621500 304500 77000 8000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
 	Pin[0 10000 6000 3000 6600 3800 "2" "2" "edge2"]
@@ -5975,6 +5975,7 @@ Layer(9 "silk")
 	Text[670500 326500 0 95 "6" "clearline,auto"]
 	Text[680500 326500 0 95 "7" "clearline,auto"]
 	Text[690500 326500 0 95 "8" "clearline,auto"]
+	Text[698500 306500 0 107 "5V levels" "clearline,auto"]
 )
 Layer(10 "silk")
 (

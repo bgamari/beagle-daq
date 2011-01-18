@@ -111,7 +111,7 @@ device=RESISTOR
 T 7000 7600 5 10 1 1 0 0 1
 refdes=R1
 T 7300 7600 5 10 1 1 0 0 1
-value=5k
+value=10k
 T 6800 7300 5 10 0 0 0 0 1
 footprint=SMD_CHIP 1206
 }

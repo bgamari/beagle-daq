@@ -1,11 +1,11 @@
 v 20110116 2
-C 49200 31700 1 0 0 beagle-expansion.sym
+C 48800 31500 1 0 0 beagle-expansion.sym
 {
-T 51100 37800 5 10 0 1 0 0 1
+T 50700 37600 5 10 0 1 0 0 1
 device=none
-T 49200 31700 5 10 0 0 0 0 1
+T 48800 31500 5 10 0 0 0 0 1
 refdes=CONN_BB
-T 49200 31700 5 10 0 0 0 0 1
+T 48800 31500 5 10 0 0 0 0 1
 footprint=HEADER28_2
 }
 C 55700 32600 1 0 0 txb0108.sym

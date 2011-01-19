@@ -23,7 +23,7 @@ version=20060113 1
 name=SN54AHC139
 device=SN54AHC139
 refdes=U?
-footprint=SSOP20
+footprint=SSOP16
 description=Dual 2-line to 4-line decoders/demultiplexers
 documentation=
 author=Ben Gamari <bgamari@gmail.com>
@@ -61,7 +61,7 @@ numslots=0
 5		out	line	r		1Y1
 6		out	line	r		1Y2
 7		out	line	r		1Y3
-8		pwr	line	t		Vcc
+8		pwr	line	b		GND
 9		out	line	r		2Y3
 10		out	line	r		2Y2
 11		out	line	r		2Y1
@@ -69,4 +69,4 @@ numslots=0
 13		in	line	l		2B
 14		in	line	l		2A
 15		in	line	l		2G
-16		pwr	line	b		Gnd
+16		pwr	line	t		Vcc

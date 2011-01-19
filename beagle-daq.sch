@@ -55,8 +55,6 @@ T 51500 43000 5 10 1 1 0 6 1
 refdes=U2
 T 50300 41500 5 10 0 0 0 0 1
 device=SN54AHC139
-T 50300 41700 5 10 0 0 0 0 1
-footprint=SSOP16
 }
 C 62400 32400 1 0 0 adc_unit.sym
 {

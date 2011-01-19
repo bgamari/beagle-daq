@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Tue Jan 18 21:18:05 2011
+# date:    Tue Jan 18 21:30:55 2011
 # user:    ben (Ben Gamari,,,)
 # host:    ben-laptop
 
@@ -8,7 +8,7 @@ FileVersion[20100606]
 
 PCB["BeagleDAQ" 917500 372500]
 
-Grid[500.000000 500 500 0]
+Grid[1500.000000 500 500 0]
 Cursor[0 372500 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
@@ -6093,7 +6093,7 @@ Layer(4 "GND")
 (
 	Polygon("clearpoly")
 	(
-		[500 371500] [916500 371500] [916500 500] [500 500] 
+		[3500 369500] [914000 369500] [914000 3500] [3500 3500] 
 	)
 )
 Layer(5 "power")

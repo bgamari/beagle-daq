@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Fri Jan 21 17:12:50 2011
+# date:    Fri Jan 21 17:21:03 2011
 # user:    ben (Ben Gamari,,,)
 # host:    ben-laptop
 
@@ -9,7 +9,7 @@ FileVersion[20100606]
 PCB["BeagleDAQ" 917500 372500]
 
 Grid[1000.000000 500 500 0]
-Cursor[0 0 0.000000]
+Cursor[0 372500 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[600 600 600 500 1500 800]
@@ -1530,7 +1530,7 @@ Element["onsolder" "HEADER1_1" "BB5V" "unknown" 754500 102500 7000 3000 0 100 "a
 
 	)
 
-Element["onsolder" "HEADER5_1" "SPI1" "unknown" 506500 133500 8000 2000 0 100 "auto"]
+Element["onsolder" "HEADER5_1" "SPI4" "unknown" 506500 133500 10000 5000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
 	Pin[-10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
@@ -2172,7 +2172,7 @@ Element["onsolder" "HEADER1_1" "GND" "unknown" 879500 108500 -5000 12000 0 100 "
 
 	)
 
-Element["onsolder" "HEADER5_1" "SPI2" "unknown" 506500 179500 8000 3000 0 100 "auto"]
+Element["onsolder" "HEADER5_1" "SPI3" "unknown" 506500 179500 9000 5000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
 	Pin[-10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
@@ -6447,6 +6447,18 @@ Layer(9 "silk")
 	Text[172500 319500 0 173 "-" "clearline,auto"]
 	Text[14500 309500 0 173 "+" "clearline,auto"]
 	Text[14500 319500 0 173 "-" "clearline,auto"]
+	Text[499500 172500 3 102 "SOMI" "clearline,auto"]
+	Text[489500 172500 3 102 "MOSI" "clearline,auto"]
+	Text[509500 172500 3 102 "CLK" "clearline,auto"]
+	Text[469500 172500 3 102 "GND" "clearline,auto"]
+	Text[479500 172500 3 102 "CS" "clearline,auto"]
+	Text[513500 178500 0 102 "(ADCs)" "clearline,auto"]
+	Text[513500 132500 0 102 "(DACs)" "clearline,auto"]
+	Text[503500 140500 1 102 "CLK" "clearline,auto"]
+	Text[493500 140500 1 102 "SOMI" "clearline,auto"]
+	Text[483500 140500 1 102 "MOSI" "clearline,auto"]
+	Text[463500 140500 1 102 "GND" "clearline,auto"]
+	Text[473500 140500 1 102 "CS" "clearline,auto"]
 )
 Layer(10 "silk")
 (

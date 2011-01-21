@@ -1,4 +1,5 @@
 schematics beagle-daq.sch
 
 output-name beagle-daq
+skip-m4
 

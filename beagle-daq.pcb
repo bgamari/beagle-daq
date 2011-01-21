@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Fri Jan 21 17:09:11 2011
+# date:    Fri Jan 21 17:12:50 2011
 # user:    ben (Ben Gamari,,,)
 # host:    ben-laptop
 
@@ -1882,7 +1882,7 @@ Element["onsolder" "HEADER16_2" "CONN_DIO" "unknown" 685500 45500 77000 8000 0 1
 	Pin[40000 10000 6000 3000 6600 3800 "10" "10" "edge2"]
 	Pin[50000 0 6000 3000 6600 3800 "11" "11" "edge2,thermal(3X)"]
 	Pin[50000 10000 6000 3000 6600 3800 "12" "12" "edge2"]
-	Pin[60000 0 6000 3000 6600 3800 "13" "13" "edge2,thermal(3X)"]
+	Pin[60000 0 6000 3000 6600 3800 "13" "13" "edge2"]
 	Pin[60000 10000 6000 3000 6600 3800 "14" "14" "edge2"]
 	Pin[70000 0 6000 3000 6600 3800 "15" "15" "edge2"]
 	Pin[70000 10000 6000 3000 6600 3800 "16" "16" "edge2"]
@@ -6384,8 +6384,8 @@ Layer(9 "silk")
 	Text[714500 38500 0 95 "4" "clearline,auto"]
 	Text[724500 38500 0 95 "5" "clearline,auto"]
 	Text[734500 38500 0 95 "6" "clearline,auto"]
-	Text[744500 38500 0 95 "7" "clearline,auto"]
-	Text[754500 38500 0 95 "8" "clearline,auto"]
+	Text[673500 50500 0 173 "-" "clearline,auto"]
+	Text[673500 60500 0 173 "+" "clearline,auto"]
 	Text[535500 38500 0 95 "1" "clearline,auto"]
 	Text[545500 38500 0 95 "2" "clearline,auto"]
 	Text[555500 38500 0 95 "3" "clearline,auto"]
@@ -6429,6 +6429,24 @@ Layer(9 "silk")
 	Text[680500 326500 0 95 "7" "clearline,auto"]
 	Text[690500 326500 0 95 "8" "clearline,auto"]
 	Text[698500 306500 0 107 "5V levels" "clearline,auto"]
+	Text[41500 50500 0 173 "-" "clearline,auto"]
+	Text[41500 60500 0 173 "+" "clearline,auto"]
+	Text[191500 50500 0 173 "-" "clearline,auto"]
+	Text[191500 60500 0 173 "+" "clearline,auto"]
+	Text[351500 50500 0 173 "-" "clearline,auto"]
+	Text[351500 60500 0 173 "+" "clearline,auto"]
+	Text[524500 50500 0 173 "-" "clearline,auto"]
+	Text[524500 60500 0 173 "+" "clearline,auto"]
+	Text[610500 309500 0 173 "+" "clearline,auto"]
+	Text[610500 319500 0 173 "-" "clearline,auto"]
+	Text[488500 309500 0 173 "+" "clearline,auto"]
+	Text[488500 319500 0 173 "-" "clearline,auto"]
+	Text[330500 309500 0 173 "+" "clearline,auto"]
+	Text[330500 319500 0 173 "-" "clearline,auto"]
+	Text[172500 309500 0 173 "+" "clearline,auto"]
+	Text[172500 319500 0 173 "-" "clearline,auto"]
+	Text[14500 309500 0 173 "+" "clearline,auto"]
+	Text[14500 319500 0 173 "-" "clearline,auto"]
 )
 Layer(10 "silk")
 (

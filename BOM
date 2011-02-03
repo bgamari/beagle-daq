@@ -1,4 +1,4 @@
-Bill of Materials
+Bill of Materials for BeagleDAQ
 
 
 Qty     Vendor          Part #          Description
@@ -7,12 +7,14 @@ Converters:
 4       Texas Instr.    DAC8568         16-bit digital-to-analog converter
 4       Analog Devices  AD7606          16-bit 200ksamp/sec simultaneous capture
                                         analog-to-digital converter
+
 Power:
-1       Texas Instr.    REF5045         4.5V voltage reference
+1       Texas Instr.    REF5050         4.5V voltage reference
 1       Texas Instr.    REF5025         2.5V voltage reference
-1       National Semi.  LM7805          +5V linear regulator
+1       National Semi.  LM7806          +5V linear regulator
 1       National Semi.  LP2981          LDO (5V)
 1       Texas Instr.    TPS7A4901       LDO (5V)
+
 Misc:
 1       Atmel           AT24C01B        1kbit 2-wire EEPROM
 3       Texas Instr.    TXB0108         8-bit level shifter

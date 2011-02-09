@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Sat Jan 29 13:15:25 2011
+# date:    Wed Feb  9 17:00:34 2011
 # user:    ben (Ben Gamari,,,)
 # host:    ben-laptop
 
@@ -972,7 +972,7 @@ Via[377500 72500 3600 2000 0 2000 "" ""]
 Via[513500 238500 3600 2000 0 2000 "" ""]
 Via[676500 171500 3600 2000 0 2000 "" ""]
 Via[895500 15500 17500 0 0 15600 "" ""]
-Via[727000 226000 3600 2000 0 2000 "" ""]
+Via[877500 75500 3600 2000 0 2000 "" "thermal(3X)"]
 Via[873500 65500 6000 2000 0 3500 "" "thermal(3X)"]
 Via[674500 11500 6000 2000 0 3500 "" ""]
 Via[674500 30500 6000 2000 0 3500 "" ""]
@@ -1147,7 +1147,6 @@ Via[887500 51500 6000 2000 0 3500 "" "thermal(3X)"]
 Via[862500 51500 6000 2000 0 3500 "" "thermal(3X)"]
 Via[858500 25500 6000 2000 0 3500 "" "thermal(3X)"]
 Via[866500 25500 6000 2000 0 3500 "" "thermal(3X)"]
-Via[877500 75500 3600 2000 0 2000 "" "thermal(3X)"]
 
 Element["" "SMD_CHIP-1206" "adc1/C7" "10u" 491500 248500 -6000 -3000 0 25 ""]
 (
@@ -3626,14 +3625,14 @@ Element["" "TSSOP-65P-640L1-16N" "dac2/U1" "unknown" 393500 84500 -7267 -15842 0
 
 	)
 
-Element["onsolder" "SMD_CHIP-1206" "C3" "0.1u" 727000 218000 -3000 -6000 1 25 "auto"]
+Element["" "SMD_CHIP-1206" "C7" "10u" 877500 75500 6000 3000 2 25 ""]
 (
-	Pad[-2000 -5000 2000 -5000 2000 3000 2600 "" "1" "onsolder,square"]
-	Pad[-2000 5000 2000 5000 2000 3000 2600 "" "2" "onsolder,square"]
-	ElementLine [-3000 -6000 -3000 6000 500]
-	ElementLine [-3000 6000 3000 6000 500]
-	ElementLine [3000 -6000 3000 6000 500]
-	ElementLine [-3000 -6000 3000 -6000 500]
+	Pad[5000 -2000 5000 2000 2000 3000 2600 "" "1" "square"]
+	Pad[-5000 -2000 -5000 2000 2000 3000 2600 "" "2" "square"]
+	ElementLine [-6000 3000 6000 3000 500]
+	ElementLine [-6000 -3000 -6000 3000 500]
+	ElementLine [-6000 -3000 6000 -3000 500]
+	ElementLine [6000 -3000 6000 3000 500]
 
 	)
 
@@ -3677,17 +3676,6 @@ Element["" "SMD_CHIP-1206" "psu/C3" "1u" 838500 45500 -6000 -3000 0 25 ""]
 	ElementLine [-6000 3000 6000 3000 500]
 	ElementLine [6000 -3000 6000 3000 500]
 	ElementLine [-6000 -3000 6000 -3000 500]
-
-	)
-
-Element["" "SMD_CHIP-1206" "C7" "10u" 877500 75500 6000 3000 2 25 ""]
-(
-	Pad[5000 -2000 5000 2000 2000 3000 2600 "" "1" "square"]
-	Pad[-5000 -2000 -5000 2000 2000 3000 2600 "" "2" "square"]
-	ElementLine [-6000 3000 6000 3000 500]
-	ElementLine [-6000 -3000 -6000 3000 500]
-	ElementLine [-6000 -3000 6000 -3000 500]
-	ElementLine [6000 -3000 6000 3000 500]
 
 	)
 Layer(1 "component")
@@ -3794,7 +3782,7 @@ Layer(1 "component")
 	Line[405685 88338 405685 88400 1000 2000 "clearline"]
 	Line[557033 85800 561200 85800 1000 2000 "clearline"]
 	Line[729279 59300 725500 55500 1000 2000 "clearline"]
-	Line[732282 226000 732326 225956 1000 2000 "clearline"]
+	Line[872000 76000 872500 75500 2500 2000 "clearline"]
 	Line[711500 354500 599500 354500 2500 2000 "clearline"]
 	Line[405685 88400 405400 88338 1000 2000 "clearline"]
 	Line[506500 147500 496500 137500 1000 2000 "clearline"]
@@ -4112,7 +4100,7 @@ Layer(1 "component")
 	Line[73100 75500 73100 75544 1000 2000 "clearline"]
 	Line[769500 137500 730500 137500 1000 2000 "clearline"]
 	Line[665500 117500 666500 117500 1000 2000 "clearline"]
-	Line[599500 225500 583000 225500 2500 2000 "clearline"]
+	Line[726500 222500 726500 194500 2500 2000 "clearline"]
 	Line[62389 226389 63500 227500 1000 2000 "clearline"]
 	Line[767500 207500 761500 201500 1000 2000 "clearline"]
 	Line[710100 202100 709500 201500 1000 2000 "clearline"]
@@ -4154,7 +4142,7 @@ Layer(1 "component")
 	Line[723500 160500 725500 162500 1000 2000 "clearline"]
 	Line[724500 172500 716500 164500 1000 2000 "clearline"]
 	Line[661600 174400 667500 168500 1000 2000 "clearline"]
-	Line[727000 226000 730900 226000 1000 2000 "clearline"]
+	Line[863950 66000 873000 66000 2500 2000 "clearline"]
 	Line[758500 145500 726500 145500 1000 2000 "clearline"]
 	Line[345673 255327 343500 257500 1000 2000 "clearline"]
 	Line[640500 237000 634500 231000 1000 2000 "clearline"]
@@ -4407,7 +4395,7 @@ Layer(1 "component")
 	Line[755500 198500 755500 211500 1000 2000 "clearline"]
 	Line[779500 117500 794500 117500 2500 2000 "clearline"]
 	Line[734500 181500 723500 181500 1000 2000 "clearline"]
-	Line[599500 225500 599500 255500 2500 2000 "clearline"]
+	Line[729956 225956 727500 223500 1000 2000 "clearline"]
 	Line[170000 248000 170500 248500 1000 2000 "clearline"]
 	Line[544579 249421 543500 250500 1000 2000 "clearline"]
 	Line[845050 71000 812000 71000 2500 2000 "clearline"]
@@ -4591,7 +4579,7 @@ Layer(1 "component")
 	Line[385500 250500 385500 249421 1000 2000 "clearline"]
 	Line[351263 229737 353500 227500 1000 2000 "clearline"]
 	Line[674500 11500 852500 11500 2500 2000 "clearline"]
-	Line[441500 225500 425000 225500 2500 2000 "clearline"]
+	Line[599500 232500 592500 225500 1000 2000 "clearline"]
 	Line[64358 226642 63500 227500 1000 2000 "clearline"]
 	Line[413485 243515 420500 236500 1000 2000 "clearline"]
 	Line[650500 171800 650500 171856 1000 2000 "clearline"]
@@ -4652,7 +4640,7 @@ Layer(1 "component")
 	Line[543500 246500 532500 235500 1000 2000 "clearline"]
 	Line[214484 220366 214484 216516 1000 2000 "clearline,rubberend"]
 	Line[619500 117500 620500 117500 1000 2000 "clearline"]
-	Line[731800 225956 730900 225900 1000 2000 "clearline"]
+	Line[877500 75500 882500 75500 1000 2000 "clearline"]
 	Line[486500 105500 590500 105500 1000 2000 "clearline"]
 	Line[53500 71500 53500 70500 1000 2000 "clearline"]
 	Line[650200 151300 651400 151300 1000 2000 "clearline,rubberend"]
@@ -4757,7 +4745,7 @@ Layer(1 "component")
 	Line[214484 216516 214500 216500 1000 2000 "clearline"]
 	Line[505366 235642 504642 235642 1000 2000 "clearline"]
 	Line[193263 229737 195500 227500 1000 2000 "clearline,rubberend"]
-	Line[283500 225500 267000 225500 2500 2000 "clearline"]
+	Line[584000 225500 583000 226500 1000 2000 "clearline"]
 	Line[910500 149500 910500 165500 2500 2000 "clearline"]
 	Line[352500 197500 389500 197500 1000 2000 "clearline,rubberend"]
 	Line[251500 260000 251500 282000 1000 2000 "clearline"]
@@ -4824,7 +4812,7 @@ Layer(1 "component")
 	Line[433500 105500 437500 105500 1000 2000 "clearline"]
 	Line[846500 198500 846500 174500 2500 2000 "clearline"]
 	Line[24142 235642 30642 235642 1000 2000 "clearline"]
-	Line[125500 225500 125500 255500 2500 2000 "clearline"]
+	Line[862500 51500 862500 45250 2500 2000 "clearline"]
 	Line[273500 255500 273500 245500 1000 2000 "clearline"]
 	Line[589500 255500 589500 245500 1000 2000 "clearline"]
 	Line[73500 236500 73500 217500 1000 2000 "clearline"]
@@ -4922,7 +4910,7 @@ Layer(1 "component")
 	Line[56484 216516 56500 216500 1000 2000 "clearline"]
 	Line[653600 166738 654285 166700 1000 2000 "clearline,rubberend"]
 	Line[35263 229737 37500 227500 1000 2000 "clearline"]
-	Line[125500 225500 109000 225500 2500 2000 "clearline"]
+	Line[732326 225956 729956 225956 1000 2000 "clearline"]
 	Line[846500 256500 846500 198500 2500 2000 "clearline"]
 	Line[629700 193300 625500 197500 1000 2000 "clearline"]
 	Line[79634 229736 83264 229736 1000 2000 "clearline"]
@@ -4974,7 +4962,7 @@ Layer(1 "component")
 	Line[356500 99500 385500 99500 2500 2000 "clearline"]
 	Line[174500 270500 166500 278500 2500 2000 "clearline"]
 	Line[238500 205500 138500 205500 1000 2000 "clearline"]
-	Line[441500 225500 441500 255500 2500 2000 "clearline"]
+	Line[599500 255500 599500 232500 1000 2000 "clearline"]
 	Line[373500 55500 388500 70500 1000 2000 "clearline"]
 	Line[243200 93456 242967 93500 1000 2000 "clearline"]
 	Line[392500 56500 393500 55500 1000 2000 "clearline"]
@@ -5279,7 +5267,7 @@ Layer(1 "component")
 	Line[347366 235642 346642 235642 1000 2000 "clearline"]
 	Line[755500 17500 522500 17500 2500 2000 "clearline"]
 	Line[324500 348500 482500 348500 2500 2000 "clearline"]
-	Line[731800 225956 730900 225900 1000 2000 "clearline"]
+	Line[872000 76000 853000 76000 2500 2000 "clearline"]
 	Line[888500 312500 888500 324500 2500 2000 "clearline"]
 	Line[661500 214500 661103 214897 1000 2000 "clearline"]
 	Line[658544 198815 658544 194544 1000 2000 "clearline"]
@@ -5375,7 +5363,7 @@ Layer(1 "component")
 	Line[515000 354500 507500 347000 2500 2000 "clearline"]
 	Line[910500 165500 910500 173500 2500 2000 "clearline"]
 	Line[374500 235500 374500 227500 1000 2000 "clearline"]
-	Line[283500 255500 283500 225500 2500 2000 "clearline"]
+	Line[592500 225500 584000 225500 1000 2000 "clearline"]
 	Line[245500 205500 244500 205500 1000 2000 "clearline"]
 	Line[486500 348500 494500 340500 2500 2000 "clearline"]
 	Line[376600 80600 376500 80600 1000 2000 "clearline"]
@@ -5478,7 +5466,7 @@ Layer(1 "component")
 	Line[779500 127500 784500 127500 1000 2000 "clearline"]
 	Line[784500 127500 790500 133500 1000 2000 "clearline"]
 	Line[790500 133500 790500 215500 1000 2000 "clearline"]
-	Line[730900 226000 731800 225956 1000 2000 "clearline"]
+	Line[867500 45250 867500 39500 2500 2000 "clearline"]
 	Line[790500 215500 790500 216500 1000 2000 "clearline"]
 	Line[790500 235500 783500 242500 1000 2000 "clearline"]
 	Line[783500 242500 766500 242500 1000 2000 "clearline"]
@@ -5749,7 +5737,7 @@ Layer(1 "component")
 	Line[245685 80662 245685 80700 1000 2000 "clearline"]
 	Line[733685 223397 733685 223400 1000 2000 "clearline"]
 	Line[733685 223400 732900 223397 1000 2000 "clearline"]
-	Line[730900 225900 730900 226000 1000 2000 "clearline"]
+	Line[827500 65500 821500 65500 2500 2000 "clearline"]
 	Line[405685 83221 405685 83200 1000 2000 "clearline"]
 	Line[733685 228515 733685 228500 1000 2000 "clearline"]
 	Line[666221 201533 666221 202721 1000 2000 "clearline"]
@@ -5815,7 +5803,7 @@ Layer(1 "component")
 	Line[554315 83200 552800 83200 1000 2000 "clearline"]
 	Line[638100 164400 638100 165100 1000 2000 "clearline"]
 	Line[661103 198815 661103 188103 1000 2000 "clearline"]
-	Line[731800 225956 732282 226000 1000 2000 "clearline"]
+	Line[853000 76000 852500 75500 2500 2000 "clearline"]
 	Line[808315 234779 804221 234779 1000 2000 "clearline"]
 	Line[829967 237338 827338 237338 1000 2000 "clearline"]
 	Line[405685 83200 407700 83200 1000 2000 "clearline"]
@@ -5899,7 +5887,7 @@ Layer(1 "component")
 	Line[95685 85779 95685 85800 1000 2000 "clearline"]
 	Line[95685 85800 95400 85779 1000 2000 "clearline"]
 	Line[95685 88338 95685 88400 1000 2000 "clearline"]
-	Line[730967 225956 730900 226000 1000 2000 "clearline"]
+	Line[845050 66000 838000 66000 2500 2000 "clearline"]
 	Line[95685 88400 95400 88338 1000 2000 "clearline"]
 	Line[95685 90897 95685 90900 1000 2000 "clearline"]
 	Line[95685 90900 95400 90897 1000 2000 "clearline"]
@@ -5925,15 +5913,18 @@ Layer(1 "component")
 	Line[833500 45500 828500 45500 2500 2000 "clearline"]
 	Line[872500 45250 872500 51500 2500 2000 "clearline"]
 	Line[843750 45250 857500 45250 2500 2000 "clearline"]
-	Line[862500 51500 862500 45250 2500 2000 "clearline"]
-	Line[867500 45250 867500 39500 2500 2000 "clearline"]
-	Line[845050 66000 838000 66000 2500 2000 "clearline"]
-	Line[827500 65500 821500 65500 2500 2000 "clearline"]
-	Line[877500 75500 882500 75500 1000 2000 "clearline"]
-	Line[872000 76000 872500 75500 2500 2000 "clearline"]
-	Line[872000 76000 853000 76000 2500 2000 "clearline"]
-	Line[853000 76000 852500 75500 2500 2000 "clearline"]
-	Line[863950 66000 873000 66000 2500 2000 "clearline"]
+	Line[441500 232500 434500 225500 1000 2000 "clearline"]
+	Line[426000 225500 425000 226500 1000 2000 "clearline"]
+	Line[441500 255500 441500 232500 1000 2000 "clearline"]
+	Line[434500 225500 426000 225500 1000 2000 "clearline"]
+	Line[283500 232500 276500 225500 1000 2000 "clearline"]
+	Line[268000 225500 267000 226500 1000 2000 "clearline"]
+	Line[283500 255500 283500 232500 1000 2000 "clearline"]
+	Line[276500 225500 268000 225500 1000 2000 "clearline"]
+	Line[125500 232500 118500 225500 1000 2000 "clearline"]
+	Line[110000 225500 109000 226500 1000 2000 "clearline"]
+	Line[125500 255500 125500 232500 1000 2000 "clearline"]
+	Line[118500 225500 110000 225500 1000 2000 "clearline"]
 )
 Layer(2 "solder")
 (
@@ -6248,8 +6239,6 @@ Layer(2 "solder")
 	Line[636500 171400 639600 171400 2500 2000 "clearline"]
 	Line[840500 302585 844500 302585 1000 2000 "clearline"]
 	Line[638100 163000 638100 164400 1000 2000 "clearline"]
-	Line[727000 226000 727000 223000 1000 2000 "clearline"]
-	Line[727000 213000 727000 210000 1000 2000 ""]
 )
 Layer(3 "outline")
 (
@@ -6469,6 +6458,7 @@ NetList()
 (
 	Net("1V8" "(unknown)")
 	(
+		Connect("C3-2")
 		Connect("C6-2")
 		Connect("C9-1")
 		Connect("C10-1")
@@ -6482,6 +6472,7 @@ NetList()
 		Connect("R2-2")
 		Connect("R3-2")
 		Connect("R4-1")
+		Connect("U1-2")
 		Connect("U1-10")
 		Connect("U4-2")
 		Connect("U4-10")
@@ -7589,7 +7580,7 @@ NetList()
 		Connect("GPIO/GPIOOUT-16")
 		Connect("GPIO/U1-14")
 	)
-	Net("GPIO/unnamed_net153" "(unknown)")
+	Net("GPIO/unnamed_net152" "(unknown)")
 	(
 		Connect("GPIO/R1-2")
 		Connect("GPIO/U1-3")
@@ -7609,35 +7600,35 @@ NetList()
 		Connect("U3-2")
 		Connect("U7-2")
 	)
-	Net("psu/unnamed_net143" "(unknown)")
+	Net("psu/unnamed_net142" "(unknown)")
 	(
 		Connect("psu/C5-2")
 		Connect("psu/PWRCONN-1")
 		Connect("psu/U2-1")
 	)
-	Net("psu/unnamed_net144" "(unknown)")
+	Net("psu/unnamed_net143" "(unknown)")
 	(
 		Connect("psu/C13-2")
 		Connect("psu/R5-1")
 		Connect("psu/R6-1")
 		Connect("psu/U3-2")
 	)
-	Net("psu/unnamed_net145" "(unknown)")
+	Net("psu/unnamed_net144" "(unknown)")
 	(
 		Connect("psu/C12-2")
 		Connect("psu/U3-6")
 	)
-	Net("psu/unnamed_net146" "(unknown)")
+	Net("psu/unnamed_net145" "(unknown)")
 	(
 		Connect("psu/LED_DVCC-1")
 		Connect("psu/R1-2")
 	)
-	Net("psu/unnamed_net147" "(unknown)")
+	Net("psu/unnamed_net146" "(unknown)")
 	(
 		Connect("psu/LED_AVCC-1")
 		Connect("psu/R2-2")
 	)
-	Net("psu/unnamed_net148" "(unknown)")
+	Net("psu/unnamed_net147" "(unknown)")
 	(
 		Connect("psu/C6-2")
 		Connect("psu/U1-5")
@@ -7831,15 +7822,10 @@ NetList()
 	)
 	Net("unnamed_net140" "(unknown)")
 	(
-		Connect("C3-2")
-		Connect("U1-2")
-	)
-	Net("unnamed_net141" "(unknown)")
-	(
 		Connect("C8-1")
 		Connect("U3-5")
 	)
-	Net("unnamed_net149" "(unknown)")
+	Net("unnamed_net148" "(unknown)")
 	(
 		Connect("C14-1")
 		Connect("U7-5")

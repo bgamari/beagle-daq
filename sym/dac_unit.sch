@@ -82,7 +82,7 @@ symversion=0.1
 T 9100 8700 5 10 1 1 180 0 1
 value=0.1u
 T 9100 8700 5 10 0 0 0 0 1
-footprint=SMD_CHIP 1206
+footprint=SMD-CHIP-1206
 }
 N 9100 8500 9300 8500 4
 C 9400 3500 1 0 0 gnd-1.sym
@@ -212,7 +212,7 @@ symversion=0.1
 T 9100 9300 5 10 1 1 180 0 1
 value=10u
 T 9100 9300 5 10 0 0 0 0 1
-footprint=SMD_CHIP 1206
+footprint=SMD-CHIP-1206
 }
 N 9100 9100 9300 9100 4
 N 8200 9100 8000 9100 4
@@ -237,7 +237,7 @@ symversion=0.1
 T 11000 8400 5 10 1 1 180 0 1
 value=0.1u
 T 10900 8400 5 10 0 0 0 0 1
-footprint=SMD_CHIP 1206
+footprint=SMD-CHIP-1206
 }
 N 9700 8500 9700 8000 4
 N 9700 8200 10000 8200 4

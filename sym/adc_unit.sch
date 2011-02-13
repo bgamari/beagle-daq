@@ -92,7 +92,7 @@ symversion=0.1
 T 17900 22200 5 10 1 1 270 6 1
 value=100n
 T 17900 22200 5 10 0 0 90 6 1
-footprint=SMD_CHIP 1206
+footprint=SMD-CHIP-1206
 }
 C 18500 22200 1 270 1 capacitor-1.sym
 {
@@ -105,7 +105,7 @@ symversion=0.1
 T 18500 22200 5 10 1 1 270 6 1
 value=100n
 T 18500 22200 5 10 0 0 90 6 1
-footprint=SMD_CHIP 1206
+footprint=SMD-CHIP-1206
 }
 C 19100 22200 1 270 1 capacitor-1.sym
 {
@@ -118,7 +118,7 @@ symversion=0.1
 T 19100 22200 5 10 1 1 270 6 1
 value=100n
 T 19100 22200 5 10 0 0 90 6 1
-footprint=SMD_CHIP 1206
+footprint=SMD-CHIP-1206
 }
 C 19700 22200 1 270 1 capacitor-1.sym
 {
@@ -131,7 +131,7 @@ symversion=0.1
 T 19700 22200 5 10 1 1 270 6 1
 value=100n
 T 19700 22200 5 10 0 0 90 6 1
-footprint=SMD_CHIP 1206
+footprint=SMD-CHIP-1206
 }
 N 19700 22000 19700 22100 4
 N 19300 22000 19300 22200 4
@@ -155,7 +155,7 @@ symversion=0.1
 T 20400 22200 5 10 1 1 270 6 1
 value=10u
 T 20400 22200 5 10 0 0 90 6 1
-footprint=SMD_CHIP 1206
+footprint=SMD-CHIP-1206
 }
 C 20500 23400 1 180 1 gnd-1.sym
 N 15300 20500 15300 20900 4
@@ -201,7 +201,7 @@ refdes=R1
 T 12900 15100 5 10 1 1 270 0 1
 value=1k
 T 12600 15600 5 10 0 1 0 0 1
-footprint=SMD_CHIP 1206
+footprint=SMD-CHIP-1206
 }
 N 12200 13900 13200 13900 4
 C 12600 14400 1 0 0 gnd-1.sym
@@ -221,7 +221,7 @@ refdes=R2
 T 12900 13300 5 10 1 1 270 0 1
 value=1k
 T 12600 13800 5 10 0 1 0 0 1
-footprint=SMD_CHIP 1206
+footprint=SMD-CHIP-1206
 }
 C 12600 12100 1 270 0 resistor-1.sym
 {
@@ -232,7 +232,7 @@ refdes=R3
 T 12900 11600 5 10 1 1 270 0 1
 value=1k
 T 12600 12100 5 10 0 1 0 0 1
-footprint=SMD_CHIP 1206
+footprint=SMD-CHIP-1206
 }
 N 13600 12900 13600 15600 4
 N 13600 15600 12200 15600 4
@@ -262,7 +262,7 @@ refdes=R4
 T 12900 9900 5 10 1 1 270 0 1
 value=1k
 T 12600 10400 5 10 0 1 0 0 1
-footprint=SMD_CHIP 1206
+footprint=SMD-CHIP-1206
 }
 N 12700 10500 12700 10400 4
 N 12200 10500 13200 10500 4
@@ -286,7 +286,7 @@ symversion=0.1
 T 11900 8000 5 10 1 1 270 6 1
 value=10u
 T 11900 8000 5 10 0 0 90 6 1
-footprint=SMD_CHIP 1206
+footprint=SMD-CHIP-1206
 }
 C 12000 7700 1 0 0 gnd-1.sym
 C 14600 9500 1 270 1 capacitor-1.sym
@@ -300,7 +300,7 @@ symversion=0.1
 T 14600 9500 5 10 1 1 270 6 1
 value=10u
 T 14600 9500 5 10 0 0 90 6 1
-footprint=SMD_CHIP 1206
+footprint=SMD-CHIP-1206
 }
 N 15300 10100 15300 10500 4
 N 14800 10500 15400 10500 4
@@ -318,7 +318,7 @@ symversion=0.1
 T 15200 7900 5 10 1 1 0 6 1
 value=1u
 T 15200 7900 5 10 0 0 180 6 1
-footprint=SMD_CHIP 1206
+footprint=SMD-CHIP-1206
 }
 C 15200 7500 1 0 1 capacitor-1.sym
 {
@@ -331,7 +331,7 @@ symversion=0.1
 T 15200 7500 5 10 1 1 0 6 1
 value=1u
 T 15200 7500 5 10 0 0 180 6 1
-footprint=SMD_CHIP 1206
+footprint=SMD-CHIP-1206
 }
 N 15200 7700 15400 7700 4
 N 15200 8100 15400 8100 4
@@ -352,7 +352,7 @@ symversion=0.1
 T 13700 7200 5 10 1 1 90 6 1
 value=10n
 T 13700 7200 5 10 0 0 270 6 1
-footprint=SMD_CHIP 1206
+footprint=SMD-CHIP-1206
 }
 N 13500 7200 13500 7400 4
 C 13400 8300 1 270 0 resistor-1.sym
@@ -364,7 +364,7 @@ refdes=R5
 T 13700 7800 5 10 1 1 270 0 1
 value=20k
 T 13400 8300 5 10 0 1 0 0 1
-footprint=SMD_CHIP 1206
+footprint=SMD-CHIP-1206
 }
 C 13400 6000 1 0 0 gnd-1.sym
 C 15600 6900 1 0 1 vcc-1.sym

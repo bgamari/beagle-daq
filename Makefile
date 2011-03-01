@@ -23,7 +23,7 @@ pcb : symbols
 	ps2pdf $< $@
 
 .PHONY : gerbers
-gerbers : beagle-daq.pcb
+gerbers : beagle-daq.pcb beagle-daq.bom
 	rm -Rf gerbers
 	mkdir gerbers
 	pcb -x gerber --gerberfile gerbers/beagle-daq $<
@@ -31,4 +31,7 @@ gerbers : beagle-daq.pcb
 gerbers.zip : gerbers
 	rm -f $@
 	zip -j $@ gerbers/*
+
+%.bom : %.sch
+	   gnetlist -g partslist3 -o $@ $<
 

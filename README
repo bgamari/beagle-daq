@@ -44,6 +44,13 @@ partitions these two types of devices on to two separate SPI buses. The DACs
 sit on McSPI3 while the ADCs sit on McSPI4. Each of these buses its own chip
 select multiplexer.
 
+Technical Details:
+===================
+
+I2C bus:
+  0x50: AT24C01
+  0x20: TCA6416
+
 
 License:
 =================
